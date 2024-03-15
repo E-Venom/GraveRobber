@@ -1,0 +1,3497 @@
+fileFormatVersion: 2
+guid: 6781e441d70ef474cbbd53ff6bfadfa6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCircle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e6e9e6ededf4740800000000000000
+      internalID: 5138570746773007914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7f5365456d386c0800000000000000
+      internalID: -4142231574538749979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3649eea20b1fd40800000000000000
+      internalID: 5616463908745536462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f743ee874762b4250800000000000000
+      internalID: 5929875616050328703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99df5ad684db65f0800000000000000
+      internalID: -762282036254746214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ba17fdd2da40290800000000000000
+      internalID: -7925019031731328177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5744e882bccd007e0800000000000000
+      internalID: -1801197085831314315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1710
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1c6412670b19b60800000000000000
+      internalID: 7751170455092249028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9a7ad62cb694f50800000000000000
+      internalID: 6866137589710563782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b52a868607d6d30800000000000000
+      internalID: 4426317602509445949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8964b63c738c2b2c0800000000000000
+      internalID: -4417248142669691240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24336e2f91f81420800000000000000
+      internalID: 2601094450786808875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6315b337e47d9a370800000000000000
+      internalID: 8334429317366501686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc778d939143843c0800000000000000
+      internalID: -4375189755041122356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a909d9d27b1ed2540800000000000000
+      internalID: 4984888539429572762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1615
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42447c04aa6cc20800000000000000
+      internalID: 3226453378255299786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c7a76b5a06ba120800000000000000
+      internalID: 2426139089116494969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9df805a0b8d23b0800000000000000
+      internalID: -5535615490550933001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc1a4ed65c88cac0800000000000000
+      internalID: -3834660777981502250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb5fd0163f70a8c0800000000000000
+      internalID: -3990049399662224445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1b76788ad9e0b0800000000000000
+      internalID: -5698783573822465287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c071cb14a9748800800000000000000
+      internalID: 613749194976489666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f0d8517805b6b50800000000000000
+      internalID: 6587447421071855402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_23
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1520
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88da7cc53e7bb6760800000000000000
+      internalID: 7452252195556666760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02788f312001b19c0800000000000000
+      internalID: -3955550246603815136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd123bdc902054420800000000000000
+      internalID: 2613497399887471071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736c19e8996428940800000000000000
+      internalID: 5296873737076983351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8096b781fa721650800000000000000
+      internalID: 6202154814625190029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee658220c798a0bf0800000000000000
+      internalID: -357322054717384978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af12b9aa338aad200800000000000000
+      internalID: 205661672857870842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5c4b2b6edfd1480800000000000000
+      internalID: -8926699719095958039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1425
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2785f6f76dde1cbe0800000000000000
+      internalID: -1458623298774542222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2bbce27dacaf550800000000000000
+      internalID: 6195487262953419430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c12686b227ee360800000000000000
+      internalID: 7200818384972422284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae9982dc7719cf50800000000000000
+      internalID: 6902073728797613729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f935154f80a5666b0800000000000000
+      internalID: -5303452516676971617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11914c4ffcace2270800000000000000
+      internalID: 8227736563766008081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42147b5715578e9a0800000000000000
+      internalID: -6203579493975113436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_38
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897bc8cbfdf3b5830800000000000000
+      internalID: 4060909719178229656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1330
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc041e9827dcd270800000000000000
+      internalID: 8276726784650906819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63af05145085435c0800000000000000
+      internalID: -4236664569854887370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50320a648981d2730800000000000000
+      internalID: 3975861088337011461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4362868cd97fe40800000000000000
+      internalID: 5690190138272265438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e024354fc8e6bc90800000000000000
+      internalID: -7154274981114535708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb1672cf7ec21be0800000000000000
+      internalID: -1507915877097006143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549afe940f9947b30800000000000000
+      internalID: 4284218402847828293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df97d199dc97d2e0800000000000000
+      internalID: -2101038242876383271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1235
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1a41dc369c28490800000000000000
+      internalID: -7745406978644205138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644d016e7d4bac8d0800000000000000
+      internalID: -2825246976850734010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036ca3973f2fd4a00800000000000000
+      internalID: 742516641110869552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37d3596d4a687950800000000000000
+      internalID: 6447019747292993341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89134da80131a8c0800000000000000
+      internalID: -3989853881537193590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_52
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cb8241731e52f20800000000000000
+      internalID: 3397369120598572036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed54fd6b0b8d9a40800000000000000
+      internalID: 5376606411355872736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_54
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fac7c61c07ea820800000000000000
+      internalID: 2931404383515881252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_55
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1140
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b171dfd2e5511f00800000000000000
+      internalID: 1085743418079015346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f28206c785091440800000000000000
+      internalID: 4906959349697643254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eb7a7fae39778a0800000000000000
+      internalID: -6307410115722494313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a23c693dcbab76c0800000000000000
+      internalID: -4144530134144372057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80dd57cedd9c02f0800000000000000
+      internalID: -1005255036657348466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a608e07bb508c9f10800000000000000
+      internalID: 2277836642944188522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbdb8df586bd7b30800000000000000
+      internalID: 4286783106927287294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_62
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0813384e81f7cc0800000000000000
+      internalID: -3711220198197329691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_63
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1045
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34b1b0c002798960800000000000000
+      internalID: 7604734793350231103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7777e9f054d8ec0800000000000000
+      internalID: -3563115796794738766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba6df9d529afa990800000000000000
+      internalID: -7372488084946064720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0aa24604d6f3ab0800000000000000
+      internalID: -5026178535796334360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb196233975228b0800000000000000
+      internalID: -5178480331805090892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e9e87652a5d9090800000000000000
+      internalID: -8026159844206666223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6b81c80cc7b7d10800000000000000
+      internalID: 2124428815661315750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88994aa91bdaac3f0800000000000000
+      internalID: -879699798882215544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_71
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 950
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41f3eab0417e2330800000000000000
+      internalID: 3688009667690361166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6a4beb58c0ebf00800000000000000
+      internalID: 1134357924713637579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9eea8f877edc6d0800000000000000
+      internalID: -2968462072612984381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70261326711fcc450800000000000000
+      internalID: 6110523877168865799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d0c28f429739780800000000000000
+      internalID: -8677458857323393787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0dad37ed7cce4f0800000000000000
+      internalID: -798043275711033176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_77
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e013c61d79b6070800000000000000
+      internalID: 8100735280475082264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d86c738aa7eef50800000000000000
+      internalID: 6912597340969143648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_79
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 855
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659baa6ba8b1d130800000000000000
+      internalID: 3589853424359544164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c587bfe598c76660800000000000000
+      internalID: 7379087060767311300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e105ed8c02049af10800000000000000
+      internalID: 2281425195793010718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d6f9b28d42c0740800000000000000
+      internalID: 5119507387276815764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9eb15e1c7c6d5a0800000000000000
+      internalID: -6496785776848934495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_84
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2ca2c7e9073c970800000000000000
+      internalID: 8773980325038179024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b37ffcdc89048f0800000000000000
+      internalID: -558278344069137560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_86
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3c145b35e053360800000000000000
+      internalID: 7148635736206590883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_87
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 760
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762e8689af3154d0800000000000000
+      internalID: -3147664667215780238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb9c2b099595ecc0800000000000000
+      internalID: -3682372635755504650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64246eeb45afe2320800000000000000
+      internalID: 2535238882143126086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_90
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b715ff3666e7450800000000000000
+      internalID: 6088416325922814732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_91
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d72fd086072a270800000000000000
+      internalID: 8260288258763816326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_92
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6e360510505a160800000000000000
+      internalID: 7036035496038098606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_93
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fa9a2030c1ed5d0800000000000000
+      internalID: -3035958299545981170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_94
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbedaa7b7b0c2af0800000000000000
+      internalID: -419948040285197326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_95
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 665
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed9d71393c62f290800000000000000
+      internalID: -7858099406908842524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3affe76a8b7844f0800000000000000
+      internalID: -844289095752484292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_97
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2837b2751c196f010800000000000000
+      internalID: 1222324608454849410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991eeb7565133ba70800000000000000
+      internalID: 8841464740367491481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae19196551d212f0800000000000000
+      internalID: -1003509602184520030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_100
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdfc335f11971b40800000000000000
+      internalID: 5410953041035460029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c654a063ff8d460800000000000000
+      internalID: 7266838606327933954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_102
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51e553d947b297b0800000000000000
+      internalID: -5218907490462867109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_103
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 570
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b9502f8b38327a0800000000000000
+      internalID: -6403129414833038527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eec65570a0b1a1c0800000000000000
+      internalID: -4494116749929165083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6740dd37a2f0000800000000000000
+      internalID: 4268801768322740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_106
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cd268d325a7ba40800000000000000
+      internalID: 5383953452917513263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_107
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0b7bf7709427b90800000000000000
+      internalID: -7245648553929363282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_108
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c358fda7187bcca30800000000000000
+      internalID: 4236963116188927292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_109
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e069d7d71650750800000000000000
+      internalID: 6270525247789075973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_110
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c456762009db7a0800000000000000
+      internalID: -6359768758778246122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_111
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 475
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c700ba59b840f90800000000000000
+      internalID: -6988307246836843520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504af7eedeb58ce60800000000000000
+      internalID: 7982731416980923397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0032e7092ba6e0d70800000000000000
+      internalID: 9011257219575849728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8969f3be178dfed80800000000000000
+      internalID: -8219112811138148712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_115
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d987df86c024d10800000000000000
+      internalID: 2108261220631485820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cfaf30c87819b50800000000000000
+      internalID: 6598203964506438672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_117
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde4ef023dba0edc0800000000000000
+      internalID: -3611697977871151393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_118
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20185bc51b3a6b050800000000000000
+      internalID: 5816015950955512066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_119
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 380
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341a3268a84039ea0800000000000000
+      internalID: -5867340896531144381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb9a444c4a8a84d0800000000000000
+      internalID: -3131538530714870848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_121
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473dfe017c4860bd0800000000000000
+      internalID: -2664296139025558668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_122
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09757a18515bea490800000000000000
+      internalID: -7733044406174394480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_123
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7332e34e3365b0500800000000000000
+      internalID: 363478975806055223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_124
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b6f04166aeb8590800000000000000
+      internalID: -7670779816151389409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_125
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c54656436366ea10800000000000000
+      internalID: 1938345967662548416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_126
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968fc7e2c5fe5940800000000000000
+      internalID: 5286933230041138833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_127
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 285
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184a6d9b681f97170800000000000000
+      internalID: 8176832159413609601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776650f2c0a411040800000000000000
+      internalID: 4616552509220415095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d13d76c1d26abde0800000000000000
+      internalID: -1316631287934668327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_130
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810f8648d923cd280800000000000000
+      internalID: -9017276701789851624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_131
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109fea9f2bf03a4c0800000000000000
+      internalID: -4277557959704250111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_132
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548805515e20f0fa0800000000000000
+      internalID: -5832439809493137339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_133
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b8f235d3e1bcf10800000000000000
+      internalID: 2290958084185492277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_134
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7565f108aaaa8e030800000000000000
+      internalID: 3524254357688112727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_135
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 190
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fd5d7038b2ce550800000000000000
+      internalID: 6191371429499756424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d22747d3c9cc8b0800000000000000
+      internalID: -5130554087721259644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_137
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cc5ec0e80eb32c0800000000000000
+      internalID: -4450716906019238769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_138
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79beff86bdda8e9b0800000000000000
+      internalID: -5050595824224965737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_139
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e7b067bec85c7e0800000000000000
+      internalID: -1745834337610531310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_140
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5137b5b8daee335e0800000000000000
+      internalID: -1930937386077031659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_141
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f4d6735168297a0800000000000000
+      internalID: -6371883097093484794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_142
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d160346600d6f10800000000000000
+      internalID: 2264466626848365973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_143
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 95
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d866ab5c641abb0800000000000000
+      internalID: -4926578702316827283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84947f32a93ac7600800000000000000
+      internalID: 467428343763388744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_145
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243e1f6faa7e3eb40800000000000000
+      internalID: 5468469094031418178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_146
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a171f611948a480800000000000000
+      internalID: -8887773525388617153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_147
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e549f79c2abe791a0800000000000000
+      internalID: -6802709627722034082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_148
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d671496aabfb6850800000000000000
+      internalID: 6371462807174608597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_149
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0ddcefd5112aa30800000000000000
+      internalID: 4224958495831478481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_150
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052aeeec4859fe0e0800000000000000
+      internalID: -2238406092139879856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCircle2_151
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efa13655ed0b80a0800000000000000
+      internalID: -6878388727233531935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RedCircle2_0: 5138570746773007914
+      RedCircle2_1: -4142231574538749979
+      RedCircle2_10: -4417248142669691240
+      RedCircle2_100: 5410953041035460029
+      RedCircle2_101: 7266838606327933954
+      RedCircle2_102: -5218907490462867109
+      RedCircle2_103: -6403129414833038527
+      RedCircle2_104: -4494116749929165083
+      RedCircle2_105: 4268801768322740
+      RedCircle2_106: 5383953452917513263
+      RedCircle2_107: -7245648553929363282
+      RedCircle2_108: 4236963116188927292
+      RedCircle2_109: 6270525247789075973
+      RedCircle2_11: 2601094450786808875
+      RedCircle2_110: -6359768758778246122
+      RedCircle2_111: -6988307246836843520
+      RedCircle2_112: 7982731416980923397
+      RedCircle2_113: 9011257219575849728
+      RedCircle2_114: -8219112811138148712
+      RedCircle2_115: 2108261220631485820
+      RedCircle2_116: 6598203964506438672
+      RedCircle2_117: -3611697977871151393
+      RedCircle2_118: 5816015950955512066
+      RedCircle2_119: -5867340896531144381
+      RedCircle2_12: 8334429317366501686
+      RedCircle2_120: -3131538530714870848
+      RedCircle2_121: -2664296139025558668
+      RedCircle2_122: -7733044406174394480
+      RedCircle2_123: 363478975806055223
+      RedCircle2_124: -7670779816151389409
+      RedCircle2_125: 1938345967662548416
+      RedCircle2_126: 5286933230041138833
+      RedCircle2_127: 8176832159413609601
+      RedCircle2_128: 4616552509220415095
+      RedCircle2_129: -1316631287934668327
+      RedCircle2_13: -4375189755041122356
+      RedCircle2_130: -9017276701789851624
+      RedCircle2_131: -4277557959704250111
+      RedCircle2_132: -5832439809493137339
+      RedCircle2_133: 2290958084185492277
+      RedCircle2_134: 3524254357688112727
+      RedCircle2_135: 6191371429499756424
+      RedCircle2_136: -5130554087721259644
+      RedCircle2_137: -4450716906019238769
+      RedCircle2_138: -5050595824224965737
+      RedCircle2_139: -1745834337610531310
+      RedCircle2_14: 4984888539429572762
+      RedCircle2_140: -1930937386077031659
+      RedCircle2_141: -6371883097093484794
+      RedCircle2_142: 2264466626848365973
+      RedCircle2_143: -4926578702316827283
+      RedCircle2_144: 467428343763388744
+      RedCircle2_145: 5468469094031418178
+      RedCircle2_146: -8887773525388617153
+      RedCircle2_147: -6802709627722034082
+      RedCircle2_148: 6371462807174608597
+      RedCircle2_149: 4224958495831478481
+      RedCircle2_15: 3226453378255299786
+      RedCircle2_150: -2238406092139879856
+      RedCircle2_151: -6878388727233531935
+      RedCircle2_16: 2426139089116494969
+      RedCircle2_17: -5535615490550933001
+      RedCircle2_18: -3834660777981502250
+      RedCircle2_19: -3990049399662224445
+      RedCircle2_2: 5616463908745536462
+      RedCircle2_20: -5698783573822465287
+      RedCircle2_21: 613749194976489666
+      RedCircle2_22: 6587447421071855402
+      RedCircle2_23: 7452252195556666760
+      RedCircle2_24: -3955550246603815136
+      RedCircle2_25: 2613497399887471071
+      RedCircle2_26: 5296873737076983351
+      RedCircle2_27: 6202154814625190029
+      RedCircle2_28: -357322054717384978
+      RedCircle2_29: 205661672857870842
+      RedCircle2_3: 5929875616050328703
+      RedCircle2_30: -8926699719095958039
+      RedCircle2_31: -1458623298774542222
+      RedCircle2_32: 6195487262953419430
+      RedCircle2_33: 7200818384972422284
+      RedCircle2_34: 6902073728797613729
+      RedCircle2_35: -5303452516676971617
+      RedCircle2_36: 8227736563766008081
+      RedCircle2_37: -6203579493975113436
+      RedCircle2_38: 4060909719178229656
+      RedCircle2_39: 8276726784650906819
+      RedCircle2_4: -762282036254746214
+      RedCircle2_40: -4236664569854887370
+      RedCircle2_41: 3975861088337011461
+      RedCircle2_42: 5690190138272265438
+      RedCircle2_43: -7154274981114535708
+      RedCircle2_44: -1507915877097006143
+      RedCircle2_45: 4284218402847828293
+      RedCircle2_46: -2101038242876383271
+      RedCircle2_47: -7745406978644205138
+      RedCircle2_48: -2825246976850734010
+      RedCircle2_49: 742516641110869552
+      RedCircle2_5: -7925019031731328177
+      RedCircle2_50: 6447019747292993341
+      RedCircle2_51: -3989853881537193590
+      RedCircle2_52: 3397369120598572036
+      RedCircle2_53: 5376606411355872736
+      RedCircle2_54: 2931404383515881252
+      RedCircle2_55: 1085743418079015346
+      RedCircle2_56: 4906959349697643254
+      RedCircle2_57: -6307410115722494313
+      RedCircle2_58: -4144530134144372057
+      RedCircle2_59: -1005255036657348466
+      RedCircle2_6: -1801197085831314315
+      RedCircle2_60: 2277836642944188522
+      RedCircle2_61: 4286783106927287294
+      RedCircle2_62: -3711220198197329691
+      RedCircle2_63: 7604734793350231103
+      RedCircle2_64: -3563115796794738766
+      RedCircle2_65: -7372488084946064720
+      RedCircle2_66: -5026178535796334360
+      RedCircle2_67: -5178480331805090892
+      RedCircle2_68: -8026159844206666223
+      RedCircle2_69: 2124428815661315750
+      RedCircle2_7: 7751170455092249028
+      RedCircle2_70: -879699798882215544
+      RedCircle2_71: 3688009667690361166
+      RedCircle2_72: 1134357924713637579
+      RedCircle2_73: -2968462072612984381
+      RedCircle2_74: 6110523877168865799
+      RedCircle2_75: -8677458857323393787
+      RedCircle2_76: -798043275711033176
+      RedCircle2_77: 8100735280475082264
+      RedCircle2_78: 6912597340969143648
+      RedCircle2_79: 3589853424359544164
+      RedCircle2_8: 6866137589710563782
+      RedCircle2_80: 7379087060767311300
+      RedCircle2_81: 2281425195793010718
+      RedCircle2_82: 5119507387276815764
+      RedCircle2_83: -6496785776848934495
+      RedCircle2_84: 8773980325038179024
+      RedCircle2_85: -558278344069137560
+      RedCircle2_86: 7148635736206590883
+      RedCircle2_87: -3147664667215780238
+      RedCircle2_88: -3682372635755504650
+      RedCircle2_89: 2535238882143126086
+      RedCircle2_9: 4426317602509445949
+      RedCircle2_90: 6088416325922814732
+      RedCircle2_91: 8260288258763816326
+      RedCircle2_92: 7036035496038098606
+      RedCircle2_93: -3035958299545981170
+      RedCircle2_94: -419948040285197326
+      RedCircle2_95: -7858099406908842524
+      RedCircle2_96: -844289095752484292
+      RedCircle2_97: 1222324608454849410
+      RedCircle2_98: 8841464740367491481
+      RedCircle2_99: -1003509602184520030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

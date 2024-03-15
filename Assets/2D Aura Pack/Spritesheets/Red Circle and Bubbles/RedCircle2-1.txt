@@ -1,0 +1,92 @@
+{"frames": {
+
+"red-bottom_00000.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00001.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00002.png":
+{
+	"frame": {"x":0,"y":95,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00003.png":
+{
+	"frame": {"x":120,"y":95,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00004.png":
+{
+	"frame": {"x":0,"y":190,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00005.png":
+{
+	"frame": {"x":120,"y":190,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00006.png":
+{
+	"frame": {"x":0,"y":285,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00007.png":
+{
+	"frame": {"x":120,"y":285,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00008.png":
+{
+	"frame": {"x":0,"y":380,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+},
+"red-bottom_00009.png":
+{
+	"frame": {"x":120,"y":380,"w":120,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":95},
+	"sourceSize": {"w":120,"h":95}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "RedCircle2-1.png",
+	"format": "RGBA8888",
+	"size": {"w":240,"h":475},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:49991a47b903b4feacfc651b55bd1b19$"
+}
+}

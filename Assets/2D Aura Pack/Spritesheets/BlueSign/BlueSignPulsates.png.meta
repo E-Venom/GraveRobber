@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: a406fda4521c3be4d907d1da1dc1e243
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a399c3d9d96ac580800000000000000
+      internalID: -8806109737087560798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afd4c6ef1f062c80800000000000000
+      internalID: -8347968229594570839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1140efbba9341d230800000000000000
+      internalID: 3661782303886935057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50e2e2728e84eb10800000000000000
+      internalID: 2009888024638447711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128c0f455f5df3660800000000000000
+      internalID: 7367842765070190625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c2229114be451a0800000000000000
+      internalID: -6821568870732387169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110ad83c58a1ff8b0800000000000000
+      internalID: -5116341489855782895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bcc5995e1b34c40800000000000000
+      internalID: 5495431570000759666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5defe6e2ef6df800800000000000000
+      internalID: 647796941738995038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e39ff5fe6f6a80800000000000000
+      internalID: -8471430371226689422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7b9a19087abaaf0800000000000000
+      internalID: -384029172568574038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a15188a8def37c0800000000000000
+      internalID: -4089288757384766858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57ff3c7dae978980800000000000000
+      internalID: -8536680100706388131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1000
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead982496e2fd9850800000000000000
+      internalID: 6385526918823321006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1000
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831126693e52dbad0800000000000000
+      internalID: -2684948143432134344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebec1bc09aba114d0800000000000000
+      internalID: -3165560320513945922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 900
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8a29d36f3a0fbc0800000000000000
+      internalID: -3751318211609319227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 900
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73f972dc7e5122d0800000000000000
+      internalID: -3305256761313070213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a295d5abe629a40800000000000000
+      internalID: 5373479052115520102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 800
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17df2285b53a8160800000000000000
+      internalID: 7028489222154606365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 800
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91302ffd161b9ef10800000000000000
+      internalID: 2299564118676472601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d15d3c6ce3b74840800000000000000
+      internalID: 5208329322086879698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 700
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b1ae8f5bfd4e5b0800000000000000
+      internalID: -5339897285496398965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 700
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03480e3920c05000800000000000000
+      internalID: 22729281503773450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f4066df20ebbed0800000000000000
+      internalID: -2397075880579936370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 600
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0d04768746c6700800000000000000
+      internalID: 534912924041400491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 600
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527d83f4c89eb21b0800000000000000
+      internalID: -5680189716163930331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5059a58323ee340800000000000000
+      internalID: 4894905062617580980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 500
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9442fac426502680800000000000000
+      internalID: -8781924557348780901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 500
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ea6abdb8cf817d0800000000000000
+      internalID: -2947328278498201979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4b9fa8c12a18200800000000000000
+      internalID: 180603703545935041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94b6b3e65ea56310800000000000000
+      internalID: 1397714947579229341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 400
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cb20814243c65c0800000000000000
+      internalID: -4220941421126697913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14893f05c57840d10800000000000000
+      internalID: 2090944957571635265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fe318c6e4b8c3c0800000000000000
+      internalID: -4339019337679245443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 300
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a3f8de1e4830a80800000000000000
+      internalID: -8501805565657269718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a7ab99153473e50800000000000000
+      internalID: 6788968981034859038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca631b90d6b7b15b0800000000000000
+      internalID: -5396584020229146964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 200
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b6c96047b1af910800000000000000
+      internalID: 1871838780266933006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003553e64c768b810800000000000000
+      internalID: 1781287745985270528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb1eda1305d842a0800000000000000
+      internalID: -6752913431929676808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_41
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 100
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d82e5637727cfb0800000000000000
+      internalID: -4627686715515826858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613ec3f16a16ac0d0800000000000000
+      internalID: -3401799202408439018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_43
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97288f7a8472ab290800000000000000
+      internalID: -7873937805494680967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06-Blue-Sign-Pulsates-3_44
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83706de691415c6e0800000000000000
+      internalID: -1818024775107868872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      06-Blue-Sign-Pulsates-3_0: -8806109737087560798
+      06-Blue-Sign-Pulsates-3_1: -8347968229594570839
+      06-Blue-Sign-Pulsates-3_10: -384029172568574038
+      06-Blue-Sign-Pulsates-3_11: -4089288757384766858
+      06-Blue-Sign-Pulsates-3_12: -8536680100706388131
+      06-Blue-Sign-Pulsates-3_13: 6385526918823321006
+      06-Blue-Sign-Pulsates-3_14: -2684948143432134344
+      06-Blue-Sign-Pulsates-3_15: -3165560320513945922
+      06-Blue-Sign-Pulsates-3_16: -3751318211609319227
+      06-Blue-Sign-Pulsates-3_17: -3305256761313070213
+      06-Blue-Sign-Pulsates-3_18: 5373479052115520102
+      06-Blue-Sign-Pulsates-3_19: 7028489222154606365
+      06-Blue-Sign-Pulsates-3_2: 3661782303886935057
+      06-Blue-Sign-Pulsates-3_20: 2299564118676472601
+      06-Blue-Sign-Pulsates-3_21: 5208329322086879698
+      06-Blue-Sign-Pulsates-3_22: -5339897285496398965
+      06-Blue-Sign-Pulsates-3_23: 22729281503773450
+      06-Blue-Sign-Pulsates-3_24: -2397075880579936370
+      06-Blue-Sign-Pulsates-3_25: 534912924041400491
+      06-Blue-Sign-Pulsates-3_26: -5680189716163930331
+      06-Blue-Sign-Pulsates-3_27: 4894905062617580980
+      06-Blue-Sign-Pulsates-3_28: -8781924557348780901
+      06-Blue-Sign-Pulsates-3_29: -2947328278498201979
+      06-Blue-Sign-Pulsates-3_3: 2009888024638447711
+      06-Blue-Sign-Pulsates-3_30: 180603703545935041
+      06-Blue-Sign-Pulsates-3_31: 1397714947579229341
+      06-Blue-Sign-Pulsates-3_32: -4220941421126697913
+      06-Blue-Sign-Pulsates-3_33: 2090944957571635265
+      06-Blue-Sign-Pulsates-3_34: -4339019337679245443
+      06-Blue-Sign-Pulsates-3_35: -8501805565657269718
+      06-Blue-Sign-Pulsates-3_36: 6788968981034859038
+      06-Blue-Sign-Pulsates-3_37: -5396584020229146964
+      06-Blue-Sign-Pulsates-3_38: 1871838780266933006
+      06-Blue-Sign-Pulsates-3_39: 1781287745985270528
+      06-Blue-Sign-Pulsates-3_4: 7367842765070190625
+      06-Blue-Sign-Pulsates-3_40: -6752913431929676808
+      06-Blue-Sign-Pulsates-3_41: -4627686715515826858
+      06-Blue-Sign-Pulsates-3_42: -3401799202408439018
+      06-Blue-Sign-Pulsates-3_43: -7873937805494680967
+      06-Blue-Sign-Pulsates-3_44: -1818024775107868872
+      06-Blue-Sign-Pulsates-3_5: -6821568870732387169
+      06-Blue-Sign-Pulsates-3_6: -5116341489855782895
+      06-Blue-Sign-Pulsates-3_7: 5495431570000759666
+      06-Blue-Sign-Pulsates-3_8: 647796941738995038
+      06-Blue-Sign-Pulsates-3_9: -8471430371226689422
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

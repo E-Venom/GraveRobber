@@ -1,0 +1,3453 @@
+fileFormatVersion: 2
+guid: 4b456cdfc134c354f80cdd404e0f9a04
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b9bd7b9dbca6a70800000000000000
+      internalID: 8821086956111502182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4eec1de8b6364e80800000000000000
+      internalID: -8194802304074060214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7486852cfcc64f80800000000000000
+      internalID: -8122579494582713218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718b721522c120700800000000000000
+      internalID: 504997041934940183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478b09b077fa5d080800000000000000
+      internalID: -9163224940985403276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830726202bc1add90800000000000000
+      internalID: -7072308713962180552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_6
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e81a2ee82c5450800000000000000
+      internalID: 6078778600416928177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca06a684a80a847f0800000000000000
+      internalID: -628075632237322068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_8
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967b370c874910f60800000000000000
+      internalID: 7998837659532506985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b751fbd7e68b360800000000000000
+      internalID: 7185614691825449812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_10
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d0c300ad6efe2d0800000000000000
+      internalID: -3247122982329643748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_11
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a2ee4419cf1a90800000000000000
+      internalID: -7340927778530612832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_12
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67ec7c7c49975f40800000000000000
+      internalID: 5717206805755258733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_13
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a7e8279ff550be0800000000000000
+      internalID: -1511696574939497955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c6b37587a81c560800000000000000
+      internalID: 7332293917800098822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570fea831aeef62f0800000000000000
+      internalID: -977300217907974027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37e1fd5d7a03b450800000000000000
+      internalID: 6103233453580478266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d08df2aab739cc20800000000000000
+      internalID: 3227171882725638361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9422667fc22204d80800000000000000
+      internalID: -8268571339327659447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304dba1a11c3b52a0800000000000000
+      internalID: -6747733570260052989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eb1d417f8352760800000000000000
+      internalID: 7432409393902239373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_21
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1ef09fdc6cc3d0800000000000000
+      internalID: -3185051128991703124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683fdb7979f4dda80800000000000000
+      internalID: -8440502614117977210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_23
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71a8df7997df9ff0800000000000000
+      internalID: -27066018466061956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_24
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77afcbcccdbf92b50800000000000000
+      internalID: 6569058457242892919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_25
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884796e4ad9aa8220800000000000000
+      internalID: 2488988499159118984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc43684f1eedc00800000000000000
+      internalID: 927427013624778096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_27
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 990
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ce124d9b40d3bf0800000000000000
+      internalID: -343112800435835768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311f139d520bd7120800000000000000
+      internalID: 2413278651944661267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6d44dc546a96000800000000000000
+      internalID: 29737691281413809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e9dbd187d259030800000000000000
+      internalID: 3500754279268720280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7354d0a1433dc40800000000000000
+      internalID: 5535825653464905678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afd034724e2ee6b0800000000000000
+      internalID: -5265220051397451863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a0f975eb60c8880800000000000000
+      internalID: -8607497373228266992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_34
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96f15b1c09246c50800000000000000
+      internalID: 6657491281135138462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_35
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2a950dc87b43b00800000000000000
+      internalID: 807472048625001132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d21b3ab178980730800000000000000
+      internalID: 3965587086122881747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_37
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6085d47a00ad6020800000000000000
+      internalID: 2336699748445421674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_38
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a74bc99bd7fa3d0800000000000000
+      internalID: -3193195374630897106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_39
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba1c118fb581f560800000000000000
+      internalID: 7345799524769340086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_40
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c78e9de62af2f50800000000000000
+      internalID: 6858879354494549014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_41
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 880
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193576dd8800f1350800000000000000
+      internalID: 5989506617256137617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b9d55d42820d50800000000000000
+      internalID: 6702062464145142129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce250024b8d89790800000000000000
+      internalID: -7523024909379490101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a015fe683bd0e940800000000000000
+      internalID: 5323495794978132128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_45
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cb64310a84abc70800000000000000
+      internalID: 8987575858726616188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8c735a8f4c8d640800000000000000
+      internalID: 5105046749827287234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06577530d95c9ee30800000000000000
+      internalID: 4533371778081715552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e556d0bc29dc0140800000000000000
+      internalID: 4687360098154468837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_49
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27154aea4f88ac0800000000000000
+      internalID: -3852560450297171209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_50
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0e74ef38db48d50800000000000000
+      internalID: 6738719317057593528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a4e1f6fe8b401a0800000000000000
+      internalID: -6844142195195360747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_52
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cefd822ec3efe400800000000000000
+      internalID: 355753370068057797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_53
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d7a81e10ddfb0f0800000000000000
+      internalID: -1098916783906456260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_54
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56538fa3d3daf6480800000000000000
+      internalID: -8903707459794225819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_55
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 770
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ff1b632d8f0af0800000000000000
+      internalID: -427968256316280295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8d1a9ce26b3e8c0800000000000000
+      internalID: -3971130134343067472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_57
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc494bfc68abdf20800000000000000
+      internalID: 3448535125708065990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7dd1357b50e37b0800000000000000
+      internalID: -5242746631281059869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86982bd25cd68550800000000000000
+      internalID: 6162855388525401743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_60
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0401749a84ae5320800000000000000
+      internalID: 2548655354241156107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_61
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba86257114d3afb10800000000000000
+      internalID: 2015991132975163563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2377ac114a86b3000800000000000000
+      internalID: 16722077508335410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_63
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdee5ec8136c25890800000000000000
+      internalID: -7470690915734655269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_64
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79846e929d4672e00800000000000000
+      internalID: 1019894724496345239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_65
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca73b564f25388220800000000000000
+      internalID: 2488297271282317228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_66
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dcf72ca246d2850800000000000000
+      internalID: 6353844784104197483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_67
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec2640111ea5a980800000000000000
+      internalID: -8528218931045454616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_68
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21985e45a751726b0800000000000000
+      internalID: -5321260819560429294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_69
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 660
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f87d86582722a7b0800000000000000
+      internalID: -5214562364337325840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916442a2c7e4130c0800000000000000
+      internalID: -4597807449378634215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fa0bf5c283d4d80800000000000000
+      internalID: -8264887977919860945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0659f5d7206a43d0800000000000000
+      internalID: -3221656859220290034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31b80a5472307d60800000000000000
+      internalID: 7885858422833852735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701adb3a8e43c4c0800000000000000
+      internalID: -4268481666200498062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_75
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e543810583652f10800000000000000
+      internalID: 2244309412221240805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_76
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1e43486e6f05b70800000000000000
+      internalID: 8885873534722957806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_77
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae42cc120e8a2c0800000000000000
+      internalID: -4420036598500627750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_78
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ea9c91c584dc8d0800000000000000
+      internalID: -2824521830884594122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_79
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b864b8b188ec8420800000000000000
+      internalID: 2633735525952153779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_80
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01df67d68a8c9a270800000000000000
+      internalID: 8262355617104461072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_81
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1183930635e4ae150800000000000000
+      internalID: 5902616381626071057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_82
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ade1dab9a14e6ad0800000000000000
+      internalID: -2707154128763490911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_83
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 550
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf95adc81ecc2740800000000000000
+      internalID: 5128700681592872886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9429ca0f8e6624060800000000000000
+      internalID: 6936219526760272457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_85
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9abb9805cac6600800000000000000
+      internalID: 462934323620456931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_86
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0adceae314160e50800000000000000
+      internalID: 6775124765203814924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_87
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd53f0f2bd9fc6f0800000000000000
+      internalID: -662137228327952911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_88
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2377b4c3b11e2120800000000000000
+      internalID: 2390867915977487148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_89
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20952580a8398fc20800000000000000
+      internalID: 3240502152947456258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_90
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283e17c7f6f059270800000000000000
+      internalID: 8256522463357297538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_91
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4839817a4ec9f8790800000000000000
+      internalID: -7525623946442927228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_92
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5f311200ff683c0800000000000000
+      internalID: -4357515213414337098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_93
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eddbf5238a07d7a0800000000000000
+      internalID: -6352597190988538398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_94
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a453358389ef1d120800000000000000
+      internalID: 2437008803117610314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_95
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf3f02eafc2d780800000000000000
+      internalID: -8659630786695922890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_96
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941c7f0fdd4c6370800000000000000
+      internalID: 8317108232279299231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_97
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 440
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c027cf15d02a720800000000000000
+      internalID: 2855859759485160538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecedf936bf66b560800000000000000
+      internalID: 7329168272039734505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_99
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed76aa32fd19f20800000000000000
+      internalID: 3427766135681441507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_100
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0715883edcd4c0f40800000000000000
+      internalID: 5696013175397831024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_101
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118df89cafe3bbed0800000000000000
+      internalID: -2397253129800263663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_102
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37998b204d45df1b0800000000000000
+      internalID: -5621243490333058701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_103
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f23a0e42de8dfcd0800000000000000
+      internalID: -2522703182354042119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_104
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d0d7f68d4cf1a0800000000000000
+      internalID: -6774454497393454452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_105
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d8bf63f7b3a70b0800000000000000
+      internalID: -5730202158306194144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_106
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f7e1ce0dda6ae80800000000000000
+      internalID: -8167649761363591416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_107
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effbb930b9172cef0800000000000000
+      internalID: -89384131999580162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_108
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d12ad0cf3480c00800000000000000
+      internalID: 867017678108368176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_109
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7aa4348eb93f490800000000000000
+      internalID: -7713650314891843640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_110
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e0fe45b263f8fd0800000000000000
+      internalID: -2337590121845551501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_111
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 330
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28df70600c6ac25c0800000000000000
+      internalID: -4238829805597360766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c2b3ed90f6f35e0800000000000000
+      internalID: -1927700027317474186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_113
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8f23738c8a9df90800000000000000
+      internalID: -6928320973859784458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_114
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c463a55b0c1f670800000000000000
+      internalID: 8570843450997886047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_115
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc610236185aba40800000000000000
+      internalID: 5384713156826328284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_116
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae812df0f88f9fcc0800000000000000
+      internalID: -3676634327441860374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_117
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9bb06289c348e40800000000000000
+      internalID: 5657713656055183825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_118
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fee333c804551280800000000000000
+      internalID: -9073253477656563977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_119
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8341c0418984fe690800000000000000
+      internalID: -7570752630577949640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_120
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eaee6d5417cd4d0800000000000000
+      internalID: -3108485098019836411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_121
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd4476771bd55a50800000000000000
+      internalID: 6509349730251984329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_122
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a3096114e0262b0800000000000000
+      internalID: -5592892114526520731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_123
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d76fdfec404390c0800000000000000
+      internalID: -4570238497664833582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_124
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505057071e5ba8b80800000000000000
+      internalID: -8391694975792511739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_125
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 220
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7187ddea1e2593450800000000000000
+      internalID: 6068973102113323031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a6baeb287e0a500800000000000000
+      internalID: 405578515194014260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_127
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a658a5ce24dabeb60800000000000000
+      internalID: 7776499684530095466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_128
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb8c72c795afc9b0800000000000000
+      internalID: -5057641785292190723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_129
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e636f9623a4b1a10800000000000000
+      internalID: 1881178849743877858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_130
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7030c9349ae97c340800000000000000
+      internalID: 4884046770727551751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_131
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9350a39487126e800800000000000000
+      internalID: 641236797455205689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_132
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edab1f7a7975faf30800000000000000
+      internalID: 4588982854183140062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_133
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e6acbc89de785f0800000000000000
+      internalID: -754373172051415520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_134
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccec46e0ef19ee80800000000000000
+      internalID: -8148946999953265458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_135
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54006f33bfee5fa0800000000000000
+      internalID: -5809942916119919525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_136
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d434e58be0d64b0800000000000000
+      internalID: -5445680189402821248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_137
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30213ad17524a6c60800000000000000
+      internalID: 7812129445554360835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_138
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6aeadd004d4a9a0800000000000000
+      internalID: -6222615684934883611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_139
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 110
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98b46f8736e0b9c0800000000000000
+      internalID: -3913374949881628515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2362b0622e3989f00800000000000000
+      internalID: 1123810706539095602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_141
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bc21292404d1480800000000000000
+      internalID: -8926908231715730646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_142
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae1e6f39231293d0800000000000000
+      internalID: -3201475317228233044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_143
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4399af05064b78360800000000000000
+      internalID: 7171899257379264820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_144
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84af9c1db56d1c950800000000000000
+      internalID: 6467686229730785864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_145
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c7868a0d7fd4d0800000000000000
+      internalID: -3107627733702163672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_146
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b90ed7e46f017680800000000000000
+      internalID: -8759202874197669448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_147
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b570be4e2c28a050800000000000000
+      internalID: 5811943896521930169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_148
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dac0f84c9ccb4f0800000000000000
+      internalID: -811551986782786233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueStarsSicrcleL_149
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff3884ebdf0dace0800000000000000
+      internalID: -1392439272681226254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueStarsSicrcleL_0: 8821086956111502182
+      BlueStarsSicrcleL_1: -8194802304074060214
+      BlueStarsSicrcleL_10: -3247122982329643748
+      BlueStarsSicrcleL_100: 5696013175397831024
+      BlueStarsSicrcleL_101: -2397253129800263663
+      BlueStarsSicrcleL_102: -5621243490333058701
+      BlueStarsSicrcleL_103: -2522703182354042119
+      BlueStarsSicrcleL_104: -6774454497393454452
+      BlueStarsSicrcleL_105: -5730202158306194144
+      BlueStarsSicrcleL_106: -8167649761363591416
+      BlueStarsSicrcleL_107: -89384131999580162
+      BlueStarsSicrcleL_108: 867017678108368176
+      BlueStarsSicrcleL_109: -7713650314891843640
+      BlueStarsSicrcleL_11: -7340927778530612832
+      BlueStarsSicrcleL_110: -2337590121845551501
+      BlueStarsSicrcleL_111: -4238829805597360766
+      BlueStarsSicrcleL_112: -1927700027317474186
+      BlueStarsSicrcleL_113: -6928320973859784458
+      BlueStarsSicrcleL_114: 8570843450997886047
+      BlueStarsSicrcleL_115: 5384713156826328284
+      BlueStarsSicrcleL_116: -3676634327441860374
+      BlueStarsSicrcleL_117: 5657713656055183825
+      BlueStarsSicrcleL_118: -9073253477656563977
+      BlueStarsSicrcleL_119: -7570752630577949640
+      BlueStarsSicrcleL_12: 5717206805755258733
+      BlueStarsSicrcleL_120: -3108485098019836411
+      BlueStarsSicrcleL_121: 6509349730251984329
+      BlueStarsSicrcleL_122: -5592892114526520731
+      BlueStarsSicrcleL_123: -4570238497664833582
+      BlueStarsSicrcleL_124: -8391694975792511739
+      BlueStarsSicrcleL_125: 6068973102113323031
+      BlueStarsSicrcleL_126: 405578515194014260
+      BlueStarsSicrcleL_127: 7776499684530095466
+      BlueStarsSicrcleL_128: -5057641785292190723
+      BlueStarsSicrcleL_129: 1881178849743877858
+      BlueStarsSicrcleL_13: -1511696574939497955
+      BlueStarsSicrcleL_130: 4884046770727551751
+      BlueStarsSicrcleL_131: 641236797455205689
+      BlueStarsSicrcleL_132: 4588982854183140062
+      BlueStarsSicrcleL_133: -754373172051415520
+      BlueStarsSicrcleL_134: -8148946999953265458
+      BlueStarsSicrcleL_135: -5809942916119919525
+      BlueStarsSicrcleL_136: -5445680189402821248
+      BlueStarsSicrcleL_137: 7812129445554360835
+      BlueStarsSicrcleL_138: -6222615684934883611
+      BlueStarsSicrcleL_139: -3913374949881628515
+      BlueStarsSicrcleL_14: 7332293917800098822
+      BlueStarsSicrcleL_140: 1123810706539095602
+      BlueStarsSicrcleL_141: -8926908231715730646
+      BlueStarsSicrcleL_142: -3201475317228233044
+      BlueStarsSicrcleL_143: 7171899257379264820
+      BlueStarsSicrcleL_144: 6467686229730785864
+      BlueStarsSicrcleL_145: -3107627733702163672
+      BlueStarsSicrcleL_146: -8759202874197669448
+      BlueStarsSicrcleL_147: 5811943896521930169
+      BlueStarsSicrcleL_148: -811551986782786233
+      BlueStarsSicrcleL_149: -1392439272681226254
+      BlueStarsSicrcleL_15: -977300217907974027
+      BlueStarsSicrcleL_16: 6103233453580478266
+      BlueStarsSicrcleL_17: 3227171882725638361
+      BlueStarsSicrcleL_18: -8268571339327659447
+      BlueStarsSicrcleL_19: -6747733570260052989
+      BlueStarsSicrcleL_2: -8122579494582713218
+      BlueStarsSicrcleL_20: 7432409393902239373
+      BlueStarsSicrcleL_21: -3185051128991703124
+      BlueStarsSicrcleL_22: -8440502614117977210
+      BlueStarsSicrcleL_23: -27066018466061956
+      BlueStarsSicrcleL_24: 6569058457242892919
+      BlueStarsSicrcleL_25: 2488988499159118984
+      BlueStarsSicrcleL_26: 927427013624778096
+      BlueStarsSicrcleL_27: -343112800435835768
+      BlueStarsSicrcleL_28: 2413278651944661267
+      BlueStarsSicrcleL_29: 29737691281413809
+      BlueStarsSicrcleL_3: 504997041934940183
+      BlueStarsSicrcleL_30: 3500754279268720280
+      BlueStarsSicrcleL_31: 5535825653464905678
+      BlueStarsSicrcleL_32: -5265220051397451863
+      BlueStarsSicrcleL_33: -8607497373228266992
+      BlueStarsSicrcleL_34: 6657491281135138462
+      BlueStarsSicrcleL_35: 807472048625001132
+      BlueStarsSicrcleL_36: 3965587086122881747
+      BlueStarsSicrcleL_37: 2336699748445421674
+      BlueStarsSicrcleL_38: -3193195374630897106
+      BlueStarsSicrcleL_39: 7345799524769340086
+      BlueStarsSicrcleL_4: -9163224940985403276
+      BlueStarsSicrcleL_40: 6858879354494549014
+      BlueStarsSicrcleL_41: 5989506617256137617
+      BlueStarsSicrcleL_42: 6702062464145142129
+      BlueStarsSicrcleL_43: -7523024909379490101
+      BlueStarsSicrcleL_44: 5323495794978132128
+      BlueStarsSicrcleL_45: 8987575858726616188
+      BlueStarsSicrcleL_46: 5105046749827287234
+      BlueStarsSicrcleL_47: 4533371778081715552
+      BlueStarsSicrcleL_48: 4687360098154468837
+      BlueStarsSicrcleL_49: -3852560450297171209
+      BlueStarsSicrcleL_5: -7072308713962180552
+      BlueStarsSicrcleL_50: 6738719317057593528
+      BlueStarsSicrcleL_51: -6844142195195360747
+      BlueStarsSicrcleL_52: 355753370068057797
+      BlueStarsSicrcleL_53: -1098916783906456260
+      BlueStarsSicrcleL_54: -8903707459794225819
+      BlueStarsSicrcleL_55: -427968256316280295
+      BlueStarsSicrcleL_56: -3971130134343067472
+      BlueStarsSicrcleL_57: 3448535125708065990
+      BlueStarsSicrcleL_58: -5242746631281059869
+      BlueStarsSicrcleL_59: 6162855388525401743
+      BlueStarsSicrcleL_6: 6078778600416928177
+      BlueStarsSicrcleL_60: 2548655354241156107
+      BlueStarsSicrcleL_61: 2015991132975163563
+      BlueStarsSicrcleL_62: 16722077508335410
+      BlueStarsSicrcleL_63: -7470690915734655269
+      BlueStarsSicrcleL_64: 1019894724496345239
+      BlueStarsSicrcleL_65: 2488297271282317228
+      BlueStarsSicrcleL_66: 6353844784104197483
+      BlueStarsSicrcleL_67: -8528218931045454616
+      BlueStarsSicrcleL_68: -5321260819560429294
+      BlueStarsSicrcleL_69: -5214562364337325840
+      BlueStarsSicrcleL_7: -628075632237322068
+      BlueStarsSicrcleL_70: -4597807449378634215
+      BlueStarsSicrcleL_71: -8264887977919860945
+      BlueStarsSicrcleL_72: -3221656859220290034
+      BlueStarsSicrcleL_73: 7885858422833852735
+      BlueStarsSicrcleL_74: -4268481666200498062
+      BlueStarsSicrcleL_75: 2244309412221240805
+      BlueStarsSicrcleL_76: 8885873534722957806
+      BlueStarsSicrcleL_77: -4420036598500627750
+      BlueStarsSicrcleL_78: -2824521830884594122
+      BlueStarsSicrcleL_79: 2633735525952153779
+      BlueStarsSicrcleL_8: 7998837659532506985
+      BlueStarsSicrcleL_80: 8262355617104461072
+      BlueStarsSicrcleL_81: 5902616381626071057
+      BlueStarsSicrcleL_82: -2707154128763490911
+      BlueStarsSicrcleL_83: 5128700681592872886
+      BlueStarsSicrcleL_84: 6936219526760272457
+      BlueStarsSicrcleL_85: 462934323620456931
+      BlueStarsSicrcleL_86: 6775124765203814924
+      BlueStarsSicrcleL_87: -662137228327952911
+      BlueStarsSicrcleL_88: 2390867915977487148
+      BlueStarsSicrcleL_89: 3240502152947456258
+      BlueStarsSicrcleL_9: 7185614691825449812
+      BlueStarsSicrcleL_90: 8256522463357297538
+      BlueStarsSicrcleL_91: -7525623946442927228
+      BlueStarsSicrcleL_92: -4357515213414337098
+      BlueStarsSicrcleL_93: -6352597190988538398
+      BlueStarsSicrcleL_94: 2437008803117610314
+      BlueStarsSicrcleL_95: -8659630786695922890
+      BlueStarsSicrcleL_96: 8317108232279299231
+      BlueStarsSicrcleL_97: 2855859759485160538
+      BlueStarsSicrcleL_98: 7329168272039734505
+      BlueStarsSicrcleL_99: 3427766135681441507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

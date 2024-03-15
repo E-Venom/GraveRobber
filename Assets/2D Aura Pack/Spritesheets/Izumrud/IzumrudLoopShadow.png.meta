@@ -1,0 +1,1869 @@
+fileFormatVersion: 2
+guid: e5a83bad2d35caa4092cc92aa47fa666
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaeb0eb0231bc310800000000000000
+      internalID: 1426254738341227174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07e1f2238ae938a0800000000000000
+      internalID: -6324766352717256949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc6e5beb70beac90800000000000000
+      internalID: -7156588711568839499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9847590b98a1c34c0800000000000000
+      internalID: -4306537964997610359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7534619688d03de90800000000000000
+      internalID: -7002238116101209257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1620
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d77f24957d79d70800000000000000
+      internalID: 9049938754599878005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ffb8743816ec060800000000000000
+      internalID: 6975620089312444299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa17c5f62cc29fd0800000000000000
+      internalID: -2336580788947576079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a911195a23bd205c0800000000000000
+      internalID: -4250594087711731302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ecc9950683ba400800000000000000
+      internalID: 336424583640698519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b3ab6f604cec4a0800000000000000
+      internalID: -6571099272098727136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1485
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146f4a8c4df37d460800000000000000
+      internalID: 7266346706917455425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2810a10f737c2d20800000000000000
+      internalID: 3255103620007335981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9284ecd653c647ae0800000000000000
+      internalID: -1552496994804676567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebebd26e809287e00800000000000000
+      internalID: 1042628431934504638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc8ad53040433750800000000000000
+      internalID: 6283436549637573841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce75dbd02e74820800000000000000
+      internalID: 2902537033502682320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1350
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de7a89299f8ef6c0800000000000000
+      internalID: -4107687922125603111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030f854b709fac420800000000000000
+      internalID: 2651205142146773040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b967b13ca5cc7d670800000000000000
+      internalID: 8563537906660767387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553cee9a92708c330800000000000000
+      internalID: 3731240166802506581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b787a244b3e2100800000000000000
+      internalID: 85070606922972000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417f6cdb77bb91c20800000000000000
+      internalID: 3177777135046031124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1215
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5ae4335f93dfda0800000000000000
+      internalID: -5909503410749659683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dafcbee33e5c0e40800000000000000
+      internalID: 5623973611820612311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765c9fcff71a505f0800000000000000
+      internalID: -791048588456508057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71f016d4fc8ada20800000000000000
+      internalID: 3087935477707239804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1099ef764921d03d0800000000000000
+      internalID: -3238912128400320255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d6d85262d4fb180800000000000000
+      internalID: -9097467896030991007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1080
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3108adf78a397b0800000000000000
+      internalID: -5218642276112133181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2121ac10ff67a4a0800000000000000
+      internalID: -6582169253315534549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9a50a82a9c86430800000000000000
+      internalID: 3776489987487672787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c16cf2c9fd95a0e0800000000000000
+      internalID: -2259225942012698173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d4f93633ab8d450800000000000000
+      internalID: 6113841224032931108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b242c8e9cefb179f0800000000000000
+      internalID: -472385462904019925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 945
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f75e711f5adab0800000000000000
+      internalID: -4982565508993254979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da38271d566daa0800000000000000
+      internalID: -6136605492001919662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5031e8a3a0b1140800000000000000
+      internalID: 4691354683444495796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c68ac0ec2f7d30800000000000000
+      internalID: 4431309902337982936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd258ff48b1aaa470800000000000000
+      internalID: 8406709467428180701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_40
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e50ae30e9ab2c50800000000000000
+      internalID: 6641588856076394006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 810
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb810b0acfea36250800000000000000
+      internalID: 5936781133855332539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcb817f0986bfb60800000000000000
+      internalID: 7780927753042836663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8049a24bc4594a0800000000000000
+      internalID: -6587274543267313441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2080268ec826fffa0800000000000000
+      internalID: -5764780640677263358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8726f8eb6e120790800000000000000
+      internalID: -7565450975210231923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e7d91a4ee479e00800000000000000
+      internalID: 1051395781885263384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_47
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 675
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e06f59b1918b0ea0800000000000000
+      internalID: -5905484023485996826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23af9d94e807fd060800000000000000
+      internalID: 6980421703874247218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6f1ccb30db73ac0800000000000000
+      internalID: -3875421130579642713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482cf7c5e5eacf20800000000000000
+      internalID: 3443817640143628353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555cd5e248d504ad0800000000000000
+      internalID: -2720071352636816043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2bff469c2cc3ab0800000000000000
+      internalID: -5026928913813622063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 540
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06152a908dafe2910800000000000000
+      internalID: 1814663505658401120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cdd3348f37dcf80800000000000000
+      internalID: -8084678245942961088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffdad290bb48ae70800000000000000
+      internalID: 9126627866616455160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_56
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec91de7477db5810800000000000000
+      internalID: 1755233375134784741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_57
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ff25a0671a5e330800000000000000
+      internalID: 3739572593952489240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59bdba44623b5630800000000000000
+      internalID: 3916779707260844378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_59
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 405
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8cf367cd1f46bd0800000000000000
+      internalID: -2637717552553277255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7fa5cea04a37b00800000000000000
+      internalID: 825183523560945645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a474c67ed71013bf0800000000000000
+      internalID: -346494056065644726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_62
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac3eca38c29a70f0800000000000000
+      internalID: -1118420168770437969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35eddb2fed63623e0800000000000000
+      internalID: -2078913846801736109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15009bc1dda81ce30800000000000000
+      internalID: 4522048183130980433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_65
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 270
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f991206ca577780800000000000000
+      internalID: -8685373549875454150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fd12c611b1caf50800000000000000
+      internalID: 6893914891239939888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099b65934f3330970800000000000000
+      internalID: 8719870427546433936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_68
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6d64f14a460eda0800000000000000
+      internalID: -5917619254302681435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_69
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49850da00d66f760800000000000000
+      internalID: 7491294879847647567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_70
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ae27e74af8e5e20800000000000000
+      internalID: 3341265910214355575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_71
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 135
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4bbee469c9a5cb0800000000000000
+      internalID: -4874411477292043037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc2a38b2a3e5fd30800000000000000
+      internalID: 4464724893622742258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a3ca214abe6fa00800000000000000
+      internalID: 790077874570541643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f53ad3914987ae0800000000000000
+      internalID: -1551327235499925718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896316a30fe7b92c0800000000000000
+      internalID: -4423802638724680040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792689164beb50510800000000000000
+      internalID: 1514826531620807319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IzumrudLoopShadow_77
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db81416c543e3aa0800000000000000
+      internalID: -6179444067332420653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IzumrudLoopShadow_0: 1426254738341227174
+      IzumrudLoopShadow_1: -6324766352717256949
+      IzumrudLoopShadow_10: -6571099272098727136
+      IzumrudLoopShadow_11: 7266346706917455425
+      IzumrudLoopShadow_12: 3255103620007335981
+      IzumrudLoopShadow_13: -1552496994804676567
+      IzumrudLoopShadow_14: 1042628431934504638
+      IzumrudLoopShadow_15: 6283436549637573841
+      IzumrudLoopShadow_16: 2902537033502682320
+      IzumrudLoopShadow_17: -4107687922125603111
+      IzumrudLoopShadow_18: 2651205142146773040
+      IzumrudLoopShadow_19: 8563537906660767387
+      IzumrudLoopShadow_2: -7156588711568839499
+      IzumrudLoopShadow_20: 3731240166802506581
+      IzumrudLoopShadow_21: 85070606922972000
+      IzumrudLoopShadow_22: 3177777135046031124
+      IzumrudLoopShadow_23: -5909503410749659683
+      IzumrudLoopShadow_24: 5623973611820612311
+      IzumrudLoopShadow_25: -791048588456508057
+      IzumrudLoopShadow_26: 3087935477707239804
+      IzumrudLoopShadow_27: -3238912128400320255
+      IzumrudLoopShadow_28: -9097467896030991007
+      IzumrudLoopShadow_29: -5218642276112133181
+      IzumrudLoopShadow_3: -4306537964997610359
+      IzumrudLoopShadow_30: -6582169253315534549
+      IzumrudLoopShadow_31: 3776489987487672787
+      IzumrudLoopShadow_32: -2259225942012698173
+      IzumrudLoopShadow_33: 6113841224032931108
+      IzumrudLoopShadow_34: -472385462904019925
+      IzumrudLoopShadow_35: -4982565508993254979
+      IzumrudLoopShadow_36: -6136605492001919662
+      IzumrudLoopShadow_37: 4691354683444495796
+      IzumrudLoopShadow_38: 4431309902337982936
+      IzumrudLoopShadow_39: 8406709467428180701
+      IzumrudLoopShadow_4: -7002238116101209257
+      IzumrudLoopShadow_40: 6641588856076394006
+      IzumrudLoopShadow_41: 5936781133855332539
+      IzumrudLoopShadow_42: 7780927753042836663
+      IzumrudLoopShadow_43: -6587274543267313441
+      IzumrudLoopShadow_44: -5764780640677263358
+      IzumrudLoopShadow_45: -7565450975210231923
+      IzumrudLoopShadow_46: 1051395781885263384
+      IzumrudLoopShadow_47: -5905484023485996826
+      IzumrudLoopShadow_48: 6980421703874247218
+      IzumrudLoopShadow_49: -3875421130579642713
+      IzumrudLoopShadow_5: 9049938754599878005
+      IzumrudLoopShadow_50: 3443817640143628353
+      IzumrudLoopShadow_51: -2720071352636816043
+      IzumrudLoopShadow_52: -5026928913813622063
+      IzumrudLoopShadow_53: 1814663505658401120
+      IzumrudLoopShadow_54: -8084678245942961088
+      IzumrudLoopShadow_55: 9126627866616455160
+      IzumrudLoopShadow_56: 1755233375134784741
+      IzumrudLoopShadow_57: 3739572593952489240
+      IzumrudLoopShadow_58: 3916779707260844378
+      IzumrudLoopShadow_59: -2637717552553277255
+      IzumrudLoopShadow_6: 6975620089312444299
+      IzumrudLoopShadow_60: 825183523560945645
+      IzumrudLoopShadow_61: -346494056065644726
+      IzumrudLoopShadow_62: -1118420168770437969
+      IzumrudLoopShadow_63: -2078913846801736109
+      IzumrudLoopShadow_64: 4522048183130980433
+      IzumrudLoopShadow_65: -8685373549875454150
+      IzumrudLoopShadow_66: 6893914891239939888
+      IzumrudLoopShadow_67: 8719870427546433936
+      IzumrudLoopShadow_68: -5917619254302681435
+      IzumrudLoopShadow_69: 7491294879847647567
+      IzumrudLoopShadow_7: -2336580788947576079
+      IzumrudLoopShadow_70: 3341265910214355575
+      IzumrudLoopShadow_71: -4874411477292043037
+      IzumrudLoopShadow_72: 4464724893622742258
+      IzumrudLoopShadow_73: 790077874570541643
+      IzumrudLoopShadow_74: -1551327235499925718
+      IzumrudLoopShadow_75: -4423802638724680040
+      IzumrudLoopShadow_76: 1514826531620807319
+      IzumrudLoopShadow_77: -6179444067332420653
+      IzumrudLoopShadow_8: -4250594087711731302
+      IzumrudLoopShadow_9: 336424583640698519
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

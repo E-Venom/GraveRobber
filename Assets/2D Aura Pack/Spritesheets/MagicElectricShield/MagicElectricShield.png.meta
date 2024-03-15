@@ -1,0 +1,2309 @@
+fileFormatVersion: 2
+guid: 8a70bc7a3cdb96540bcdbe6a9db24825
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicElectricShield_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785ae4ce485369540800000000000000
+      internalID: 5014254080140158343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38a50480c4c14a0800000000000000
+      internalID: -6621333753818348577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6adfbda61dab1f0800000000000000
+      internalID: -1028279308013164857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6459373c4d55d4d0800000000000000
+      internalID: -3110477385704057747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2714e5051d6460800000000000000
+      internalID: 7236463291299999413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2261b41c337c32390800000000000000
+      internalID: -7844207100849088990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_6
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1690
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c726159bc88ecfb10800000000000000
+      internalID: 2016742424257323644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7420637f632033bf0800000000000000
+      internalID: -345930311278394809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30809abd4a27f9f40800000000000000
+      internalID: 5737430502678792195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c3cfbe0e235f3b0800000000000000
+      internalID: -5479417430013100906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba210b115e3d5cf80800000000000000
+      internalID: -8086824575076134229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3446d770f1a6005c0800000000000000
+      internalID: -4251281366735559613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef7d28a2f840cb20800000000000000
+      internalID: 3152599946200186855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_13
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1560
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794c9bfac85301030800000000000000
+      internalID: 3463326991807792279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb62f2afcde084e0800000000000000
+      internalID: -1981322359995208758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190deecdb9ef99230800000000000000
+      internalID: 3646225318713151633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92723c6daa3aac560800000000000000
+      internalID: 7334854897269155625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26793a954f8f0eb50800000000000000
+      internalID: 6620565180594231138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ba9680f2cd13f70800000000000000
+      internalID: 9165348811238386522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a037e93ccb35580800000000000000
+      internalID: -8839514095235167606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1430
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b267279b3d4b9a330800000000000000
+      internalID: 3722705388440811051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c81eb713311c74b0800000000000000
+      internalID: -5441455338631063357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f41de6ad95cc6b40800000000000000
+      internalID: 5434936131230438648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799bf840cdc11e3a0800000000000000
+      internalID: -6637992644472489577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fdc3f3951060130800000000000000
+      internalID: 3532512440543403901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_25
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f861ba8266e8f0800000000000000
+      internalID: -511613159838518687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de4fdbd66f2fb20800000000000000
+      internalID: 3166864439193693478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1300
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd7a22e146993a10800000000000000
+      internalID: 1889706728370109907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149b57cab441e76b0800000000000000
+      internalID: -5296773796492625599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e51f48d3054bb8a0800000000000000
+      internalID: -6288356571876485663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a926fd87bd6fb49b0800000000000000
+      internalID: -5094707130953407846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc86c306f9a91e4f0800000000000000
+      internalID: -801189249390188339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47786993ec3ac40a0800000000000000
+      internalID: -6895956823286315148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccd04521d7e29230800000000000000
+      internalID: 3644229933955341513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_34
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1170
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042175ca4d58d2590800000000000000
+      internalID: -7697349039635361216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933135ad60ce64780800000000000000
+      internalID: -8699006116042697927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8a3933678e81520800000000000000
+      internalID: 2673141973213489349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80575c1399b861e10800000000000000
+      internalID: 2168073760706753800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19eb65808e764df0800000000000000
+      internalID: -196330443284682470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b97d90cca48e6f0800000000000000
+      internalID: -655191505583498467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfb71c81687254a0800000000000000
+      internalID: -6606085343041568835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_41
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1040
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6236c238ea4af3e0800000000000000
+      internalID: -2019219121777528212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7c566b88b7d7650800000000000000
+      internalID: 6232273286456526767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27211fa895c3f4670800000000000000
+      internalID: 8525098974916448882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3d536cae5c996d0800000000000000
+      internalID: -2983135666017807426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_45
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d58f1c6d9c46ef0800000000000000
+      internalID: -115745766190326517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d3ef0c1ece48500800000000000000
+      internalID: 397703121465130280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f3bc3978e0a7b70800000000000000
+      internalID: 8897439989286780813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 910
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dbf10f9972340d0800000000000000
+      internalID: -3439862148268835554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb59a0433328d380800000000000000
+      internalID: -8946361956736345162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d043624ee72a42a0800000000000000
+      internalID: -6752540787019136808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_51
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0e4ce683f5b23e0800000000000000
+      internalID: -2077462107120148300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_52
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6117ffd790c50f80800000000000000
+      internalID: -8140888992872197781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_53
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feb230753420e570800000000000000
+      internalID: 8493828709154995961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_54
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a63d3232931859f0800000000000000
+      internalID: -479611841685932380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_55
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 780
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7ca923576ed41b0800000000000000
+      internalID: -5670622964755019824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ae125a507fa5360800000000000000
+      internalID: 7159306161276185154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_57
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f5e9c56ab6f1b60800000000000000
+      internalID: 7719006648598945613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1789c63d9a50670800000000000000
+      internalID: 8504390196884173298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5ee384303d25dc0800000000000000
+      internalID: -3651624336793606741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_60
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29866b6034eaf580800000000000000
+      internalID: -8792464425876027093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_61
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8b16e0b690b8b20800000000000000
+      internalID: 3137611920801118435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 650
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821131710353f2930800000000000000
+      internalID: 4120570664729121064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dc6cf37bd327380800000000000000
+      internalID: -8975043250137674345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99e5db8b626b4be0800000000000000
+      internalID: -1491990637496112741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_65
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9eb56971bacc8a0800000000000000
+      internalID: -6283459262293481010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_66
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16332a05017a9c00800000000000000
+      internalID: 908162541327431194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_67
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f184576cfc28d00800000000000000
+      internalID: 973568920743583626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_68
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506735c9d001f7bd0800000000000000
+      internalID: -2630366006717745659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_69
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 520
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bf6d1b0941a76b0800000000000000
+      internalID: -5297899399956464772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316cfaa02a5d43c0800000000000000
+      internalID: -4373740566752763585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18811eb1da9ed440800000000000000
+      internalID: 4962574065036527645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3c258faa0457600800000000000000
+      internalID: 465349239557505953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f284b212ef86c60800000000000000
+      internalID: 7811772972087652242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b48f9d0e4eca4a0800000000000000
+      internalID: -6580633301114401926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_75
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7c16c8218f49da0800000000000000
+      internalID: -5938849250046523462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_76
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 390
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d24538cf5ce6dc0800000000000000
+      internalID: -3643757360170390155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff688c5c1ac0b93d0800000000000000
+      internalID: -3198949221369084161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_78
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93716a630d403080800000000000000
+      internalID: -9209776560907652198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_79
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a6fc50387e27d0800000000000000
+      internalID: -2941281357512922865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_80
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05163cf21581f3960800000000000000
+      internalID: 7583807034487955792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90782abfd1f5b2d50800000000000000
+      internalID: 6713564251906279177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_82
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea1751c85c80a6c0800000000000000
+      internalID: -4134150145097393428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_83
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 260
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2118db2f4ec6a0220800000000000000
+      internalID: 2452892677637505298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b3cca8522c26a00800000000000000
+      internalID: 748373954595142416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_85
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5b658ce074055a0800000000000000
+      internalID: -6534644930498349659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_86
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a31f051f9dec5b60800000000000000
+      internalID: 7736319527424562087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_87
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfd36ec92296bc80800000000000000
+      internalID: -8307291754384334912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_88
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c18d52c760443490800000000000000
+      internalID: -7767512642920545855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_89
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715e7d4f78daa8da0800000000000000
+      internalID: -5941745958921968361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_90
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 130
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea7e862691edbc0800000000000000
+      internalID: -3756537128722911609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e17429ab3b428c0800000000000000
+      internalID: -4024894553062957430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_92
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed546abacf2d4da0800000000000000
+      internalID: -5959054184184259104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_93
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82359eee18c761d00800000000000000
+      internalID: 943078069481591592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_94
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbdc8f17699f2250800000000000000
+      internalID: 5922120703205497807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_95
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eddc8d80b1c96c40800000000000000
+      internalID: 5506144983470366183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_96
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d0eff91511f82c0800000000000000
+      internalID: -4427300866407658133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicElectricShield_97
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f03deb36c8e2abc0800000000000000
+      internalID: -3773197599676485388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MagicElectricShield_0: 5014254080140158343
+      MagicElectricShield_1: -6621333753818348577
+      MagicElectricShield_10: -8086824575076134229
+      MagicElectricShield_11: -4251281366735559613
+      MagicElectricShield_12: 3152599946200186855
+      MagicElectricShield_13: 3463326991807792279
+      MagicElectricShield_14: -1981322359995208758
+      MagicElectricShield_15: 3646225318713151633
+      MagicElectricShield_16: 7334854897269155625
+      MagicElectricShield_17: 6620565180594231138
+      MagicElectricShield_18: 9165348811238386522
+      MagicElectricShield_19: -8839514095235167606
+      MagicElectricShield_2: -1028279308013164857
+      MagicElectricShield_20: 3722705388440811051
+      MagicElectricShield_21: -5441455338631063357
+      MagicElectricShield_22: 5434936131230438648
+      MagicElectricShield_23: -6637992644472489577
+      MagicElectricShield_24: 3532512440543403901
+      MagicElectricShield_25: -511613159838518687
+      MagicElectricShield_26: 3166864439193693478
+      MagicElectricShield_27: 1889706728370109907
+      MagicElectricShield_28: -5296773796492625599
+      MagicElectricShield_29: -6288356571876485663
+      MagicElectricShield_3: -3110477385704057747
+      MagicElectricShield_30: -5094707130953407846
+      MagicElectricShield_31: -801189249390188339
+      MagicElectricShield_32: -6895956823286315148
+      MagicElectricShield_33: 3644229933955341513
+      MagicElectricShield_34: -7697349039635361216
+      MagicElectricShield_35: -8699006116042697927
+      MagicElectricShield_36: 2673141973213489349
+      MagicElectricShield_37: 2168073760706753800
+      MagicElectricShield_38: -196330443284682470
+      MagicElectricShield_39: -655191505583498467
+      MagicElectricShield_4: 7236463291299999413
+      MagicElectricShield_40: -6606085343041568835
+      MagicElectricShield_41: -2019219121777528212
+      MagicElectricShield_42: 6232273286456526767
+      MagicElectricShield_43: 8525098974916448882
+      MagicElectricShield_44: -2983135666017807426
+      MagicElectricShield_45: -115745766190326517
+      MagicElectricShield_46: 397703121465130280
+      MagicElectricShield_47: 8897439989286780813
+      MagicElectricShield_48: -3439862148268835554
+      MagicElectricShield_49: -8946361956736345162
+      MagicElectricShield_5: -7844207100849088990
+      MagicElectricShield_50: -6752540787019136808
+      MagicElectricShield_51: -2077462107120148300
+      MagicElectricShield_52: -8140888992872197781
+      MagicElectricShield_53: 8493828709154995961
+      MagicElectricShield_54: -479611841685932380
+      MagicElectricShield_55: -5670622964755019824
+      MagicElectricShield_56: 7159306161276185154
+      MagicElectricShield_57: 7719006648598945613
+      MagicElectricShield_58: 8504390196884173298
+      MagicElectricShield_59: -3651624336793606741
+      MagicElectricShield_6: 2016742424257323644
+      MagicElectricShield_60: -8792464425876027093
+      MagicElectricShield_61: 3137611920801118435
+      MagicElectricShield_62: 4120570664729121064
+      MagicElectricShield_63: -8975043250137674345
+      MagicElectricShield_64: -1491990637496112741
+      MagicElectricShield_65: -6283459262293481010
+      MagicElectricShield_66: 908162541327431194
+      MagicElectricShield_67: 973568920743583626
+      MagicElectricShield_68: -2630366006717745659
+      MagicElectricShield_69: -5297899399956464772
+      MagicElectricShield_7: -345930311278394809
+      MagicElectricShield_70: -4373740566752763585
+      MagicElectricShield_71: 4962574065036527645
+      MagicElectricShield_72: 465349239557505953
+      MagicElectricShield_73: 7811772972087652242
+      MagicElectricShield_74: -6580633301114401926
+      MagicElectricShield_75: -5938849250046523462
+      MagicElectricShield_76: -3643757360170390155
+      MagicElectricShield_77: -3198949221369084161
+      MagicElectricShield_78: -9209776560907652198
+      MagicElectricShield_79: -2941281357512922865
+      MagicElectricShield_8: 5737430502678792195
+      MagicElectricShield_80: 7583807034487955792
+      MagicElectricShield_81: 6713564251906279177
+      MagicElectricShield_82: -4134150145097393428
+      MagicElectricShield_83: 2452892677637505298
+      MagicElectricShield_84: 748373954595142416
+      MagicElectricShield_85: -6534644930498349659
+      MagicElectricShield_86: 7736319527424562087
+      MagicElectricShield_87: -8307291754384334912
+      MagicElectricShield_88: -7767512642920545855
+      MagicElectricShield_89: -5941745958921968361
+      MagicElectricShield_9: -5479417430013100906
+      MagicElectricShield_90: -3756537128722911609
+      MagicElectricShield_91: -4024894553062957430
+      MagicElectricShield_92: -5959054184184259104
+      MagicElectricShield_93: 943078069481591592
+      MagicElectricShield_94: 5922120703205497807
+      MagicElectricShield_95: 5506144983470366183
+      MagicElectricShield_96: -4427300866407658133
+      MagicElectricShield_97: -3773197599676485388
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

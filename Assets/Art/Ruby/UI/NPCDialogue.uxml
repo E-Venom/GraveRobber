@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameUI" src="project://database/Assets/GameUI.uxml?fileID=9197481963319205126&amp;guid=6ffdf3953e33ced4ba920967a708e408&amp;type=3#GameUI" />
+    <ui:Instance template="GameUI" name="GameUI" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; flex-direction: row; background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIDialogueBox.png?fileID=2800000&amp;guid=c4592e9bd029fcc45843314f2192f59e&amp;type=3#UIDialogueBox&apos;); width: 100%; height: 100%; position: absolute; left: 10%; top: 70%; right: 10%; bottom: 0;">
+        <ui:Label tabindex="-1" text="Help! Help! Fix all of these &#10;robots before they hurt&#10;someone!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 434px; height: 388px; margin-top: 50px; margin-right: 50px; margin-bottom: 50px; margin-left: 50px; -unity-font: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=e1f632275b841fb4e8d66239daea5772&amp;type=3#NotInter-Regular&apos;); -unity-font-definition: initial; -unity-font-style: bold; color: rgb(65, 255, 0); -unity-text-align: upper-left; font-size: 30px; flex-wrap: wrap;" />
+    </ui:VisualElement>
+</ui:UXML>

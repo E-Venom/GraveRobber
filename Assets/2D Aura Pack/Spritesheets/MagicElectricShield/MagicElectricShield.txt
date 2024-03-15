@@ -1,0 +1,796 @@
+{"frames": {
+
+"MagicElectricShield_00000.png":
+{
+	"frame": {"x":0,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00001.png":
+{
+	"frame": {"x":140,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00002.png":
+{
+	"frame": {"x":280,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00003.png":
+{
+	"frame": {"x":420,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00004.png":
+{
+	"frame": {"x":560,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00005.png":
+{
+	"frame": {"x":700,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00006.png":
+{
+	"frame": {"x":840,"y":0,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00007.png":
+{
+	"frame": {"x":0,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00008.png":
+{
+	"frame": {"x":140,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00009.png":
+{
+	"frame": {"x":280,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00010.png":
+{
+	"frame": {"x":420,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00011.png":
+{
+	"frame": {"x":560,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00012.png":
+{
+	"frame": {"x":700,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00013.png":
+{
+	"frame": {"x":840,"y":130,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00014.png":
+{
+	"frame": {"x":0,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00015.png":
+{
+	"frame": {"x":140,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00016.png":
+{
+	"frame": {"x":280,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00017.png":
+{
+	"frame": {"x":420,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00018.png":
+{
+	"frame": {"x":560,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00019.png":
+{
+	"frame": {"x":700,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00020.png":
+{
+	"frame": {"x":840,"y":260,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00021.png":
+{
+	"frame": {"x":0,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00022.png":
+{
+	"frame": {"x":140,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00023.png":
+{
+	"frame": {"x":280,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00024.png":
+{
+	"frame": {"x":420,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00025.png":
+{
+	"frame": {"x":560,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00026.png":
+{
+	"frame": {"x":700,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00027.png":
+{
+	"frame": {"x":840,"y":390,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00028.png":
+{
+	"frame": {"x":0,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00029.png":
+{
+	"frame": {"x":140,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00030.png":
+{
+	"frame": {"x":280,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00031.png":
+{
+	"frame": {"x":420,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00032.png":
+{
+	"frame": {"x":560,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00033.png":
+{
+	"frame": {"x":700,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00034.png":
+{
+	"frame": {"x":840,"y":520,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00035.png":
+{
+	"frame": {"x":0,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00036.png":
+{
+	"frame": {"x":140,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00037.png":
+{
+	"frame": {"x":280,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00038.png":
+{
+	"frame": {"x":420,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00039.png":
+{
+	"frame": {"x":560,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00040.png":
+{
+	"frame": {"x":700,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00041.png":
+{
+	"frame": {"x":840,"y":650,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00042.png":
+{
+	"frame": {"x":0,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00043.png":
+{
+	"frame": {"x":140,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00044.png":
+{
+	"frame": {"x":280,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00045.png":
+{
+	"frame": {"x":420,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00046.png":
+{
+	"frame": {"x":560,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00047.png":
+{
+	"frame": {"x":700,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00048.png":
+{
+	"frame": {"x":840,"y":780,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00049.png":
+{
+	"frame": {"x":0,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00050.png":
+{
+	"frame": {"x":140,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00051.png":
+{
+	"frame": {"x":280,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00052.png":
+{
+	"frame": {"x":420,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00053.png":
+{
+	"frame": {"x":560,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00054.png":
+{
+	"frame": {"x":700,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00055.png":
+{
+	"frame": {"x":840,"y":910,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00056.png":
+{
+	"frame": {"x":0,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00057.png":
+{
+	"frame": {"x":140,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00058.png":
+{
+	"frame": {"x":280,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00059.png":
+{
+	"frame": {"x":420,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00060.png":
+{
+	"frame": {"x":560,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00061.png":
+{
+	"frame": {"x":700,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00062.png":
+{
+	"frame": {"x":840,"y":1040,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00063.png":
+{
+	"frame": {"x":0,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00064.png":
+{
+	"frame": {"x":140,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00065.png":
+{
+	"frame": {"x":280,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00066.png":
+{
+	"frame": {"x":420,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00067.png":
+{
+	"frame": {"x":560,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00068.png":
+{
+	"frame": {"x":700,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00069.png":
+{
+	"frame": {"x":840,"y":1170,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00070.png":
+{
+	"frame": {"x":0,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00071.png":
+{
+	"frame": {"x":140,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00072.png":
+{
+	"frame": {"x":280,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00073.png":
+{
+	"frame": {"x":420,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00074.png":
+{
+	"frame": {"x":560,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00075.png":
+{
+	"frame": {"x":700,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00076.png":
+{
+	"frame": {"x":840,"y":1300,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00077.png":
+{
+	"frame": {"x":0,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00078.png":
+{
+	"frame": {"x":140,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00079.png":
+{
+	"frame": {"x":280,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00080.png":
+{
+	"frame": {"x":420,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00081.png":
+{
+	"frame": {"x":560,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00082.png":
+{
+	"frame": {"x":700,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00083.png":
+{
+	"frame": {"x":840,"y":1430,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00084.png":
+{
+	"frame": {"x":0,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00085.png":
+{
+	"frame": {"x":140,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00086.png":
+{
+	"frame": {"x":280,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00087.png":
+{
+	"frame": {"x":420,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00088.png":
+{
+	"frame": {"x":560,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00089.png":
+{
+	"frame": {"x":700,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00090.png":
+{
+	"frame": {"x":840,"y":1560,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00091.png":
+{
+	"frame": {"x":0,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00092.png":
+{
+	"frame": {"x":140,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00093.png":
+{
+	"frame": {"x":280,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00094.png":
+{
+	"frame": {"x":420,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00095.png":
+{
+	"frame": {"x":560,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00096.png":
+{
+	"frame": {"x":700,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+},
+"MagicElectricShield_00097.png":
+{
+	"frame": {"x":840,"y":1690,"w":140,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":130},
+	"sourceSize": {"w":140,"h":130}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "MagicElectricShield.png",
+	"format": "RGBA8888",
+	"size": {"w":980,"h":1820},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3fb5930f277dc06e0e3356565252a5dd$"
+}
+}

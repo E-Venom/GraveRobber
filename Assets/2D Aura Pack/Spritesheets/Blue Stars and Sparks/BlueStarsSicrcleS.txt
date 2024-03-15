@@ -1,0 +1,108 @@
+{"frames": {
+
+"BlueStarsCircleShort_00000.png":
+{
+	"frame": {"x":0,"y":0,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00001.png":
+{
+	"frame": {"x":140,"y":0,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00002.png":
+{
+	"frame": {"x":280,"y":0,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00003.png":
+{
+	"frame": {"x":0,"y":110,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00004.png":
+{
+	"frame": {"x":140,"y":110,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00005.png":
+{
+	"frame": {"x":280,"y":110,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00006.png":
+{
+	"frame": {"x":0,"y":220,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00007.png":
+{
+	"frame": {"x":140,"y":220,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00008.png":
+{
+	"frame": {"x":280,"y":220,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00009.png":
+{
+	"frame": {"x":0,"y":330,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00010.png":
+{
+	"frame": {"x":140,"y":330,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+},
+"BlueStarsCircleShort_00011.png":
+{
+	"frame": {"x":280,"y":330,"w":140,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":110},
+	"sourceSize": {"w":140,"h":110}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "BlueStarsSicrcleS.png",
+	"format": "RGBA8888",
+	"size": {"w":420,"h":440},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:08c65619f53cfea503a74e37837182bb$"
+}
+}

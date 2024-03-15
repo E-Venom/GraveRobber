@@ -1,0 +1,3453 @@
+fileFormatVersion: 2
+guid: 72f1280543a6ed14896ead9eda2a4a82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoldenCircle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6526a91cbac758b0800000000000000
+      internalID: -5163435538524002965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2eeb0813c231ed0800000000000000
+      internalID: -2444561581607034147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f81219aa8bc72640800000000000000
+      internalID: 5055232903149132024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b23373560697aa0800000000000000
+      internalID: -6162788627245749449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2132dff553e8f7070800000000000000
+      internalID: 8106354214185018130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2259a34d4dcbccd80800000000000000
+      internalID: -8228994796833041118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294f91ee34a7367f0800000000000000
+      internalID: -620517891470920558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610659f3152182640800000000000000
+      internalID: 5055310721891786774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0300a3bdcc190f0800000000000000
+      internalID: -1111882391040806701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1050
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33987a05e8356c8f0800000000000000
+      internalID: -520636836211095245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a52e87773bf2dc50800000000000000
+      internalID: 6688684612246185377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d9202a08d5acdc0800000000000000
+      internalID: -3617976543583494880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a3185bb81449460800000000000000
+      internalID: 7247489768647375468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96050519c6b263600800000000000000
+      internalID: 447592958264365161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828021038ea420470800000000000000
+      internalID: 8359326219452418088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8c8f9e768114c50800000000000000
+      internalID: 6647621359561656493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b83025445e47af0800000000000000
+      internalID: -399442385332630768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d52c214ef2a9f0800000000000000
+      internalID: -458524656171364131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ca8a49b6f89d1a0800000000000000
+      internalID: -6784233671438586751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 975
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056e464c6d8030ba0800000000000000
+      internalID: -6124041349782772144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefb413c354adabc0800000000000000
+      internalID: -3770176633377079314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e75f1726c1ef370800000000000000
+      internalID: 8358149167590505998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_22
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c71f9213a31cfa0800000000000000
+      internalID: -5782276463735505841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d8e300711ac9b00800000000000000
+      internalID: 836720750944488749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79abf122f30d0cd0800000000000000
+      internalID: -2590409872181057153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_25
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85343a10459bd770800000000000000
+      internalID: 8636660812963132811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_26
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a25100ac65f8670800000000000000
+      internalID: 8543142443729889878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_27
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca7d9ac521b0f870800000000000000
+      internalID: 8714660054833134274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_28
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9c9e4062f08da0800000000000000
+      internalID: -5944485012679386214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_29
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 900
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bca7123b2ec75a0800000000000000
+      internalID: -6522088901350601840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d886937cd9b0a50800000000000000
+      internalID: 6488453167144537379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e901003a535c630800000000000000
+      internalID: 3946619622657138193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_32
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d00d5aa169bd25f0800000000000000
+      internalID: -779763331344039721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_33
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db6bd98b0c67550800000000000000
+      internalID: 6158321439628246365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_34
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d53ecd9c161c430800000000000000
+      internalID: 3801427080099618197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_35
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bb8269f4c4ff430800000000000000
+      internalID: 3818854913738849159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a239a848a1c12dbd0800000000000000
+      internalID: -2606990334075694294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_37
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b25405d5f22b7280800000000000000
+      internalID: -9044596987407347023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_38
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b879d8650be5caf80800000000000000
+      internalID: -8093990318832248949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_39
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 825
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dcada6c80c37c40800000000000000
+      internalID: 5508958478524927354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71de13b37e3719980800000000000000
+      internalID: -8533912381922611945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e4e102e751db7e0800000000000000
+      internalID: -1748217448900964841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_42
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e5a3e49e0729be0800000000000000
+      internalID: -1471989980854591968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06048b47366a45ce0800000000000000
+      internalID: -1417325036624658336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_44
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638955fa4bd884b50800000000000000
+      internalID: 6577663062949861430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_45
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303f3ca206baf5e40800000000000000
+      internalID: 5647420887268586243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_46
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc596cb8ee0e3140800000000000000
+      internalID: 4701211453777599665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_47
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad1e96b1dca70b20800000000000000
+      internalID: 3100636885179833764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_48
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee9692c4389a44b0800000000000000
+      internalID: -5455380646235562259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_49
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 750
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968094843160c4490800000000000000
+      internalID: -7760821377979316119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008e0df9d9110fad0800000000000000
+      internalID: -2670615210341898240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255d4f0c2fbcb7110800000000000000
+      internalID: 1259824764259980626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_52
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa683ff760874910800000000000000
+      internalID: 1821565758446529274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_53
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64096ea32ad967950800000000000000
+      internalID: 6446513236725895238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_54
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ca31bb822e5e1e0800000000000000
+      internalID: -2169078980943827823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_55
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15783bfe5f73c6b0800000000000000
+      internalID: -5277234292429654754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_56
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bcaf3a9813bc6d0800000000000000
+      internalID: -2969225062089307298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_57
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8441168e26236540800000000000000
+      internalID: 4999881992571012239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_58
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e27583562d82570800000000000000
+      internalID: 8442228833684762247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_59
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 675
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2ae3941f37e4340800000000000000
+      internalID: 4849941328877757163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad0e69e90d48c750800000000000000
+      internalID: 6325390381608209829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_61
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e50786d15c1f610800000000000000
+      internalID: 1653319268318600828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_62
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b90499e206b3c330800000000000000
+      internalID: 3730025040017885625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_63
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6456df2dc37b8a0800000000000000
+      internalID: -6289491477707536654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_64
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc567a5ec6c24770800000000000000
+      internalID: 8593649628559596798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_65
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bcab97b495eb7e0800000000000000
+      internalID: -1747861424673469574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_66
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08a248e18a766770800000000000000
+      internalID: 8603698836503963662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_67
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf85864231710070800000000000000
+      internalID: 8070856467970101197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_68
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d29e46f29e7b250800000000000000
+      internalID: 5960489021613878671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_69
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 600
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6dc801d31dcc090800000000000000
+      internalID: -8012799576798079288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2e5d2cce7eaf700800000000000000
+      internalID: 575026906510254772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_71
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1cad8f9a72b1d60800000000000000
+      internalID: 7861921185483375016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900e05c50fc52f8c0800000000000000
+      internalID: -3967006134349275127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_73
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b667b77aec25b320800000000000000
+      internalID: 2573012147654583990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_74
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993701fbf116f4e20800000000000000
+      internalID: 3336992637882233753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_75
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0e28c3f52a71ae0800000000000000
+      internalID: -1578614614449266483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_76
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09213728a68a83f10800000000000000
+      internalID: 2249733189280141968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_77
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aa68e2d3deff810800000000000000
+      internalID: 1801419223000853092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_78
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663c0c313f4e7bd70800000000000000
+      internalID: 9058960908138627942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_79
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 525
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d7d44003593ebe0800000000000000
+      internalID: -1449150621620011712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec4f87278950ea30800000000000000
+      internalID: 4242489286002167011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_81
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2084bbe7b8fed4b0800000000000000
+      internalID: -5413616233235578836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_82
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6d1cf2344873c0800000000000000
+      internalID: -4361661253339485231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_83
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60787bb4d9e229450800000000000000
+      internalID: 6093984498900764422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_84
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e89d81737c1d6500800000000000000
+      internalID: 391000024803023078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_85
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f96dbd82ee4c1c0800000000000000
+      internalID: -4484197469699793075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_86
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d572b0f47b395dcd0800000000000000
+      internalID: -2533956799811606691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_87
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeade06bcb5e4740800000000000000
+      internalID: 5138145153938992815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_88
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f9568a7f6273900800000000000000
+      internalID: 664042315184447250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_89
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 450
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe0551786d545900800000000000000
+      internalID: 672264947544428222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979ea270e7816d90800000000000000
+      internalID: -7106249338947463270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_91
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e1e586352bb830800000000000000
+      internalID: 4087902002873492756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_92
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eddfb1868255a6a0800000000000000
+      internalID: -6438649354600325659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_93
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee74fc9cd60808f0800000000000000
+      internalID: -574201407893897504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_94
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af14754cf05ca5fb0800000000000000
+      internalID: -4658194193052122630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_95
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee0f6babb1528820800000000000000
+      internalID: 2918985374966419181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_96
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b93ffc354273d1e0800000000000000
+      internalID: -2174268553388148301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_97
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcff2edd46aa4a650800000000000000
+      internalID: 6243302333638442959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_98
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910a8979a99391d00800000000000000
+      internalID: 943848933041938457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_99
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 375
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa891de19072c950800000000000000
+      internalID: 6467855786907896571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d9e90eaeb14d2d0800000000000000
+      internalID: -3254945935077237449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_101
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3bee0da9b345710800000000000000
+      internalID: 1681034097032344553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_102
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef6924e743c40a40800000000000000
+      internalID: 5333602572251525096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_103
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff86e48c88188c4b0800000000000000
+      internalID: -5419939727064274689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_104
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c78ea08da6bf430800000000000000
+      internalID: 3817762585255115884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_105
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bcbb126c22a9370800000000000000
+      internalID: 8330008695139978040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_106
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eb04529330c2c50800000000000000
+      internalID: 6641687094437658209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_107
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eb1b5f6b1b5afd0800000000000000
+      internalID: -2331261832730132878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_108
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60a68cf9e8a6bd80800000000000000
+      internalID: -8235209145682845590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_109
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 300
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60af00dbfe0fb5a30800000000000000
+      internalID: 4205219589539297798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e4ddd2738c82670800000000000000
+      internalID: 8514275234862157385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_111
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65d27a18adddb7d0800000000000000
+      internalID: -2900918870888753813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_112
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad8e0e4661e1cc30800000000000000
+      internalID: 4378028142293323176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_113
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae49c134706385870800000000000000
+      internalID: 8671740487320507626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_114
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad7e426b1fdbe90800000000000000
+      internalID: -7008179680513107301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_115
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7c6dbab0586eff0800000000000000
+      internalID: -7172064220362792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_116
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f871e7a85ca004490800000000000000
+      internalID: -7764193914038380657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_117
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6813b27bb291e2990800000000000000
+      internalID: -7408956661430537850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_118
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a49c308cbdc6340800000000000000
+      internalID: 4858499750129388183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_119
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 225
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aae25bb14910920800000000000000
+      internalID: 2954805677256518178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3fec7cbe54f6a10800000000000000
+      internalID: 1904818046372869026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_121
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456d35460f68d4450800000000000000
+      internalID: 6074659839426156116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_122
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e43fdce236ba7b60800000000000000
+      internalID: 7744702839055660262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_123
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cea061eb68fcab0800000000000000
+      internalID: -4985618111504126950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_124
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adfca261ddadd410800000000000000
+      internalID: 1503548965426888103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_125
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f3aa2e1be141250800000000000000
+      internalID: 5914385960005156702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_126
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bbf5277ad9e5e80800000000000000
+      internalID: -8187933730009007242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_127
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d331cbb350f0cf0800000000000000
+      internalID: -284002497384465028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_128
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0a2a53a95b7d9c0800000000000000
+      internalID: -3902450878163803968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_129
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 150
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c51b118760475d0800000000000000
+      internalID: -3065818333569786805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfa123e820962620800000000000000
+      internalID: 2749043127839993787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_131
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74984dff15b77f350800000000000000
+      internalID: 6050440216510236999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_132
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a2f25a1e84078c0800000000000000
+      internalID: -4003619934756197788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_133
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff2829307e9c19d0800000000000000
+      internalID: -2802190663298830349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_134
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87d1710c8a7a1470800000000000000
+      internalID: 8366133999532365711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_135
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428745e798f0fb4c0800000000000000
+      internalID: -4269676838519539676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_136
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4722df387e04e00800000000000000
+      internalID: 1027075269114098888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_137
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ca9b97fca862f80800000000000000
+      internalID: -8131659453465777149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_138
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8a18be08ec1eb60800000000000000
+      internalID: 7773721484920465602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_139
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 75
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562e31a6536613e0800000000000000
+      internalID: -2083368553888733603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c25f129e7655bb80800000000000000
+      internalID: -8379696430035545405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_141
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf74cbecea96683e0800000000000000
+      internalID: -2051836380707010564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_142
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697077cea8b6642d0800000000000000
+      internalID: -3294827832958056554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_143
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c459254323a926c0800000000000000
+      internalID: -4167620608275163962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_144
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9da38fa8acef0f40800000000000000
+      internalID: 5697032262890270111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_145
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b5265118aba91e0800000000000000
+      internalID: -2190233205190010000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_146
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a024e4e6a48279680800000000000000
+      internalID: -8748479451000585718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_147
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7335ebd5b1a392e30800000000000000
+      internalID: 4479175193607951159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_148
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e7684bb426ff410800000000000000
+      internalID: 1513036077110558268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCircle_149
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc5fbbc654bcf550800000000000000
+      internalID: 6196025472233462966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GoldenCircle_0: -5163435538524002965
+      GoldenCircle_1: -2444561581607034147
+      GoldenCircle_10: 6688684612246185377
+      GoldenCircle_100: -3254945935077237449
+      GoldenCircle_101: 1681034097032344553
+      GoldenCircle_102: 5333602572251525096
+      GoldenCircle_103: -5419939727064274689
+      GoldenCircle_104: 3817762585255115884
+      GoldenCircle_105: 8330008695139978040
+      GoldenCircle_106: 6641687094437658209
+      GoldenCircle_107: -2331261832730132878
+      GoldenCircle_108: -8235209145682845590
+      GoldenCircle_109: 4205219589539297798
+      GoldenCircle_11: -3617976543583494880
+      GoldenCircle_110: 8514275234862157385
+      GoldenCircle_111: -2900918870888753813
+      GoldenCircle_112: 4378028142293323176
+      GoldenCircle_113: 8671740487320507626
+      GoldenCircle_114: -7008179680513107301
+      GoldenCircle_115: -7172064220362792
+      GoldenCircle_116: -7764193914038380657
+      GoldenCircle_117: -7408956661430537850
+      GoldenCircle_118: 4858499750129388183
+      GoldenCircle_119: 2954805677256518178
+      GoldenCircle_12: 7247489768647375468
+      GoldenCircle_120: 1904818046372869026
+      GoldenCircle_121: 6074659839426156116
+      GoldenCircle_122: 7744702839055660262
+      GoldenCircle_123: -4985618111504126950
+      GoldenCircle_124: 1503548965426888103
+      GoldenCircle_125: 5914385960005156702
+      GoldenCircle_126: -8187933730009007242
+      GoldenCircle_127: -284002497384465028
+      GoldenCircle_128: -3902450878163803968
+      GoldenCircle_129: -3065818333569786805
+      GoldenCircle_13: 447592958264365161
+      GoldenCircle_130: 2749043127839993787
+      GoldenCircle_131: 6050440216510236999
+      GoldenCircle_132: -4003619934756197788
+      GoldenCircle_133: -2802190663298830349
+      GoldenCircle_134: 8366133999532365711
+      GoldenCircle_135: -4269676838519539676
+      GoldenCircle_136: 1027075269114098888
+      GoldenCircle_137: -8131659453465777149
+      GoldenCircle_138: 7773721484920465602
+      GoldenCircle_139: -2083368553888733603
+      GoldenCircle_14: 8359326219452418088
+      GoldenCircle_140: -8379696430035545405
+      GoldenCircle_141: -2051836380707010564
+      GoldenCircle_142: -3294827832958056554
+      GoldenCircle_143: -4167620608275163962
+      GoldenCircle_144: 5697032262890270111
+      GoldenCircle_145: -2190233205190010000
+      GoldenCircle_146: -8748479451000585718
+      GoldenCircle_147: 4479175193607951159
+      GoldenCircle_148: 1513036077110558268
+      GoldenCircle_149: 6196025472233462966
+      GoldenCircle_15: 6647621359561656493
+      GoldenCircle_16: -399442385332630768
+      GoldenCircle_17: -458524656171364131
+      GoldenCircle_18: -6784233671438586751
+      GoldenCircle_19: -6124041349782772144
+      GoldenCircle_2: 5055232903149132024
+      GoldenCircle_20: -3770176633377079314
+      GoldenCircle_21: 8358149167590505998
+      GoldenCircle_22: -5782276463735505841
+      GoldenCircle_23: 836720750944488749
+      GoldenCircle_24: -2590409872181057153
+      GoldenCircle_25: 8636660812963132811
+      GoldenCircle_26: 8543142443729889878
+      GoldenCircle_27: 8714660054833134274
+      GoldenCircle_28: -5944485012679386214
+      GoldenCircle_29: -6522088901350601840
+      GoldenCircle_3: -6162788627245749449
+      GoldenCircle_30: 6488453167144537379
+      GoldenCircle_31: 3946619622657138193
+      GoldenCircle_32: -779763331344039721
+      GoldenCircle_33: 6158321439628246365
+      GoldenCircle_34: 3801427080099618197
+      GoldenCircle_35: 3818854913738849159
+      GoldenCircle_36: -2606990334075694294
+      GoldenCircle_37: -9044596987407347023
+      GoldenCircle_38: -8093990318832248949
+      GoldenCircle_39: 5508958478524927354
+      GoldenCircle_4: 8106354214185018130
+      GoldenCircle_40: -8533912381922611945
+      GoldenCircle_41: -1748217448900964841
+      GoldenCircle_42: -1471989980854591968
+      GoldenCircle_43: -1417325036624658336
+      GoldenCircle_44: 6577663062949861430
+      GoldenCircle_45: 5647420887268586243
+      GoldenCircle_46: 4701211453777599665
+      GoldenCircle_47: 3100636885179833764
+      GoldenCircle_48: -5455380646235562259
+      GoldenCircle_49: -7760821377979316119
+      GoldenCircle_5: -8228994796833041118
+      GoldenCircle_50: -2670615210341898240
+      GoldenCircle_51: 1259824764259980626
+      GoldenCircle_52: 1821565758446529274
+      GoldenCircle_53: 6446513236725895238
+      GoldenCircle_54: -2169078980943827823
+      GoldenCircle_55: -5277234292429654754
+      GoldenCircle_56: -2969225062089307298
+      GoldenCircle_57: 4999881992571012239
+      GoldenCircle_58: 8442228833684762247
+      GoldenCircle_59: 4849941328877757163
+      GoldenCircle_6: -620517891470920558
+      GoldenCircle_60: 6325390381608209829
+      GoldenCircle_61: 1653319268318600828
+      GoldenCircle_62: 3730025040017885625
+      GoldenCircle_63: -6289491477707536654
+      GoldenCircle_64: 8593649628559596798
+      GoldenCircle_65: -1747861424673469574
+      GoldenCircle_66: 8603698836503963662
+      GoldenCircle_67: 8070856467970101197
+      GoldenCircle_68: 5960489021613878671
+      GoldenCircle_69: -8012799576798079288
+      GoldenCircle_7: 5055310721891786774
+      GoldenCircle_70: 575026906510254772
+      GoldenCircle_71: 7861921185483375016
+      GoldenCircle_72: -3967006134349275127
+      GoldenCircle_73: 2573012147654583990
+      GoldenCircle_74: 3336992637882233753
+      GoldenCircle_75: -1578614614449266483
+      GoldenCircle_76: 2249733189280141968
+      GoldenCircle_77: 1801419223000853092
+      GoldenCircle_78: 9058960908138627942
+      GoldenCircle_79: -1449150621620011712
+      GoldenCircle_8: -1111882391040806701
+      GoldenCircle_80: 4242489286002167011
+      GoldenCircle_81: -5413616233235578836
+      GoldenCircle_82: -4361661253339485231
+      GoldenCircle_83: 6093984498900764422
+      GoldenCircle_84: 391000024803023078
+      GoldenCircle_85: -4484197469699793075
+      GoldenCircle_86: -2533956799811606691
+      GoldenCircle_87: 5138145153938992815
+      GoldenCircle_88: 664042315184447250
+      GoldenCircle_89: 672264947544428222
+      GoldenCircle_9: -520636836211095245
+      GoldenCircle_90: -7106249338947463270
+      GoldenCircle_91: 4087902002873492756
+      GoldenCircle_92: -6438649354600325659
+      GoldenCircle_93: -574201407893897504
+      GoldenCircle_94: -4658194193052122630
+      GoldenCircle_95: 2918985374966419181
+      GoldenCircle_96: -2174268553388148301
+      GoldenCircle_97: 6243302333638442959
+      GoldenCircle_98: 943848933041938457
+      GoldenCircle_99: 6467855786907896571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

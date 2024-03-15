@@ -1,0 +1,364 @@
+{"frames": {
+
+"Red-Star-in-Circle-Pulsates_00000.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00001.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00002.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00003.png":
+{
+	"frame": {"x":360,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00004.png":
+{
+	"frame": {"x":0,"y":60,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00005.png":
+{
+	"frame": {"x":120,"y":60,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00006.png":
+{
+	"frame": {"x":240,"y":60,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00007.png":
+{
+	"frame": {"x":360,"y":60,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00008.png":
+{
+	"frame": {"x":0,"y":120,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00009.png":
+{
+	"frame": {"x":120,"y":120,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00010.png":
+{
+	"frame": {"x":240,"y":120,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00011.png":
+{
+	"frame": {"x":360,"y":120,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00012.png":
+{
+	"frame": {"x":0,"y":180,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00013.png":
+{
+	"frame": {"x":120,"y":180,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00014.png":
+{
+	"frame": {"x":240,"y":180,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00015.png":
+{
+	"frame": {"x":360,"y":180,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00016.png":
+{
+	"frame": {"x":0,"y":240,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00017.png":
+{
+	"frame": {"x":120,"y":240,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00018.png":
+{
+	"frame": {"x":240,"y":240,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00019.png":
+{
+	"frame": {"x":360,"y":240,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00020.png":
+{
+	"frame": {"x":0,"y":300,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00021.png":
+{
+	"frame": {"x":120,"y":300,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00022.png":
+{
+	"frame": {"x":240,"y":300,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00023.png":
+{
+	"frame": {"x":360,"y":300,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00024.png":
+{
+	"frame": {"x":0,"y":360,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00025.png":
+{
+	"frame": {"x":120,"y":360,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00026.png":
+{
+	"frame": {"x":240,"y":360,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00027.png":
+{
+	"frame": {"x":360,"y":360,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00028.png":
+{
+	"frame": {"x":0,"y":420,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00029.png":
+{
+	"frame": {"x":120,"y":420,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00030.png":
+{
+	"frame": {"x":240,"y":420,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00031.png":
+{
+	"frame": {"x":360,"y":420,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00032.png":
+{
+	"frame": {"x":0,"y":480,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00033.png":
+{
+	"frame": {"x":120,"y":480,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00034.png":
+{
+	"frame": {"x":240,"y":480,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00035.png":
+{
+	"frame": {"x":360,"y":480,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00036.png":
+{
+	"frame": {"x":0,"y":540,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00037.png":
+{
+	"frame": {"x":120,"y":540,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00038.png":
+{
+	"frame": {"x":240,"y":540,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00039.png":
+{
+	"frame": {"x":360,"y":540,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00040.png":
+{
+	"frame": {"x":0,"y":600,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00041.png":
+{
+	"frame": {"x":120,"y":600,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00042.png":
+{
+	"frame": {"x":240,"y":600,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"Red-Star-in-Circle-Pulsates_00043.png":
+{
+	"frame": {"x":360,"y":600,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "RedStarInCirclePulsates.png",
+	"format": "RGBA8888",
+	"size": {"w":480,"h":660},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8c76fc5b83e79bacf695da15ec640179$"
+}
+}
