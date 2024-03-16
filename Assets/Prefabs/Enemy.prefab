@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76dc19b2a12f8a84d90f6bfa5364d3e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fixedClip: {fileID: 8300000, guid: 4e356d8e36201c14da953082c4d569ab, type: 3}
+  smokeEffect: {fileID: 0}
   speed: 0
   vertical: 0
   changeTime: 3

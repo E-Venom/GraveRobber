@@ -214,6 +214,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -227,7 +240,7 @@ TextureImporter:
         height: 256
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -284,7 +297,7 @@ TextureImporter:
       name: RubyRunSide4
       rect:
         serializedVersion: 2
-        x: 768
+        x: 766
         y: 1280
         width: 256
         height: 256
@@ -389,8 +402,8 @@ TextureImporter:
       name: RubyRunDown1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
+        x: 3
+        y: 765
         width: 256
         height: 256
       alignment: 7
