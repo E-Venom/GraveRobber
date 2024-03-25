@@ -2,7 +2,7 @@
     <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIHealthFrame.png?fileID=2800000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&apos;); width: 276px; height: 166px; -unity-background-scale-mode: scale-to-fit;">
         <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; width: 154px; height: 43px; position: absolute; top: 58px; left: 113px;">
             <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&apos;); width: 100%; height: 100%;" />
+            <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/Greg/GregHeadRight.png?fileID=21300000&amp;guid=04a1701d4ad9d064880982386485490c&amp;type=3#GregHeadRight&apos;); -unity-background-scale-mode: scale-to-fit; height: 288px; width: 1541px; position: absolute; top: -86px; left: -818px;" />
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&apos;); -unity-background-scale-mode: scale-to-fit; height: 108px; width: 144px; position: absolute; top: 28px; left: 6px;" />
 </ui:UXML>
