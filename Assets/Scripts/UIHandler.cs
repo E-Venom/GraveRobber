@@ -29,7 +29,15 @@ public class UIHandler : MonoBehaviour
         m_Healthbar = uiDocument.rootVisualElement.Q<VisualElement>("HealthBar");
         SetHealthValue(1.0f);
         m_NonPlayerDialogue = uiDocument.rootVisualElement.Q<VisualElement>("NPCDialogue");
-        //m_NonPlayerDialogue.style.display = DisplayStyle.None;  TODO TODO TODO throws null pointer! 
+        if (m_NonPlayerDialogue == null)
+        {
+            //Debug.LogError("NPCDialogue VisualElement not found!");TO DO NEED TO FIX NPC DIALOGUE
+            return;
+        }
+        else
+        {
+            m_NonPlayerDialogue.style.display = DisplayStyle.None;
+        }
         m_TimerDisplay = -1.0f;
     }
 

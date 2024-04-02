@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public InputAction talkAction;
     public InputAction launchAction;
     public InputAction digAction;
+    public InputAction meleeAction;
     public GameObject projectilePrefab;
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
@@ -38,6 +39,9 @@ public class PlayerController : MonoBehaviour
     // player alive bool
     bool isDead = false;
 
+    // player not fighting w/melee
+    bool isMelee = false;
+
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
@@ -55,6 +59,10 @@ public class PlayerController : MonoBehaviour
         digAction.Enable();
         digAction.performed += Dig; // if player executes digAction with corresponding
                                     // input key, call Dig
+
+        meleeAction.Enable();
+        meleeAction.performed += Melee; // if player executes meleeAction with corresponding
+                                        // input key, call Melee
 
 
         animator = GetComponent<Animator>();
@@ -165,6 +173,21 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.6f); 
         animator.SetBool("IsDigging", false);
     }
+
+    void Melee(InputAction.CallbackContext context)
+    {
+        animator.SetBool("IsMelee", true);
+        StartCoroutine(StopMelee());
+    }
+
+    // stops player animation for digging
+    IEnumerator StopMelee()
+    {
+        yield return new WaitForSeconds(0.1f);
+        animator.SetBool("IsMelee", false);
+    }
+
+    // player displays npc dialogue  
     void FindFriend(InputAction.CallbackContext context)
     {
         // Projects Raycast from player that if collides with NPC opens up dialog
