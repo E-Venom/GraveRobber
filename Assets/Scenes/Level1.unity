@@ -10380,25 +10380,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1182666591400297225, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Size.x
-      value: 1.9134953
+      value: 1.045016
       objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Size.y
-      value: 2.1039066
+      value: 1.4746823
       objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Offset.x
-      value: 0.6902423
+      value: 0.72971857
       objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Offset.y
-      value: -3.0733476
+      value: -2.8636062
       objectReference: {fileID: 0}
     - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Name
       value: GregFullBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7438881024405769922, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_LocalScale.x
@@ -10452,6 +10460,14 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 109020913043429632, guid: 2e03bc9ad103dee4d87e77f8db73069e, type: 3}
+    - target: {fileID: 8695307776422896227, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695307776422896227, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93503,15 +93519,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1905177131538146171, guid: 5f839d7f9a6d7ab42831725fe5365020, type: 3}
       propertyPath: MaxDistance
-      value: 11.347567
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -1905177131538146171, guid: 5f839d7f9a6d7ab42831725fe5365020, type: 3}
       propertyPath: MinDistance
-      value: 1.5828247
+      value: 2.107994
       objectReference: {fileID: 0}
     - target: {fileID: -1905177131538146171, guid: 5f839d7f9a6d7ab42831725fe5365020, type: 3}
       propertyPath: rolloffMode
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1905177131538146171, guid: 5f839d7f9a6d7ab42831725fe5365020, type: 3}
       propertyPath: rolloffCustomCurve.m_Curve.Array.size
