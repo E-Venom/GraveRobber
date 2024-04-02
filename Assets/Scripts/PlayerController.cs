@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
     public int health { get{ return currentHealth;}}
     int currentHealth;
 
+    // player alive bool
+    bool isDead = false;
+
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
@@ -53,25 +56,28 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
+        if (isDead == false)
         {
-            moveDirection.Set(move.x, move.y);
-            moveDirection.Normalize();
-        }
-        animator.SetFloat("Look X", moveDirection.x);
-        animator.SetFloat("Look Y", moveDirection.y);
-        animator.SetFloat("Speed", move.magnitude);
-
-        if (isInvincible)
-        {
-            damgeCooldown -= Time.deltaTime;
-            if (damgeCooldown < 0)
+            if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
             {
-                isInvincible = false;
+                moveDirection.Set(move.x, move.y);
+                moveDirection.Normalize();
             }
+            animator.SetFloat("Look X", moveDirection.x);
+            animator.SetFloat("Look Y", moveDirection.y);
+            animator.SetFloat("Speed", move.magnitude);
+
+            if (isInvincible)
+            {
+                damgeCooldown -= Time.deltaTime;
+                if (damgeCooldown < 0)
+                {
+                    isInvincible = false;
+                }
+            }
+            move = playerMovement.ReadValue<Vector2>();
+            UnityEngine.Debug.Log(move);
         }
-        move = playerMovement.ReadValue<Vector2>();
-        UnityEngine.Debug.Log(move);
     }
     void FixedUpdate()
     {
@@ -91,9 +97,35 @@ public class PlayerController : MonoBehaviour
             damgeCooldown = timeInvincible;
             animator.SetTrigger("Hit");
         }
+
+        // update player's current health (will get passed -1 for amount)
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth); 
+        UnityEngine.Debug.Log("current health is: " + currentHealth);
+
+        // update GUI health bar to reflect change in player's health
+        UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth);
+
+        // Check whether player should die after update of health
+        // (player dies when currentHealth = 0)
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
     }
+
+    // plays death animation, stops player from moving and removes player's colliders
+    public void Die()
+    {
+        isDead = true;
+        animator.SetTrigger("Die");
+
+        // Stop any current movement
+        rigidbody2d.velocity = Vector2.zero;
+
+        // Disable collider
+        GetComponent<Collider2D>().enabled = false;                                                 
+    }
+
     void Launch(InputAction.CallbackContext context)
     {
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.25f, Quaternion.identity);
