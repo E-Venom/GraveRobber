@@ -10380,6 +10380,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_Size.x
+      value: 1.9134953
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1039066
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.6902423
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: m_Offset.y
+      value: -3.0733476
+      objectReference: {fileID: 0}
     - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Name
       value: GregFullBody
@@ -10432,6 +10448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 109020913043429632, guid: 2e03bc9ad103dee4d87e77f8db73069e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
