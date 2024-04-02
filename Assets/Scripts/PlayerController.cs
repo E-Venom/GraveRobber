@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public InputAction talkAction;
     public InputAction launchAction;
+    public InputAction digAction;
     public GameObject projectilePrefab;
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
@@ -41,12 +42,21 @@ public class PlayerController : MonoBehaviour
     {
         audiosource = GetComponent<AudioSource>();
 
-        // if player executes talkAction, call FindFriend
-        talkAction.performed += FindFriend;
-
+        
         talkAction.Enable();
+        talkAction.performed += FindFriend; // if player executes talkAction with corresponding
+                                            // input key, call FindFriend
+
+
         launchAction.Enable();
-        launchAction.performed += Launch;
+        launchAction.performed += Launch; // if player executes launchAction with corresponding
+                                          // input key, call Launch
+
+        digAction.Enable();
+        digAction.performed += Dig; // if player executes digAction with corresponding
+                                    // input key, call Dig
+
+
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         playerMovement.Enable();
@@ -76,14 +86,21 @@ public class PlayerController : MonoBehaviour
                 }
             }
             move = playerMovement.ReadValue<Vector2>();
-            UnityEngine.Debug.Log(move);
         }
     }
     void FixedUpdate()
     {
-        speed = 3.0f;
-        Vector2 newPosition1 = rigidbody2d.position + move * speed * Time.deltaTime;
-        rigidbody2d.MovePosition(newPosition1);
+        // if player is dead set speed to 0 to prevent movement 
+        if (isDead == true)
+        {
+            speed = 0;
+        }
+        else
+        {
+            speed = 3.0f;
+            Vector2 newPosition1 = rigidbody2d.position + move * speed * Time.deltaTime;
+            rigidbody2d.MovePosition(newPosition1);
+        }
     }
     public void ChangeHealth(int amount)
     {
@@ -100,7 +117,6 @@ public class PlayerController : MonoBehaviour
 
         // update player's current health (will get passed -1 for amount)
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        UnityEngine.Debug.Log("current health is: " + currentHealth);
 
         // update GUI health bar to reflect change in player's health
         UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth);
@@ -109,6 +125,7 @@ public class PlayerController : MonoBehaviour
         // (player dies when currentHealth = 0)
         if(currentHealth <= 0)
         {
+            // kill player
             Die();
         }
     }
@@ -119,19 +136,34 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         animator.SetTrigger("Die");
 
-        // Stop any current movement
+        // stop any current movement
         rigidbody2d.velocity = Vector2.zero;
 
-        // Disable collider
+        // disable player's collider
         GetComponent<Collider2D>().enabled = false;                                                 
     }
 
+    // launches projectile from player
     void Launch(InputAction.CallbackContext context)
     {
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.25f, Quaternion.identity);
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(moveDirection, 300);
         animator.SetTrigger("Launch");
+    }
+
+    // activates player animation for digging
+    void Dig(InputAction.CallbackContext context)
+    {
+        animator.SetBool("IsDigging", true);
+        StartCoroutine(StopDigging());
+    }
+
+    // stops player animation for digging
+    IEnumerator StopDigging()
+    {
+        yield return new WaitForSeconds(0.6f); 
+        animator.SetBool("IsDigging", false);
     }
     void FindFriend(InputAction.CallbackContext context)
     {

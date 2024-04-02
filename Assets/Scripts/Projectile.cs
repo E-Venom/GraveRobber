@@ -16,7 +16,6 @@ public class Projectile : MonoBehaviour
     // destroy projectile if moved beyond 100.0f from position = center of the game world
     void Update()
     {
-        UnityEngine.Debug.Log("magnitude: " + transform.position.magnitude);
         if(transform.position.magnitude > 50.0f)
         {
             Destroy(gameObject);
