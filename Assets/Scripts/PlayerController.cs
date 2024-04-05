@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public InputAction digAction;
     public InputAction meleeAction;
     public GameObject projectilePrefab;
+
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
 
@@ -44,25 +45,25 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        // AudioSource component used to PlayOneShot, all the one-time in-game sounds
         audiosource = GetComponent<AudioSource>();
 
-        
         talkAction.Enable();
         talkAction.performed += FindFriend; // if player executes talkAction with corresponding
-                                            // input key, call FindFriend
+                                            // input key, call FindFriend()
 
 
         launchAction.Enable();
         launchAction.performed += Launch; // if player executes launchAction with corresponding
-                                          // input key, call Launch
+                                          // input key, call Launch()
 
         digAction.Enable();
         digAction.performed += Dig; // if player executes digAction with corresponding
-                                    // input key, call Dig
+                                    // input key, call Dig()
 
         meleeAction.Enable();
         meleeAction.performed += Melee; // if player executes meleeAction with corresponding
-                                        // input key, call Melee
+                                        // input key, call Melee()
 
 
         animator = GetComponent<Animator>();
@@ -103,6 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             speed = 0;
         }
+        // otherwise move player normally
         else
         {
             speed = 3.0f;
@@ -110,6 +112,8 @@ public class PlayerController : MonoBehaviour
             rigidbody2d.MovePosition(newPosition1);
         }
     }
+    // updates player's currentHealth as well as player health gui to reflect player's 
+    // currentHealth, kills player if player's currentHealth is 0
     public void ChangeHealth(int amount)
     {
         if (amount < 0)
@@ -170,6 +174,7 @@ public class PlayerController : MonoBehaviour
     // stops player animation for digging
     IEnumerator StopDigging()
     {
+        // waits for 0.6 seconds till digging animation stops then sets isDiggin bool to false
         yield return new WaitForSeconds(0.6f); 
         animator.SetBool("IsDigging", false);
     }
@@ -183,9 +188,11 @@ public class PlayerController : MonoBehaviour
     // stops player animation for digging
     IEnumerator StopMelee()
     {
+        // waits 0.1 seconds till Melee animation ends then sets Melee bool to false
         yield return new WaitForSeconds(0.1f);
         animator.SetBool("IsMelee", false);
     }
+
 
     // player displays npc dialogue  
     void FindFriend(InputAction.CallbackContext context)
