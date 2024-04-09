@@ -118,6 +118,24 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  digAction:
+    m_Name: Dig
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 66586795-051a-4819-ab95-eb72870147ee
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  meleeAction:
+    m_Name: Melee
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: df808417-5b02-46ca-a499-e51a1c5c308d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   projectilePrefab: {fileID: 0}
   timeInvincible: 2
   playerMovement:
