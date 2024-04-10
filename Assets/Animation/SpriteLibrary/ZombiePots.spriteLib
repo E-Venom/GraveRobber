@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Zombie3_1
+      m_Hash: 904521280
+      m_Sprite: {fileID: 263401771, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1570922657, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_2
+      m_Hash: 752924666
+      m_Sprite: {fileID: 1583407790, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -2121227088, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_3
+      m_Hash: 468158316
+      m_Sprite: {fileID: 1691542216, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -770483782, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_4
+      m_Hash: 92476111
+      m_Sprite: {fileID: 1844133215, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 865852933, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_5
+      m_Hash: 847520345
+      m_Sprite: {fileID: 1894101923, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1548089045, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_6
+      m_Hash: 730690531
+      m_Sprite: {fileID: 1928836394, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1275929704, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Moving
+    m_Hash: 949806512
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Zombie3_7
+      m_Hash: 478823285
+      m_Sprite: {fileID: 145845860, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -2083815174, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_8
+      m_Hash: 204824292
+      m_Sprite: {fileID: -921439718, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1460039912, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_9
+      m_Hash: 993160818
+      m_Sprite: {fileID: 1486799253, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1409932385, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_10
+      m_Hash: 41056087
+      m_Sprite: {fileID: -2100357628, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 341143920, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_11
+      m_Hash: 896878529
+      m_Sprite: {fileID: -434537466, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1521203802, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_12
+      m_Hash: 746329723
+      m_Sprite: {fileID: -1931219746, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -971874539, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_13
+      m_Hash: 461055725
+      m_Sprite: {fileID: -319814935, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1403088665, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_14
+      m_Hash: 85963598
+      m_Sprite: {fileID: -2002691742, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1925057140, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_15
+      m_Hash: 840467416
+      m_Sprite: {fileID: 616475365, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1737662837, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_16
+      m_Hash: 722588258
+      m_Sprite: {fileID: 554880168, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1002057390, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_17
+      m_Hash: 471261940
+      m_Sprite: {fileID: 965305984, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 589500015, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_18
+      m_Hash: 212467557
+      m_Sprite: {fileID: -1913477891, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 344221680, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_19
+      m_Hash: 1001312243
+      m_Sprite: {fileID: 1693061443, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 57781065, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_20
+      m_Hash: 694101140
+      m_Sprite: {fileID: 1903477016, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -735785613, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 14
+  - m_Name: Attack
+    m_Hash: 7088141
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Zombie3_21
+      m_Hash: 509088770
+      m_Sprite: {fileID: -888391804, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1563761338, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_22
+      m_Hash: 122766776
+      m_Sprite: {fileID: 1211309984, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -483584125, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_23
+      m_Hash: 810972462
+      m_Sprite: {fileID: -946407373, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 405292274, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_24
+      m_Hash: 775086221
+      m_Sprite: {fileID: 899259157, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1520827191, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_25
+      m_Hash: 422957083
+      m_Sprite: {fileID: 796960088, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1623048545, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_26
+      m_Hash: 3965345
+      m_Sprite: {fileID: -1682071009, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1188944093, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_27
+      m_Hash: 926658871
+      m_Sprite: {fileID: 47423431, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -122024858, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie2_28
+      m_Hash: 523815875
+      m_Sprite: {fileID: 869206651, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 869206651, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: Rise
+    m_Hash: 1049384824
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Zombie3_28
+      m_Hash: 663006374
+      m_Sprite: {fileID: 1902194311, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1187862339, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_29
+      m_Hash: 277060656
+      m_Sprite: {fileID: 1202551748, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1791077592, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_30
+      m_Hash: 809768405
+      m_Sprite: {fileID: -1996664792, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -26889401, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_31
+      m_Hash: 121840963
+      m_Sprite: {fileID: -168315282, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -905365697, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_32
+      m_Hash: 508196089
+      m_Sprite: {fileID: 461988914, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1124084500, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_33
+      m_Hash: 692929647
+      m_Sprite: {fileID: -1910201494, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1660975113, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_34
+      m_Hash: 925487564
+      m_Sprite: {fileID: 1182687811, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -32308253, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_35
+      m_Hash: 3072346
+      m_Sprite: {fileID: -2093280118, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 353808808, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: Die
+    m_Hash: 20298039
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Zombie3_36
+      m_Hash: 422031584
+      m_Sprite: {fileID: -2023328185, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -260181681, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_37
+      m_Hash: 773881974
+      m_Sprite: {fileID: 1341461531, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -935636604, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_38
+      m_Hash: 1050648039
+      m_Sprite: {fileID: 838902534, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -2115518097, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_39
+      m_Hash: 161000817
+      m_Sprite: {fileID: -1474862039, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1195303944, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    - m_Name: Zombie3_40
+      m_Hash: 1057325842
+      m_Sprite: {fileID: 169757552, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 996079467, guid: 67a54b22ba52c6e48bfe5d12c358888b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 5
+  m_PrimaryLibraryGUID: a329c93d6e3092a48adf619fa4b9c343
+  m_ModificationHash: 638483456679050737
+  m_Version: 1
