@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="GameUI" src="project://database/Assets/GameUI.uxml?fileID=9197481963319205126&amp;guid=6ffdf3953e33ced4ba920967a708e408&amp;type=3#GameUI" />
     <ui:Instance template="GameUI" name="GameUI" />
-    <ui:VisualElement name="TreasureChestBackground" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&apos;); height: 50%; width: 50%;" />
+    <ui:Instance template="GameUI" name="TreasureChestUI" />
 </ui:UXML>
