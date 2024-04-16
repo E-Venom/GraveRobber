@@ -1,8 +1,8 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=45b5c7e2c69254cb991a0766d39a1870&amp;type=3#MainMenuStyle" />
     <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/background.jpg?fileID=21300000&amp;guid=b3566fa7255bc4408aa313e9966d4c7a&amp;type=3#background&apos;);">
-        <ui:Label tabindex="-1" text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="height: 58px;" />
-        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" style="background-image: url(&apos;project://database/Assets/Art/Greg/Still%20Art/MonsterHandsMenu4.png?fileID=21300000&amp;guid=48809269efa491546baac24b0bbd49e0&amp;type=3#MonsterHandsMenu4&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; -unity-slice-scale: 2px; margin-top: 50px; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Label tabindex="-1" text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" />
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGameButton" class="button" style="-unity-background-scale-mode: stretch-to-fill;" />
         <ui:Button text="How to Play" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
     </ui:VisualElement>
 </ui:UXML>
