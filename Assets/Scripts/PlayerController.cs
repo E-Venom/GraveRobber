@@ -158,10 +158,24 @@ public class PlayerController : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;                                                 
     }
 
-    // launches projectile from player
+    // Launches shovel projectile in direction of player's movement
     void Launch(InputAction.CallbackContext context)
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.25f, Quaternion.identity);
+        // Instantiate the projectile at a position slightly above the player
+        Vector2 spawnOffset = Vector2.up * 0.25f;
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + spawnOffset, Quaternion.identity);
+
+        // Calculate rotation based on the move direction
+        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+
+        // Since the sprite faces left by default and right is considered 0 degrees,
+        // we need to adjust the angle by adding 180 degrees to flip it horizontally.
+        Quaternion rotation = Quaternion.Euler(0, 0, angle + 180);
+
+        // Set projectile rotation
+        projectileObject.transform.rotation = rotation;
+
+        // Launch the projectile
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(moveDirection, 300);
         animator.SetTrigger("Launch");

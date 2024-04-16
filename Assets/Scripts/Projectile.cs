@@ -27,6 +27,7 @@ public class Projectile : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("Shovel collide with: " + other);
         EnemyController enemy = other.collider.GetComponent<EnemyController>();
 
         if (enemy != null)
