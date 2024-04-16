@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2796876786817278950}
   - component: {fileID: 8272169015930410699}
   - component: {fileID: 2775102414968174812}
+  - component: {fileID: -2107738032258711675}
   m_Layer: 0
   m_Name: EnemyMaster
   m_TagString: Untagged
@@ -166,3 +167,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2107738032258711675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555040279057750141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110e1c157053c734e9393c8b24be3313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 0.25
+  attackRange: 1
+  attackCooldown: 2
