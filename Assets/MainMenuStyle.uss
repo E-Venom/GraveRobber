@@ -1,0 +1,17 @@
+.header {
+    font-size: 40px;
+    color: rgb(245, 245, 245);
+}
+
+.button {
+    font-size: 20px;
+    width: 220px;
+    height: 60px;
+    align-self: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url('project://database/Assets/Art/Greg/Still%20Art/MonsterHandsMenu4.png?fileID=21300000&guid=48809269efa491546baac24b0bbd49e0&type=3#MonsterHandsMenu4');
+    -unity-background-scale-mode: scale-and-crop;
+}
