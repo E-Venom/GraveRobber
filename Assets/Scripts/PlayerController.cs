@@ -38,10 +38,13 @@ public class PlayerController : MonoBehaviour
     int currentHealth;
 
     // player alive bool
-    bool isDead = false;
+    public bool isDead = false;
+
+    // player not digging
+    public bool isDigging = false;
 
     // player not fighting w/melee
-    bool isMelee = false;
+    public bool isMelee = false;
 
     void Start()
     {
@@ -167,6 +170,7 @@ public class PlayerController : MonoBehaviour
     // activates player animation for digging
     void Dig(InputAction.CallbackContext context)
     {
+        isDigging = true;
         animator.SetBool("IsDigging", true);
         StartCoroutine(StopDigging());
     }
@@ -175,12 +179,14 @@ public class PlayerController : MonoBehaviour
     IEnumerator StopDigging()
     {
         // waits for 0.6 seconds till digging animation stops then sets isDiggin bool to false
-        yield return new WaitForSeconds(0.6f); 
+        yield return new WaitForSeconds(0.6f);
+        isDigging = false;
         animator.SetBool("IsDigging", false);
     }
 
     void Melee(InputAction.CallbackContext context)
     {
+        isMelee = true;
         animator.SetBool("IsMelee", true);
         StartCoroutine(StopMelee());
     }
@@ -190,6 +196,7 @@ public class PlayerController : MonoBehaviour
     {
         // waits 0.1 seconds till Melee animation ends then sets Melee bool to false
         yield return new WaitForSeconds(0.1f);
+        isMelee = false;
         animator.SetBool("IsMelee", false);
     }
 

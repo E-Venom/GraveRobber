@@ -4,18 +4,24 @@ using UnityEngine;
 public class TreasureChest : MonoBehaviour
 {
     public float launchForce = 200f;
-    public Vector2 launchDirection = new Vector2(1, 2);
+    public Vector2 launchDirection;
 
     // Duration of the scaling animation
     public float scaleDuration = 0.5f;
 
     // Time in seconds before turning off gravity so chest doesn't fall off screen
-    public float gravityOffDelay = 1.5f; 
+    public float gravityOffDelay = 1.0f; 
 
     private Rigidbody2D rb;
 
     void Start()
     {
+        // generate random float for use in treasure chest launch direction
+        float randomX = Random.Range(-1, 2);
+
+        // set direction for treasure chest launch utilizing random generated x direction
+        launchDirection = new Vector2(randomX, 2);
+
         rb = GetComponent<Rigidbody2D>();
 
         // Apply a force to launch the chest
