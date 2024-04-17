@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;  // Add this namespace for scene management
 
 public class MainMenuEvents : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void Awake()
     {
+         
         _document = GetComponent<UIDocument>();
         _audioSource = GetComponent<AudioSource>();
 
@@ -65,6 +67,7 @@ public class MainMenuEvents : MonoBehaviour
     private void OnPlayGameClick(ClickEvent evt)
     {
         Debug.Log("You pressed the Start Button");
+        SceneManager.LoadScene("Level1");  // Add this line to load 'Level1' when the start button is pressed
     }
 
     private void OnAllButtonsClick(ClickEvent evt)
