@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=45b5c7e2c69254cb991a0766d39a1870&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/background_howToPlay.png?fileID=21300000&amp;guid=d87c69ec0a66a481486adb4c11949186&amp;type=3#background_howToPlay&apos;);">
+        <ui:Label tabindex="-1" text="How to Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="color: rgb(255, 255, 255); font-size: 130px;">
+            <ui:Label tabindex="-1" text="How to Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="color: rgb(69, 140, 82); align-self: center; font-size: 130px;" />
+        </ui:Label>
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGameButton" class="button" style="-unity-background-scale-mode: stretch-to-fill; position: absolute; left: auto; bottom: 3%; right: 2%;" />
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" class="button" style="left: 2%; bottom: 3%; position: absolute; right: auto;" />
+    </ui:VisualElement>
+</ui:UXML>
