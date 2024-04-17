@@ -3696,59 +3696,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7438881024405769922, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
   m_PrefabInstance: {fileID: 643758345}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &246862631
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 246862633}
-  - component: {fileID: 246862632}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &246862632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246862631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d99968d347b7844559ac4dd243c066cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 5080870270469982716, guid: 5f839d7f9a6d7ab42831725fe5365020, type: 3}
-  spawnInterval: 2
-  playerTransform: {fileID: 245938469}
-  mapLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  finalChestCollected: 0
-  spriteLibrary: {fileID: 0}
-  enemyRefs: []
---- !u!4 &246862633
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246862631}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.65399, y: -1.4761631, z: -0.19904083}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &255237559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8286,7 +8233,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.774462, y: 37.82727, z: -20}
+  m_LocalPosition: {x: 19.387775, y: 37.813667, z: -20}
   m_LocalScale: {x: 1.1083, y: 1.0583, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
