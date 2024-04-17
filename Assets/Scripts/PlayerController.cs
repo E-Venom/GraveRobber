@@ -181,6 +181,23 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("Launch");
     }
 
+    // when enemy attacks player, enemy collider is activated in an animations event
+    // the collider causes a collision with player's collider, on collision
+    // health is taken off of player
+    void OnCollisionEnter2D(Collision2D other)
+    {
+
+        // gets player object that enemy collided with
+        EnemySeeker enemy = other.gameObject.GetComponent<EnemySeeker>();
+
+        // if player object exists
+        if (enemy != null)
+        {
+            // call function in PlayerController to take health off of player
+            ChangeHealth(-1);
+        }
+    }
+
     // activates player animation for digging
     void Dig(InputAction.CallbackContext context)
     {

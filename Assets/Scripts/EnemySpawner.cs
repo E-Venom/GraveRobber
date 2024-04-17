@@ -30,9 +30,12 @@ public class EnemySpawner : MonoBehaviour
     // use to create an array of enemy sprite variations from sprite library
     public SpriteLibraryAsset[] enemyRefs;
 
+    // enemies alive state
+    public bool isDead = false;
+
     private void Start()
     {
-        mainCamera = Camera.main; 
+        mainCamera = Camera.main;
     }
 
     private void Update()

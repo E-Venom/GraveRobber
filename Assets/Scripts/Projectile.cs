@@ -27,14 +27,24 @@ public class Projectile : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Shovel collided with: " + other);
-        EnemyController enemy = other.collider.GetComponent<EnemyController>();
+        Debug.Log("Projectile collided with: " + other.gameObject.name);
+        EnemySeeker enemy = other.collider.GetComponent<EnemySeeker>();
 
         if (enemy != null)
         {
-            enemy.Fix();
-        }
+            if (!enemy.isDead)
+            {
+                enemy.enemyChangeHealth(-1);
+                // if enemy health <= zero, kill enemy
+                if (enemy.enemyHealth <= 0)  
 
-        Destroy(gameObject);
+                {
+                    enemy.Die();
+                }
+            }
+        }
+        // destroy projectile
+        Destroy(gameObject);  
+
     }
 }
