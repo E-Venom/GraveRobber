@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class MainMenuEvents : MonoBehaviour
+public class HowToPlayMenu : MonoBehaviour
 {
     private UIDocument _document;
     private Button _startButton;
-    private Button _howToPlayButton;
+    private Button _backButton;
     private List<Button> _menuButtons = new List<Button>();
 
     private AudioSource _audioSource;
@@ -41,16 +41,15 @@ public class MainMenuEvents : MonoBehaviour
             Debug.LogError("StartGameButton not found!");
         }
 
-
-        // Initialize the how to play button
-        _howToPlayButton = _document.rootVisualElement.Q<Button>("HowToPlayButton");
-        if (_howToPlayButton != null)
+        // Initialize the back button
+        _backButton = _document.rootVisualElement.Q<Button>("BackButton");
+        if (_backButton != null)
         {
-            _howToPlayButton.RegisterCallback<ClickEvent>(OnHowToPlayClick);
+            _backButton.RegisterCallback<ClickEvent>(OnBackButtonClick);
         }
         else
         {
-            Debug.LogError("HowToPlayButton not found!");
+            Debug.LogError("BackButton not found!");
         }
 
         // Initialize all menu buttons for general purpose if needed
@@ -67,10 +66,11 @@ public class MainMenuEvents : MonoBehaviour
         {
             _startButton.UnregisterCallback<ClickEvent>(OnPlayGameClick);
         }
-        if (_howToPlayButton != null)
+        if (_backButton != null)
         {
-            _howToPlayButton.UnregisterCallback<ClickEvent>(OnHowToPlayClick);
+            _backButton.UnregisterCallback<ClickEvent>(OnBackButtonClick);
         }
+
         foreach (Button button in _menuButtons)
         {
             button.UnregisterCallback<ClickEvent>(OnAllButtonsClick);
@@ -83,10 +83,10 @@ public class MainMenuEvents : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
-    private void OnHowToPlayClick(ClickEvent evt)
+    private void OnBackButtonClick(ClickEvent evt)
     {
         _audioSource.Play();
-        SceneManager.LoadScene("HowToPlay"); // Change "HowToPlay" to your How To Play scene's name
+        SceneManager.LoadScene("Main"); // Change "Main" to your main scene's name
     }
 
     private void OnAllButtonsClick(ClickEvent evt)
