@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class EnemySeeker : MonoBehaviour
 {
+    // used when enemy attacks player
+    public Collider2D attackCollider;
+
     // get's players position
     public Transform player;
 
     // enemy move speed
     public float moveSpeed = 0.25f;
+
+    // regular enemy health
+    public int enemyHealth = 5;
     
     // range from player to have enemy start their attack
     public float attackRange = 1f;
@@ -26,13 +32,17 @@ public class EnemySeeker : MonoBehaviour
     private Animator animator;  
 
     // used to check enemy instance's alive state
-    private bool isDead = false;
+    public bool isDead = false;
     
     // used for fading enemy sprite when enemy dies
     private SpriteRenderer spriteRenderer;
 
     void Start()
     {
+        // start attack collider in enemy animations as disabled
+        if (attackCollider != null)
+            attackCollider.enabled = false;  
+
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>(); 
         if (player == null)
@@ -87,6 +97,7 @@ public class EnemySeeker : MonoBehaviour
     void Attack()
     {
         animator.SetBool("isAttacking", true);
+        EnableAttackCollider();
         lastAttackTime = Time.time;
         animator.SetBool("isMoving", false);
         animator.SetBool("isIdle", true);
@@ -104,6 +115,7 @@ public class EnemySeeker : MonoBehaviour
         yield return new WaitForSeconds(delay);
         isMovingAllowed = true;
         animator.SetBool("isAttacking", false);
+        DisableAttackCollider();
         animator.SetBool("isIdle", false);
         animator.SetBool("isMoving", true);
     }
@@ -118,14 +130,24 @@ public class EnemySeeker : MonoBehaviour
         animator.SetBool("isIdle", false);
         isMovingAllowed = false;
 
-        StartCoroutine(FadeOutAndDestroy(5f));  // Coroutine to fade out and destroy
+        // Disable all colliders on this enemy
+        foreach (var collider in GetComponents<Collider2D>())
+        {
+            collider.enabled = false;
+        }
+
+        // Coroutine to fade out and destroy
+        StartCoroutine(FadeOutAndDestroy(5f));  
     }
 
     IEnumerator FadeOutAndDestroy(float duration)
     {
         float elapsed = 0;
+
+        // get enemy sprites original color to fade
         Color originalColor = spriteRenderer.color;
 
+        // while loop to fade out enemy sprite before destroy its instance
         while (elapsed < duration)
         {
             float alpha = Mathf.Lerp(1f, 0f, elapsed / duration);
@@ -143,5 +165,22 @@ public class EnemySeeker : MonoBehaviour
     {
         animator.SetBool("isRising", false);
         animator.SetBool("isIdle", true);
+    }
+
+    // calls enemy animation event and activates enemy 2D collider used for attack
+    public void EnableAttackCollider()
+    {
+        attackCollider.enabled = true;
+    }
+
+    // calls enemy animation event and deactivates enemy 2D collider used for attack
+    public void DisableAttackCollider()
+    {
+        attackCollider.enabled = false;
+    }
+
+    public void enemyChangeHealth(int changeHealthAmount)
+    {
+        enemyHealth += changeHealthAmount;
     }
 }

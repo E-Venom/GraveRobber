@@ -117,12 +117,12 @@ MonoBehaviour:
       m_Hash: 1001312243
       m_Sprite: {fileID: 1693061443, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -965099520, guid: 545e2c88b4dce044d84dc4bcc253adf4, type: 3}
+      m_SpriteOverride: {fileID: 1748240717, guid: 545e2c88b4dce044d84dc4bcc253adf4, type: 3}
     - m_Name: Zombie3_20
       m_Hash: 694101140
       m_Sprite: {fileID: 1903477016, guid: 8e85035348d16304ea0f0dcdc479c2f9, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -796979182, guid: 545e2c88b4dce044d84dc4bcc253adf4, type: 3}
+      m_SpriteOverride: {fileID: 1748240717, guid: 545e2c88b4dce044d84dc4bcc253adf4, type: 3}
     m_FromMain: 1
     m_EntryOverrideCount: 14
   - m_Name: Attack
@@ -244,5 +244,5 @@ MonoBehaviour:
     m_FromMain: 1
     m_EntryOverrideCount: 5
   m_PrimaryLibraryGUID: a329c93d6e3092a48adf619fa4b9c343
-  m_ModificationHash: 638483370482415418
+  m_ModificationHash: 638489083156253933
   m_Version: 1
