@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 7359764866661941122}
   - component: {fileID: 5275071233797619005}
   - component: {fileID: 5811413651908630676}
-  - component: {fileID: 8326949244542993889}
   - component: {fileID: 2682603707149362128}
   - component: {fileID: 4967348160826199012}
+  - component: {fileID: 2676515502683771127}
   m_Layer: 0
   m_Name: EnemyMaster (1)
   m_TagString: Untagged
@@ -169,24 +169,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8326949244542993889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9181914795821799048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110e1c157053c734e9393c8b24be3313, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackCollider: {fileID: 2682603707149362128}
-  player: {fileID: 0}
-  moveSpeed: 0.25
-  health: 5
-  attackRange: 1
-  attackCooldown: 2
 --- !u!61 &2682603707149362128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -264,7 +246,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18721199, y: -0.5716959}
+  m_Offset: {x: -0.18721199, y: -0.19720256}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -275,5 +257,24 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45057297, y: 0.3878758}
+  m_Size: {x: 0.45057297, y: 1.1368625}
   m_EdgeRadius: 0
+--- !u!114 &2676515502683771127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9181914795821799048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110e1c157053c734e9393c8b24be3313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCollider: {fileID: 2682603707149362128}
+  player: {fileID: 0}
+  moveSpeed: 0.25
+  enemyHealth: 2
+  attackRange: 1
+  attackCooldown: 2
+  isDead: 0

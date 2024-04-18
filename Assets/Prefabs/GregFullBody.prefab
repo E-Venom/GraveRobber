@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2063403864066554903}
   - component: {fileID: 7986267896365611029}
   - component: {fileID: 4995303504502497479}
+  - component: {fileID: 6298751724530595644}
+  - component: {fileID: 7014077938095044995}
   m_Layer: 6
   m_Name: GregFullBody
   m_TagString: Player
@@ -144,7 +146,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.72971857, y: -0.5113861}
+  m_Offset: {x: 0.7160825, y: -0.51138616}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -155,7 +157,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.045016, y: 3.8014388}
+  m_Size: {x: 1.017744, y: 3.8014388}
   m_EdgeRadius: 0
 --- !u!50 &8695307776422896227
 Rigidbody2D:
@@ -361,7 +363,13 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
   projectilePrefab: {fileID: 109020913043429632, guid: 2e03bc9ad103dee4d87e77f8db73069e, type: 3}
+  meleeLeftCollider: {fileID: 7014077938095044995}
+  meleeRightCollider: {fileID: 6298751724530595644}
+  treasureChestsCollected: 0
+  numRegTreasureChestLevel1: 31
+  numRegTreasureChestLevel2: 15
   timeInvincible: 2
+  shootCooldownTimer: 1
   playerMovement:
     m_Name: Player Movement
     m_Type: 0
@@ -429,6 +437,96 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   digEffect: {fileID: 6899301995844745282}
+--- !u!61 &6298751724530595644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5324503638212838328}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.723978, y: -0.833432}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 8}
+    newSize: {x: 7, y: 8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7388053, y: 3.6748948}
+  m_EdgeRadius: 0
+--- !u!61 &7014077938095044995
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5324503638212838328}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.0056925, y: -0.9190023}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 8}
+    newSize: {x: 7, y: 8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0931187, y: 3.5693603}
+  m_EdgeRadius: 0
 --- !u!1001 &306434870655166955
 PrefabInstance:
   m_ObjectHideFlags: 0
