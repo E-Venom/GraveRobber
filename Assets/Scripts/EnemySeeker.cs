@@ -182,5 +182,9 @@ public class EnemySeeker : MonoBehaviour
     public void enemyChangeHealth(int changeHealthAmount)
     {
         enemyHealth += changeHealthAmount;
+        if (enemyHealth <= 0)
+        {
+            Die();
+        }
     }
 }
