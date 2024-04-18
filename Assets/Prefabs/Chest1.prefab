@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 9096427301191885509}
   - component: {fileID: 208386404074607606}
   - component: {fileID: 21118585405288187}
-  - component: {fileID: 8451872208887452994}
+  - component: {fileID: 8150572969354431735}
+  - component: {fileID: 2148618923006047106}
   m_Layer: 0
   m_Name: Chest1
   m_TagString: Untagged
@@ -165,10 +166,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.6150365, y: 0}
+  m_Offset: {x: -3.9088554, y: -0.14060092}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -179,9 +180,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 16.906914, y: 18.533333}
+  m_Size: {x: 16.319275, y: 14.877611}
   m_EdgeRadius: 0
---- !u!114 &8451872208887452994
+--- !u!114 &8150572969354431735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2725244968142757829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97124faa9b58994d87ea795aeda4f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: 173a14cf06354c643b46b235f2a4f974, type: 3}
+--- !u!114 &2148618923006047106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,7 +207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2834bf652ad56e49a0f0aa55d858544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchForce: 500
-  launchDirection: {x: 1, y: 2}
+  launchForce: 300
+  launchDirection: {x: 0, y: 0}
+  chestCollectTimer: 2
   scaleDuration: 0.5
   gravityOffDelay: 1

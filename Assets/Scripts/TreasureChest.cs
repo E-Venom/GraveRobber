@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class TreasureChest : MonoBehaviour
 {
-    public float launchForce = 200f;
+    // force to launch treasure chest with 
+    public float launchForce = 300f;
+
+    // direction the treasure chest will fly
     public Vector2 launchDirection;
+
+    // timer used to allow chest to launch out of grave before player can collect it
+    public float chestCollectTimer = 2.0f;
 
     // Duration of the scaling animation
     public float scaleDuration = 0.5f;
@@ -16,8 +22,11 @@ public class TreasureChest : MonoBehaviour
 
     void Start()
     {
-        // generate random float for use in treasure chest launch direction
-        float randomX = Random.Range(-1, 2);
+        
+        int[] values = { -1, 1 };
+        // generate random float for use in treasure chest launch direction will pick from either index
+        // 0 of int arrary values or index 1, -1 will launch chest left, 1 will launch chest right
+        float randomX = values[Random.Range(0, 2)]; // Random.Range(0, 2) will return either 0 or 1
 
         // set direction for treasure chest launch utilizing random generated x direction
         launchDirection = new Vector2(randomX, 2);
@@ -80,5 +89,9 @@ public class TreasureChest : MonoBehaviour
 
         // Prevent further movement and rotation
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
+    }
+    private void Update()
+    {
+        chestCollectTimer -= Time.deltaTime;
     }
 }

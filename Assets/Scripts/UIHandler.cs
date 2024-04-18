@@ -16,7 +16,12 @@ public class UIHandler : MonoBehaviour
     private float m_TimerDisplay;
     public static UIHandler instance { get; private set; }
 
+    // UI element for players health = red
     VisualElement m_Healthbar;
+
+    // UI element for gold collected = gold
+    VisualElement m_GoldBar;
+
     private void Awake()
     {
         instance = this;
@@ -25,9 +30,21 @@ public class UIHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // access UIDocument 
         UIDocument uiDocument = GetComponent<UIDocument>();
+
+        // initialize healthbar variable with UI HealthBar sprite
         m_Healthbar = uiDocument.rootVisualElement.Q<VisualElement>("HealthBar");
+
+        // set the health bar at 100% full to start
         SetHealthValue(1.0f);
+
+        // initialize goldbar variable with UI GoldBar sprite
+        m_GoldBar = uiDocument.rootVisualElement.Q<VisualElement>("GoldBar");
+
+        // set the gold bar at 0% to start
+        SetGoldValue(0.0f);
+
         m_NonPlayerDialogue = uiDocument.rootVisualElement.Q<VisualElement>("NPCDialogue");
         if (m_NonPlayerDialogue == null)
         {
@@ -68,5 +85,10 @@ public class UIHandler : MonoBehaviour
     public void SetHealthValue(float percentage)
     {
         m_Healthbar.style.width = Length.Percent(100 * percentage);
+    }
+
+    public void SetGoldValue(float percentage)
+    {
+        m_GoldBar.style.width = Length.Percent(100 * percentage);
     }
 }

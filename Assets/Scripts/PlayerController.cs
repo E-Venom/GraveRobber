@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class PlayerController : MonoBehaviour
     public GameObject projectilePrefab;
     public Collider2D meleeLeftCollider;
     public Collider2D meleeRightCollider;
+    public float treasureChestsCollected = 0.0f;
+    public float numRegTreasureChestLevel1 = 31.0f;
+    public float numRegTreasureChestLevel2 = 15.0f;
 
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
@@ -105,12 +109,16 @@ public class PlayerController : MonoBehaviour
                 moveDirection.Set(move.x, move.y);
                 moveDirection.Normalize();
             }
+
+            // set values of parameters in animator to create the proper animation
             animator.SetFloat("Look X", moveDirection.x);
             animator.SetFloat("Look Y", moveDirection.y);
             animator.SetFloat("Speed", move.magnitude);
 
+            // if player state is temporarily invincible after being hit by enemies 
             if (isInvincible)
             {
+                // reduce the cooldown 
                 damgeCooldown -= Time.deltaTime;
                 if (damgeCooldown < 0)
                 {
@@ -162,6 +170,22 @@ public class PlayerController : MonoBehaviour
         {
             // kill player
             Die();
+        }
+    }
+
+    public void ChangeTreasure(int amount)
+    {
+        treasureChestsCollected += amount;
+
+        if (SceneManager.GetActiveScene().name == "Level1")
+        {
+            // update GUI health bar to reflect change in player's health
+            UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel1);
+        }
+        else
+        {
+            // update GUI health bar to reflect change in player's health
+            UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel2);
         }
     }
 
