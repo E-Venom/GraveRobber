@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class PlayerController : MonoBehaviour
     public InputAction digAction;
     public InputAction meleeAction;
     public GameObject projectilePrefab;
+    public Collider2D meleeLeftCollider;
+    public Collider2D meleeRightCollider;
+    public float treasureChestsCollected = 0.0f;
+    public float numRegTreasureChestLevel1 = 31.0f;
+    public float numRegTreasureChestLevel2 = 15.0f;
 
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
@@ -23,6 +29,9 @@ public class PlayerController : MonoBehaviour
     public float timeInvincible = 2.0f;
     bool isInvincible;
     float damgeCooldown;
+    
+    // timer to prevent spamming of shooting shovel
+    public float shootCooldownTimer = 1.0f;
 
     // player movement direction
     public InputAction playerMovement;
@@ -48,6 +57,14 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        // start attack collider in enemy animations as disabled
+        if (meleeLeftCollider != null)
+            meleeLeftCollider.enabled = false;
+
+        // start attack collider in enemy animations as disabled
+        if (meleeRightCollider != null)
+            meleeRightCollider.enabled = false;
+
         // AudioSource component used to PlayOneShot, all the one-time in-game sounds
         audiosource = GetComponent<AudioSource>();
 
@@ -78,6 +95,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // deduct the time since last frame from the cooldown timer
+        if (shootCooldownTimer > 0)
+        {
+            shootCooldownTimer -= Time.deltaTime;
+        }
+
+        // if player isn't dead go about moving them
         if (isDead == false)
         {
             if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
@@ -85,12 +109,16 @@ public class PlayerController : MonoBehaviour
                 moveDirection.Set(move.x, move.y);
                 moveDirection.Normalize();
             }
+
+            // set values of parameters in animator to create the proper animation
             animator.SetFloat("Look X", moveDirection.x);
             animator.SetFloat("Look Y", moveDirection.y);
             animator.SetFloat("Speed", move.magnitude);
 
+            // if player state is temporarily invincible after being hit by enemies 
             if (isInvincible)
             {
+                // reduce the cooldown 
                 damgeCooldown -= Time.deltaTime;
                 if (damgeCooldown < 0)
                 {
@@ -145,6 +173,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void ChangeTreasure(int amount)
+    {
+        treasureChestsCollected += amount;
+
+        if (SceneManager.GetActiveScene().name == "Level1")
+        {
+            // update GUI health bar to reflect change in player's health
+            UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel1);
+        }
+        else
+        {
+            // update GUI health bar to reflect change in player's health
+            UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel2);
+        }
+    }
+
     // plays death animation, stops player from moving and removes player's colliders
     public void Die()
     {
@@ -161,24 +205,32 @@ public class PlayerController : MonoBehaviour
     // Launches shovel projectile in direction of player's movement
     void Launch(InputAction.CallbackContext context)
     {
-        // Instantiate the projectile at a position slightly above the player
-        Vector2 spawnOffset = Vector2.up * 0.25f;
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + spawnOffset, Quaternion.identity);
+        if (shootCooldownTimer <= 0)
+        {
+            // Instantiate the projectile at a position slightly above the player
+            Vector2 spawnOffset = Vector2.up * 0.25f;
+            GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + spawnOffset, Quaternion.identity);
 
-        // Calculate rotation based on the move direction
-        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+            // Calculate rotation based on the move direction
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
 
-        // Since the sprite faces left by default and right is considered 0 degrees,
-        // we need to adjust the angle by adding 180 degrees to flip it horizontally.
-        Quaternion rotation = Quaternion.Euler(0, 0, angle + 180);
+            // Since the sprite faces left by default and right is considered 0 degrees,
+            // we need to adjust the angle by adding 180 degrees to flip it horizontally.
+            Quaternion rotation = Quaternion.Euler(0, 0, angle + 180);
 
-        // Set projectile rotation
-        projectileObject.transform.rotation = rotation;
+            // Set projectile rotation
+            projectileObject.transform.rotation = rotation;
 
-        // Launch the projectile
-        Projectile projectile = projectileObject.GetComponent<Projectile>();
-        projectile.Launch(moveDirection, 300);
-        animator.SetTrigger("Launch");
+            // Launch the projectile
+            Projectile projectile = projectileObject.GetComponent<Projectile>();
+            projectile.Launch(moveDirection, 300);
+            animator.SetTrigger("Launch");
+
+            // reset shootCooldownTimer
+            shootCooldownTimer = 1.0f; 
+        }
+        else
+            return;
     }
 
     // when enemy attacks player, enemy collider is activated in an animations event
@@ -191,15 +243,15 @@ public class PlayerController : MonoBehaviour
         EnemySeeker enemy = other.gameObject.GetComponent<EnemySeeker>();
 
         // if player object exists
-        if (enemy != null)
+        if (enemy != null && !meleeLeftCollider.enabled && !meleeRightCollider.enabled)
         {
-            // call function in PlayerController to take health off of player
+            // call function that takes health off of player
             ChangeHealth(-1);
         }
     }
 
     // activates player animation for digging
-    void Dig(InputAction.CallbackContext context)
+    public void Dig(InputAction.CallbackContext context)
     {
         isDigging = true;
         animator.SetBool("IsDigging", true);
@@ -215,22 +267,54 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDigging", false);
     }
 
-    void Melee(InputAction.CallbackContext context)
+    public void Melee(InputAction.CallbackContext context)
     {
         isMelee = true;
         animator.SetBool("IsMelee", true);
+
+        // Get the current value of the "Look X" parameter from the animator
+        float lookX = animator.GetFloat("Look X");
+
+        if (lookX < -0.1f)
+        {
+            // If looking left, enable the left attack collider and disable the right one
+            meleeLeftCollider.enabled = true;
+            meleeRightCollider.enabled = false;
+        }
+        else if (lookX > 0.1f)
+        {
+            // If looking right, enable the right attack collider and disable the left one
+            meleeRightCollider.enabled = true;
+            meleeLeftCollider.enabled = false;
+        }
+
         StartCoroutine(StopMelee());
     }
 
-    // stops player animation for digging
     IEnumerator StopMelee()
     {
-        // waits 0.1 seconds till Melee animation ends then sets Melee bool to false
+        // waits 0.1 seconds till Melee animation ends then sets isMelee to false
+        // and disables both colliders
         yield return new WaitForSeconds(0.1f);
         isMelee = false;
         animator.SetBool("IsMelee", false);
+        meleeLeftCollider.enabled = false;
+        meleeRightCollider.enabled = false;
     }
 
+    // when player attacks enemy with melee
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // get enemy component that collided with player's melee collider
+        EnemySeeker enemy = other.GetComponent<EnemySeeker>();
+
+        // if enemy exists and left or right melee colliders are enabled
+        if (enemy && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        {
+            // Apply damage to the enemy
+            enemy.enemyChangeHealth(-5);
+        }
+    }
 
     // player displays npc dialogue  
     void FindFriend(InputAction.CallbackContext context)

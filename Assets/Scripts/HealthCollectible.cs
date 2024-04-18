@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthCollectible : MonoBehaviour
 {
+    // designate the specific audio clip in the inspector window
     public AudioClip collectedClip;
 
     // Built in Unity function that is called on in the first frame when the physics system detects a
@@ -11,12 +12,19 @@ public class HealthCollectible : MonoBehaviour
     // in other words it "triggers" when other (player) "enters" the health collectible collision box
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController controller = other.GetComponent<PlayerController>();
+        // get player component
+        PlayerController player = other.GetComponent<PlayerController>();
 
-        if (controller != null && controller.health < controller.maxHealth)
+        // if player exists and their health is less than their maximum health
+        if (player != null && player.health < player.maxHealth)
         {
-            controller.ChangeHealth(1);
-            controller.PlaySound(collectedClip);
+            // change player's health by 1
+            player.ChangeHealth(1);
+
+            // play sound effect
+            player.PlaySound(collectedClip);
+
+            // destroy health collectible
             Destroy(gameObject);
 
         }

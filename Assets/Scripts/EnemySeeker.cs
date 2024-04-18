@@ -14,7 +14,7 @@ public class EnemySeeker : MonoBehaviour
     public float moveSpeed = 0.25f;
 
     // regular enemy health
-    public int enemyHealth = 5;
+    public int enemyHealth = 2;
     
     // range from player to have enemy start their attack
     public float attackRange = 1f;
@@ -182,5 +182,9 @@ public class EnemySeeker : MonoBehaviour
     public void enemyChangeHealth(int changeHealthAmount)
     {
         enemyHealth += changeHealthAmount;
+        if (enemyHealth <= 0)
+        {
+            Die();
+        }
     }
 }

@@ -52,6 +52,8 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1297092640, guid: 3e8cd4f4ac44fc84d9cef85caf9db938, type: 3}
+    - time: 0.016666668
+      value: {fileID: -1297092640, guid: 3e8cd4f4ac44fc84d9cef85caf9db938, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -84,12 +86,13 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -1297092640, guid: 3e8cd4f4ac44fc84d9cef85caf9db938, type: 3}
+    - {fileID: -1297092640, guid: 3e8cd4f4ac44fc84d9cef85caf9db938, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.033333335
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -138,4 +141,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: StopMelee
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.016666668
+    functionName: StopMelee
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
