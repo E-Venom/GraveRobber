@@ -14,11 +14,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2453261948127786137, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_Size.x
-      value: 0.53170013
+      value: 0.56628084
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453261948127786137, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2062819
       objectReference: {fileID: 0}
     - target: {fileID: 2453261948127786137, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_Offset.x
-      value: -0.11714935
+      value: -0.099859
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453261948127786137, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16249287
       objectReference: {fileID: 0}
     - target: {fileID: 2453261948127786137, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -46,11 +54,11 @@ PrefabInstance:
       objectReference: {fileID: 7108339969198208228, guid: a329c93d6e3092a48adf619fa4b9c343, type: 3}
     - target: {fileID: 7155767719608922990, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.346394
+      value: -52.99371
       objectReference: {fileID: 0}
     - target: {fileID: 7155767719608922990, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.14793
+      value: 38.280216
       objectReference: {fileID: 0}
     - target: {fileID: 7155767719608922990, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -91,5 +99,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1555040279057750141, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8018007353792511489}
   m_SourcePrefab: {fileID: 100100000, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+--- !u!61 &3156846303705395112 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 5337066334930745839, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+  m_PrefabInstance: {fileID: 7052161414112433735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8379742689927237178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555040279057750141, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+  m_PrefabInstance: {fileID: 7052161414112433735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8018007353792511489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8379742689927237178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110e1c157053c734e9393c8b24be3313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCollider: {fileID: 3156846303705395112}
+  player: {fileID: 0}
+  moveSpeed: 0.25
+  enemyHealth: 2
+  attackRange: 1
+  attackCooldown: 2
+  isDead: 0

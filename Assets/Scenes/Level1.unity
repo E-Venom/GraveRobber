@@ -10537,17 +10537,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1182666591400297225, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_SortingOrder
-      value: -5
-      objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Size.x
       value: 1.017744
-      objectReference: {fileID: 0}
-    - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_Size.y
-      value: 3.8014388
       objectReference: {fileID: 0}
     - target: {fileID: 2584128361173945502, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Offset.x
@@ -10560,22 +10552,6 @@ PrefabInstance:
     - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_Name
       value: GregFullBody
-      objectReference: {fileID: 0}
-    - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7438881024405769922, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5784028
-      objectReference: {fileID: 0}
-    - target: {fileID: 7438881024405769922, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.43545544
       objectReference: {fileID: 0}
     - target: {fileID: 7438881024405769922, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10618,87 +10594,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: digAction.m_Name
-      value: Dig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 109020913043429632, guid: 2e03bc9ad103dee4d87e77f8db73069e, type: 3}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: meleeLeftCollider
       value: 
       objectReference: {fileID: 1012316154}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: meleeAction.m_Name
-      value: Melee
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: meleeRightCollider
       value: 
       objectReference: {fileID: 1012316155}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: digAction.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: talkAction.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: meleeAction.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: digAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: d2a97ffa-1491-4bca-bcfd-8818ed5e85d6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 4c7cb5d6-d603-49ad-9a98-1c6f444f854f
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: digAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/b
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: meleeAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 3afd0261-0c86-411b-95c6-9118369e786e
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/x
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: digAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Dig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: meleeAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/space
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Talk
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: meleeAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Melee
-      objectReference: {fileID: 0}
-    - target: {fileID: 8695307776422896227, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1012316155}
-    - targetCorrespondingSourceObject: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1012316154}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
 --- !u!1001 &645384107
 PrefabInstance:
@@ -75429,101 +75335,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de70ecc521fae847a568afa20118170, type: 3}
---- !u!1 &1012316146 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5324503638212838328, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+--- !u!61 &1012316154 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 7014077938095044995, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
   m_PrefabInstance: {fileID: 643758345}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &1012316154
+--- !u!61 &1012316155 stripped
 BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6298751724530595644, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+  m_PrefabInstance: {fileID: 643758345}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012316146}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -2.0056925, y: -0.9190023}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7, y: 8}
-    newSize: {x: 7, y: 8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.0931187, y: 3.5693603}
-  m_EdgeRadius: 0
---- !u!61 &1012316155
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012316146}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 2.723978, y: -0.833432}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7, y: 8}
-    newSize: {x: 7, y: 8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.7388053, y: 3.6748948}
-  m_EdgeRadius: 0
 --- !u!1001 &1012894744
 PrefabInstance:
   m_ObjectHideFlags: 0

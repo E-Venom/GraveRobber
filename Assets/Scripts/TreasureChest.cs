@@ -74,7 +74,7 @@ public class TreasureChest : MonoBehaviour
         transform.localScale = originalScale; 
     }
 
-    // Chest falls of Tilemap unless gravity is stopped, this function sets the chest's gravity
+    // Chest falls off Tilemap unless gravity is stopped, this function sets the chest's gravity
     // to zero after a period of time
     IEnumerator DisableGravityAndStopAfterDelay(float delay)
     {
