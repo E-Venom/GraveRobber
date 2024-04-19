@@ -10,16 +10,35 @@ public class PlayerController : MonoBehaviour
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
 
+    // used to designate input to have player "talk" to NPC's with Raycast
     public InputAction talkAction;
+
+    // used to designate input to have player launch shovel
     public InputAction launchAction;
+
+    // used to designate input to have player dig graves
     public InputAction digAction;
+
+    // used to designate input to have player melee attack 
     public InputAction meleeAction;
+
+    // used to get shovel prefab for ranged attack
     public GameObject projectilePrefab;
+
+    // used for activating player's colliders when they melee attack to their left or right
     public Collider2D meleeLeftCollider;
     public Collider2D meleeRightCollider;
+
+    // used to initialize game UI to show how many chests player has collected
     public float treasureChestsCollected = 0.0f;
+
+    // used to update treasure chest game UI to let player know how many treasure chests have been collected
     public float numRegTreasureChestLevel1 = 31.0f;
     public float numRegTreasureChestLevel2 = 15.0f;
+
+    // used to check if final chest is collected, if true, gets passed to Enemy Spawner to 
+    // stop regular enemy spawning
+    public bool finalChestCollected = false;
 
     Animator animator;
     Vector2 moveDirection = new Vector2(1, 0);
@@ -179,13 +198,25 @@ public class PlayerController : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Level1")
         {
-            // update GUI health bar to reflect change in player's health
+            // update GUI health bar to reflect change in player's collected treasure on level 1
             UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel1);
+
+            // checks if all treasure chests have been collected
+            if (treasureChestsCollected / numRegTreasureChestLevel1 >= 1)
+            {
+                finalChestCollected = true;
+            }
         }
         else
         {
-            // update GUI health bar to reflect change in player's health
+            // update GUI health bar to reflect change in player's collected treasure on level 2
             UIHandler.instance.SetGoldValue(treasureChestsCollected / numRegTreasureChestLevel2);
+
+            // checks if all treasure chests have been collected
+            if (treasureChestsCollected / numRegTreasureChestLevel2 >= 1)
+            {
+                finalChestCollected = true;
+            }
         }
     }
 
