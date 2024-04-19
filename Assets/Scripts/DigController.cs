@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DigController : MonoBehaviour
 {
-    public ParticleSystem digEffect; 
+    public ParticleSystem digEffect;
+    public AudioSource audioSource;    // Reference to the AudioSource component
+    public AudioClip diggingSound;     // The digging sound clip
 
-    // start dig particle system effect
+    // Start dig particle system effect and play digging sound
     public void PlayDigEffect()
     {
         if (digEffect != null)
@@ -14,6 +16,12 @@ public class DigController : MonoBehaviour
             digEffect.Stop();
             digEffect.Play();
         }
-    }
 
+        if (audioSource != null && diggingSound != null)
+        {
+            audioSource.Stop();       // Stop current audio to play from the start
+            audioSource.clip = diggingSound; // Set the clip to play
+            audioSource.Play();       // Play the digging sound
+        }
+    }
 }
