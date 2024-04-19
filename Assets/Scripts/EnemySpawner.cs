@@ -5,108 +5,127 @@ using UnityEngine.U2D.Animation;
 
 public class EnemySpawner : MonoBehaviour
 {
+    // Assign the prefab of the enemy to spawn
     public GameObject enemyPrefab; 
 
-    // time between spawns
-    public float spawnInterval = 5f; 
+    // Time interval between spawns
+    public float spawnInterval = 5f;
 
-    public Transform playerTransform; 
+    // Transform of the player, used to calculate distance for spawn
+    public Transform playerTransform;
 
-    // used to assign map layer to avoid spawning on non map layered tiles
-    public LayerMask mapLayer; 
+    // Layer mask to ensure enemies do not spawn in non-playable areas
+    public LayerMask mapLayer;
 
-    // bool used to stop spawning enemies
+    // Bool to control whether spawning should stop (true if final chest is collected)
     public bool finalChestCollected;
 
-    // timer used for spawning interval
+    // Timer to manage spawn interval
     private float timer;
 
-    // used to spawn enemies in camera view
+    // Reference to the main camera, used to determine spawn positions within the viewport
     private Camera mainCamera;
 
-    // used to access enemy sprite variations from sprite library
+    // Reference to the sprite library for accessing different enemy sprites
     public SpriteLibrary spriteLibrary;
 
-    // use to create an array of enemy sprite variations from sprite library
+    // Array of sprite library assets to allow for different enemy variants
     public SpriteLibraryAsset[] enemyRefs;
 
-    // enemies alive state
+    // Indicates if the enemy is dead
     public bool isDead = false;
+
+    // Reference to the PlayerController component on the player GameObject
+    private PlayerController player;
 
     private void Start()
     {
-        mainCamera = Camera.main;
+        mainCamera = Camera.main; // Get reference to the main camera
+
+        // Find the player GameObject by the tag "Player" and retrieve the PlayerController component
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            player = playerObject.GetComponent<PlayerController>();
+            if (player == null)
+            {
+                Debug.LogError("PlayerController component not found on the player object.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Player object not found, please check the tag.");
+        }
     }
 
     private void Update()
     {
-        // Only spawn enemies if the final chest has not been collected
-        if (!finalChestCollected) 
+        // Check if the player controller is successfully retrieved
+        if (player == null)
         {
-            timer += Time.deltaTime;
-            if (timer > spawnInterval)
+            // Stop execution if no player controller is found
+            return; 
+        }
+
+        // Update the local bool based on the player's finalChestCollected status
+        finalChestCollected = player.finalChestCollected;
+
+        // Continue to spawn enemies only if the final chest has not been collected
+        if (!finalChestCollected)
+        {
+            timer += Time.deltaTime; // Increment timer by the elapsed time since last frame
+            if (timer > spawnInterval) // Check if enough time has passed to spawn another enemy
             {
-                SpawnEnemy();
-                timer = 0;
+                SpawnEnemy(); // Spawn an enemy
+                timer = 0; // Reset the timer
             }
         }
     }
 
-    // Spawns enemies in random locations on the game map
+    // Method to spawn enemies at random locations within the camera's viewport
     void SpawnEnemy()
     {
-        // used to stop invalid spawns at invalid locations
-        bool validPosition = false;
-        Vector2 spawnPosition = Vector2.zero;
+        bool validPosition = false; // Flag to check if the found position is valid for spawning
+        Vector2 spawnPosition = Vector2.zero; // Initialize spawn position
+        int attempts = 0; // Counter to limit the number of spawn attempts
 
-        // keeps track of spawn attempts
-        int attempts = 0;
-
-        // Prevents infinite loops
-        while (!validPosition && attempts < 100) 
+        // Try to find a valid spawn position, limiting to 100 attempts to prevent infinite loops
+        while (!validPosition && attempts < 100)
         {
-            // Determine spawn position within camera view
             Vector2 viewPortPosition = new Vector2(Random.Range(0f, 1f), Random.Range(0f, 1f));
             spawnPosition = mainCamera.ViewportToWorldPoint(new Vector3(viewPortPosition.x, viewPortPosition.y, mainCamera.nearClipPlane));
 
-            // Check distance from the player
+            // Ensure the spawn position is at a sufficient distance from the player
             if (Vector2.Distance(spawnPosition, playerTransform.position) >= 4)
             {
-                // Check for collision with map objects
+                // Check if the position does not collide with map objects
                 if (!Physics2D.OverlapCircle(spawnPosition, 0.5f, mapLayer))
                 {
-                    validPosition = true;
+                    validPosition = true; // Mark position as valid
                 }
             }
 
-            attempts++;
+            attempts++; // Increment attempts counter
         }
-        
-        // spawns enemy if a valid position on the game map is found
+
+        // Instantiate the enemy at the valid position if found
         if (validPosition)
         {
             GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
-
-            // calls function to generate one of a variety of enemy sprite variations
-            RandomizeEnemySprite(enemy);
+            RandomizeEnemySprite(enemy); // Randomize the enemy's sprite from available variants
         }
     }
 
+    // Method to apply a random sprite to the spawned enemy
     void RandomizeEnemySprite(GameObject enemy)
     {
-        // gets the enemy sprite library component
-        var spriteLibrary = enemy.GetComponent<SpriteLibrary>();
+        var spriteLibrary = enemy.GetComponent<SpriteLibrary>(); // Get the SpriteLibrary component from the enemy
 
-        // if final treasure chest hasn't been collected
+        // Apply a random sprite variant if the final chest has not been collected
         if (spriteLibrary != null && !finalChestCollected)
         {
-            // Choose a random enemy variant from the array of enemies in the sprite library
-            // -1 is used as the Boss sprite is the last sprite in the array and don't want
-            // the boss spawned untill all chests have been collected
-            SpriteLibraryAsset variant = enemyRefs[Random.Range(0, enemyRefs.Length - 1)];
-            // Change the enemy sprite to the randomly generated variant
-            spriteLibrary.spriteLibraryAsset = variant; 
-
+            SpriteLibraryAsset variant = enemyRefs[Random.Range(0, enemyRefs.Length)];
+            spriteLibrary.spriteLibraryAsset = variant; // Assign the random variant to the enemy
         }
     }
 }
