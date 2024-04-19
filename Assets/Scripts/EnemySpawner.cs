@@ -40,6 +40,10 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
+        // Use the current time to set the seed for random for greater unpredictability
+        int seed = (int)System.DateTime.Now.Ticks;
+        Random.InitState(seed);
+
         mainCamera = Camera.main; // Get reference to the main camera
 
         // Find the player GameObject by the tag "Player" and retrieve the PlayerController component
@@ -120,12 +124,23 @@ public class EnemySpawner : MonoBehaviour
     void RandomizeEnemySprite(GameObject enemy)
     {
         var spriteLibrary = enemy.GetComponent<SpriteLibrary>(); // Get the SpriteLibrary component from the enemy
-
-        // Apply a random sprite variant if the final chest has not been collected
-        if (spriteLibrary != null && !finalChestCollected)
+        if (spriteLibrary != null)
         {
             SpriteLibraryAsset variant = enemyRefs[Random.Range(0, enemyRefs.Length)];
             spriteLibrary.spriteLibraryAsset = variant; // Assign the random variant to the enemy
         }
+    }
+
+    // allows for spawn enabling even if final treasure chest is collected
+    public void EnableSpawning(bool enable)
+    {
+        finalChestCollected = !enable;  // Enable if true, disable if false
+    }
+
+    // spawns enemies at the exact position given
+    public void SpawnEnemyAtPosition(Vector2 position)
+    {
+        GameObject enemy = Instantiate(enemyPrefab, position, Quaternion.identity);
+        RandomizeEnemySprite(enemy);
     }
 }

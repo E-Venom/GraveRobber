@@ -42,6 +42,8 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log($"Projectile OnCollisionEnter2D - Collided with: {other.gameObject.name}");
 
+        BossController boss = other.collider.GetComponent<BossController>();
+
         EnemySeeker enemy = other.collider.GetComponent<EnemySeeker>();
 
         if (enemy != null)
@@ -59,18 +61,24 @@ public class Projectile : MonoBehaviour
                     enemy.Die();
                 }
             }
-            else
+        }
+        if (boss != null)
+        {
+            Debug.Log("Projectile Collision - Enemy hit.");
+            if (!boss.isDead)
             {
-                Debug.Log("Projectile Collision - Enemy is already dead.");
+                boss.enemyChangeHealth(-1);
+                Debug.Log($"Projectile Collision - Enemy health changed. New health: {boss.enemyHealth}");
+
+                // If enemy health <= zero, kill enemy
+                if (boss.enemyHealth <= 0)
+                {
+                    Debug.Log("Projectile Collision - Enemy health is zero or less, calling Die.");
+                    boss.Die();
+                }
             }
         }
-        else
-        {
-            Debug.Log("Projectile Collision - Hit non-enemy object.");
-        }
-
         // Destroy projectile after collision
-        Debug.Log("Projectile Collision - Destroying projectile.");
         Destroy(gameObject);
     }
 }

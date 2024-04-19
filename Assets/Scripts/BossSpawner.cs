@@ -42,7 +42,9 @@ public class BossSpawner : MonoBehaviour
 
         // Instantiate the boss at the spawn point
         GameObject boss = Instantiate(bossPrefab, spawnPoint.position, Quaternion.identity);
-        boss.transform.localScale = new Vector3(5, 5, 5);  // Scale the boss sprite up 5 times its normal size
+
+        // Scale the boss sprite up 5 times its normal size
+        boss.transform.localScale = new Vector3(4, 4, 4);  
     }
 
     // Plays the specified sound once
