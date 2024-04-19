@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tombstones
+  - BossMagic
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - BossMagic
   - Water
   - UI
   - Character
