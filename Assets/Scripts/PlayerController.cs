@@ -339,11 +339,18 @@ public class PlayerController : MonoBehaviour
         // get enemy component that collided with player's melee collider
         EnemySeeker enemy = other.GetComponent<EnemySeeker>();
 
+        BossController boss = other.GetComponent<BossController>();
+
         // if enemy exists and left or right melee colliders are enabled
         if (enemy && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
         {
             // Apply damage to the enemy
             enemy.enemyChangeHealth(-5);
+        }
+        if (boss && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        {
+            // Apply damage to the enemy
+            boss.enemyChangeHealth(-5);
         }
     }
 
