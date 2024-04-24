@@ -9,9 +9,16 @@ public class PlayerController : MonoBehaviour
 {
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
+    public AudioClip impact01;
+    public AudioClip impact02;
+    public AudioClip impact03;
 
     public AudioClip dig01;
     public AudioClip dig02;
+    public AudioClip quip01;
+    public AudioClip quip02;
+    public AudioClip quip03;
+    public AudioClip quip04;
 
     private bool lastPlayedDig01 = true; // Flag to track the last played sound
 
@@ -319,7 +326,9 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDigging", false);
     }
 
-    public void Melee(InputAction.CallbackContext context)
+public void Melee(InputAction.CallbackContext context)
+{
+    if (context.performed)  // Check to ensure this only triggers once per input
     {
         isMelee = true;
         animator.SetBool("IsMelee", true);
@@ -340,8 +349,18 @@ public class PlayerController : MonoBehaviour
             meleeLeftCollider.enabled = false;
         }
 
+        PlayRandomQuip();
         StartCoroutine(StopMelee());
     }
+}
+
+private void PlayRandomQuip()
+{
+    AudioClip[] quips = new AudioClip[] { quip01, quip02, quip03, quip04 };
+    int randomIndex = UnityEngine.Random.Range(0, quips.Length);
+    AudioManagerScript.Instance.PlaySound(quips[randomIndex]);
+}
+
 
     IEnumerator StopMelee()
     {
@@ -355,25 +374,38 @@ public class PlayerController : MonoBehaviour
     }
 
     // when player attacks enemy with melee
-    void OnTriggerEnter2D(Collider2D other)
+void OnTriggerEnter2D(Collider2D other)
+{
+    // Get enemy component that collided with player's melee collider
+    EnemySeeker enemy = other.GetComponent<EnemySeeker>();
+    BossController boss = other.GetComponent<BossController>();
+
+    // If enemy exists and left or right melee colliders are enabled
+    if ((enemy || boss) && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
     {
-        // get enemy component that collided with player's melee collider
-        EnemySeeker enemy = other.GetComponent<EnemySeeker>();
-
-        BossController boss = other.GetComponent<BossController>();
-
-        // if enemy exists and left or right melee colliders are enabled
-        if (enemy && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        if (enemy)
         {
             // Apply damage to the enemy
             enemy.enemyChangeHealth(-5);
         }
-        if (boss && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        if (boss)
         {
             // Apply damage to the enemy
             boss.enemyChangeHealth(-5);
         }
+
+        // Play a random impact sound
+        PlayRandomImpactSound();
     }
+}
+
+private void PlayRandomImpactSound()
+{
+    AudioClip[] impacts = new AudioClip[] { impact01, impact02, impact03 };
+    int randomIndex = UnityEngine.Random.Range(0, impacts.Length);
+    AudioManagerScript.Instance.PlaySound(impacts[randomIndex]);
+}
+
 
     // player displays npc dialogue  
     void FindFriend(InputAction.CallbackContext context)

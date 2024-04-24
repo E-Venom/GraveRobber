@@ -10614,6 +10614,34 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: c16c5dd4a7c63483f882c760c1c8f549, type: 3}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip01
+      value: 
+      objectReference: {fileID: 8300000, guid: d94dac11e1a754f6ea60940771acb193, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip02
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b00aeba763c4485880c5da026a07a4d, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip03
+      value: 
+      objectReference: {fileID: 8300000, guid: 96fd3b60d78c345bab6f071f5eaab926, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip04
+      value: 
+      objectReference: {fileID: 8300000, guid: d94dac11e1a754f6ea60940771acb193, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact01
+      value: 
+      objectReference: {fileID: 8300000, guid: 6255af2dc91c64cbe9e4ec356e861c1f, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact02
+      value: 
+      objectReference: {fileID: 8300000, guid: 583ed090364114d4ebc232ec5e26d8f6, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact03
+      value: 
+      objectReference: {fileID: 8300000, guid: fd33acc1d11ac40818a40c2ec1ec9aaa, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: footstepClip
       value: 
       objectReference: {fileID: 8300000, guid: 1afcb1544235b44c1bb72e7a70276aff, type: 3}
