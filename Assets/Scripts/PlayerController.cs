@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
 
+    public AudioClip dig01;
+    public AudioClip dig02;
+
+    private bool lastPlayedDig01 = true; // Flag to track the last played sound
+
     // used to designate input to have player "talk" to NPC's with Raycast
     public InputAction talkAction;
 
@@ -281,14 +286,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // activates player animation for digging
     public void Dig(InputAction.CallbackContext context)
     {
-        isDigging = true;
-        animator.SetBool("IsDigging", true);
-        StartCoroutine(StopDigging());
+        if (context.performed) // Ensure the action is only triggered once per input event
+        {
+            isDigging = true;
+            animator.SetBool("IsDigging", true);
+            PlayNextDigSound();
+            StartCoroutine(StopDigging());
+        }
     }
 
+    private void PlayNextDigSound()
+    {
+        if (lastPlayedDig01)
+        {
+            AudioManagerScript.Instance.PlaySound(dig02);
+            lastPlayedDig01 = false;
+        }
+        else
+        {
+            AudioManagerScript.Instance.PlaySound(dig01);
+            lastPlayedDig01 = true;
+        }
+    }
     // stops player animation for digging
     IEnumerator StopDigging()
     {
@@ -376,5 +397,7 @@ public class PlayerController : MonoBehaviour
     {
         audiosource.PlayOneShot(clip);
     }
+
+    
 }
 

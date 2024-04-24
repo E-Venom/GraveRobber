@@ -171,3 +171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c34d9a70dff264aab5d9e6d74cfa2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  impact01: {fileID: 8300000, guid: 6255af2dc91c64cbe9e4ec356e861c1f, type: 3}
+  impact02: {fileID: 8300000, guid: 583ed090364114d4ebc232ec5e26d8f6, type: 3}
+  impact03: {fileID: 8300000, guid: fd33acc1d11ac40818a40c2ec1ec9aaa, type: 3}
+  shovelThrowClip: {fileID: 8300000, guid: e8d9f32621d5f42d0ba8f78e5f8b6c40, type: 3}
+  boundaryLimit: 100
+  gameWorldCenter: {x: 0, y: 0, z: 0}
