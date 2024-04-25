@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
+using System;
 
 public class BossController : MonoBehaviour
 {
@@ -57,6 +58,8 @@ public class BossController : MonoBehaviour
 
     // used to check boss enemy instance's alive state
     public bool isDead = false;
+
+    public static event Action bossDied;
 
     // used for fading boss enemy sprite when enemy dies
     private SpriteRenderer spriteRenderer;
@@ -173,6 +176,7 @@ public class BossController : MonoBehaviour
     public void Die()
     {
         isDead = true;
+        bossDied?.Invoke();     // notifiy all other classes listening, boss has died
         animator.SetBool("isDead", true);
         animator.SetBool("isMoving", false);
         animator.SetBool("isAttacking", false);

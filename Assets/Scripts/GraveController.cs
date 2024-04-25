@@ -2,7 +2,10 @@ using System.Collections;
 using UnityEngine;
 
 public class GraveController : MonoBehaviour
-{
+{   
+    // used to designate boss's grave
+    public bool bossGrave = false;
+
     // designate treasure chest game object in inspector
     public GameObject treasureChest;
 
@@ -32,26 +35,31 @@ public class GraveController : MonoBehaviour
     private void OnCollisionStay2D(Collision2D other)
     {
         PlayerController player = other.collider.GetComponent<PlayerController>();
-        // note: Time.time = time since start of the game
-        if (player != null && player.isDigging && !hasSpawnedChest && Time.time > lastDigTime + digCooldown)
+
+        if (player != null && (!bossGrave || (bossGrave && player.bossIsDead)))
         {
-            // update lastDigTime to current time in game that has passed since its start
-            lastDigTime = Time.time;
 
-            // add one to current digs
-            currentDigs++;
-
-            // create treasure chest collectible if currentDigs == digsRequired on grave
-            if (currentDigs >= digsRequired)
+            // note: Time.time = time since start of the game
+            if (player.isDigging && !hasSpawnedChest && Time.time > lastDigTime + digCooldown)
             {
-                Instantiate(treasureChest, transform.position, Quaternion.identity);
+                // update lastDigTime to current time in game that has passed since its start
+                lastDigTime = Time.time;
 
-                // update grave bool hasSpawnedChest to true so no more chests can be spawned
-                // at this grave
-                hasSpawnedChest = true;
+                // add one to current digs
+                currentDigs++;
 
-                // call function to change grave color to designate grave has yielded a chest
-                changeGraveColor(Color.gray);
+                // create treasure chest collectible if currentDigs == digsRequired on grave
+                if (currentDigs >= digsRequired)
+                {
+                    Instantiate(treasureChest, transform.position, Quaternion.identity);
+
+                    // update grave bool hasSpawnedChest to true so no more chests can be spawned
+                    // at this grave
+                    hasSpawnedChest = true;
+
+                    // call function to change grave color to designate grave has yielded a chest
+                    changeGraveColor(Color.gray);
+                }
             }
         }
     }

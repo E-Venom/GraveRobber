@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
     // used to designate input to have player "talk" to NPC's with Raycast
     public InputAction talkAction;
 
+    // used to check if boss has died
+    public bool bossIsDead = false;
+
     // used to designate input to have player launch shovel
     public InputAction launchAction;
 
@@ -127,7 +130,7 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         // deduct the time since last frame from the cooldown timer
         if (shootCooldownTimer > 0)
         {
@@ -428,6 +431,25 @@ private void PlayRandomImpactSound()
                 UIHandler.instance.DisplayDialogue();
             }
         }
+    }
+
+    // Called when the BossController is enabled
+    void OnEnable()
+    {
+        BossController.bossDied += OnBossDied;
+    }
+
+    // Called when the BossController is disabled
+    void OnDisable()
+    {
+        BossController.bossDied -= OnBossDied;
+    }
+
+    // activated if boss is found to have died 
+    private void OnBossDied()
+    {
+        // boss dying triggers this
+        bossIsDead = true;
     }
 
     // plays sounds one time
