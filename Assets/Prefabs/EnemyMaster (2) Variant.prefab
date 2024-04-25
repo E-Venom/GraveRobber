@@ -36,6 +36,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.5312675
       objectReference: {fileID: 0}
+    - target: {fileID: 3808186509514607977, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+      propertyPath: sound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+    - target: {fileID: 3808186509514607977, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
+      propertyPath: sound2
+      value: 
+      objectReference: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
     - target: {fileID: 5337066334930745839, guid: 8773458f6cf3b7c4385c80ffcbe17c4e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -127,6 +135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCollider: {fileID: 3156846303705395112}
+  sound1: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+  sound2: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
   player: {fileID: 0}
   moveSpeed: 0.25
   enemyHealth: 2

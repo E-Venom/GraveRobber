@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {   
-    // variable to control smoke emitting from enemy
     public ParticleSystem smokeEffect;
-
-    // variable to control sound of robot walking
     AudioSource audioSource;
     bool aggressive = true;
 
-    // Public variables
     public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
 
-    // Private variables
     Rigidbody2D rigidbody2d;
     Animator animator;
     float timer;
     int direction = 1;
 
+    // Audio clips and timing
+    public AudioClip sound1;
+    public AudioClip sound2;
+    private float soundTimer = 20.0f; // Timer to count down for sound effect
+    private int soundIndex = 0; // Index to cycle between sound1 and sound2
 
-    // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -31,19 +30,15 @@ public class EnemyController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         timer = changeTime;
-
     }
 
-
-    // FixedUpdate has the same call rate as the physics system
     void FixedUpdate()
     {
         timer -= Time.deltaTime;
+        soundTimer -= Time.deltaTime;
 
         if (!aggressive)
-        {
             return;
-        }
 
         if (timer < 0)
         {
@@ -53,12 +48,11 @@ public class EnemyController : MonoBehaviour
         }
 
         Vector2 position = rigidbody2d.position;
-        
 
         if (vertical)
         {
             position.y = position.y + speed * direction * Time.deltaTime;
-            animator.SetFloat("MoveX", 0); // Set Move X to 0 when moving vertically
+            animator.SetFloat("MoveX", 0);
             animator.SetFloat("MoveY", direction);
         }
         else
@@ -69,25 +63,32 @@ public class EnemyController : MonoBehaviour
         }
 
         rigidbody2d.MovePosition(position);
+
+        // Check to play sound
+        if (soundTimer <= 0)
+        {
+            if (Random.Range(1, 5) == 1) // 1 in 4 chance
+            {
+                AudioClip clipToPlay = (soundIndex % 2 == 0) ? sound1 : sound2;
+                audioSource.PlayOneShot(clipToPlay);
+                soundIndex++;
+            }
+            soundTimer = 20.0f; // Reset the sound timer
+        }
     }
+
     public void Fix()
     {
         animator.SetTrigger("Fixed");
         aggressive = false;
-
-        // stops audio of robot walking
         audioSource.Stop();
-        
-        // stops smoke emitting from robot
         smokeEffect.Stop();
-
         rigidbody2d.simulated = false;
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         PlayerController player = other.gameObject.GetComponent<PlayerController>();
-
 
         if (player != null)
         {

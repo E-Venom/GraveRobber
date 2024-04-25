@@ -9,6 +9,20 @@ public class PlayerController : MonoBehaviour
 {
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
+    public AudioClip impact01;
+    public AudioClip impact02;
+    public AudioClip impact03;
+    public AudioClip damageTaken;
+    public AudioClip dig01;
+    public AudioClip dig02;
+    public AudioClip quip01;
+    public AudioClip quip02;
+    public AudioClip quip03;
+    public AudioClip quip04;
+
+    public AudioClip deathClip;
+
+    private bool lastPlayedDig01 = true; // Flag to track the last played sound
 
     // used to designate input to have player "talk" to NPC's with Raycast
     public InputAction talkAction;
@@ -168,6 +182,7 @@ public class PlayerController : MonoBehaviour
     {
         if (amount < 0)
         {
+        AudioManagerScript.Instance.PlaySound(damageTaken);
             if (isInvincible)
             {
                 return;
@@ -187,6 +202,7 @@ public class PlayerController : MonoBehaviour
         // (player dies when currentHealth = 0)
         if(currentHealth <= 0)
         {
+            AudioManagerScript.Instance.PlaySound(deathClip);
             // kill player
             Die();
         }
@@ -223,6 +239,8 @@ public class PlayerController : MonoBehaviour
     // plays death animation, stops player from moving and removes player's colliders
     public void Die()
     {
+        GameObject gameOverScreen = GameObject.Find("Panel"); // Assuming your panel is named "Panel"
+        gameOverScreen.SetActive(true);
         isDead = true;
         animator.SetTrigger("Die");
 
@@ -281,14 +299,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // activates player animation for digging
     public void Dig(InputAction.CallbackContext context)
     {
-        isDigging = true;
-        animator.SetBool("IsDigging", true);
-        StartCoroutine(StopDigging());
+        if (context.performed) // Ensure the action is only triggered once per input event
+        {
+            isDigging = true;
+            animator.SetBool("IsDigging", true);
+            PlayNextDigSound();
+            StartCoroutine(StopDigging());
+        }
     }
 
+    private void PlayNextDigSound()
+    {
+        if (lastPlayedDig01)
+        {
+            AudioManagerScript.Instance.PlaySound(dig02);
+            lastPlayedDig01 = false;
+        }
+        else
+        {
+            AudioManagerScript.Instance.PlaySound(dig01);
+            lastPlayedDig01 = true;
+        }
+    }
     // stops player animation for digging
     IEnumerator StopDigging()
     {
@@ -298,7 +332,9 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDigging", false);
     }
 
-    public void Melee(InputAction.CallbackContext context)
+public void Melee(InputAction.CallbackContext context)
+{
+    if (context.performed)  // Check to ensure this only triggers once per input
     {
         isMelee = true;
         animator.SetBool("IsMelee", true);
@@ -319,8 +355,18 @@ public class PlayerController : MonoBehaviour
             meleeLeftCollider.enabled = false;
         }
 
+        PlayRandomQuip();
         StartCoroutine(StopMelee());
     }
+}
+
+private void PlayRandomQuip()
+{
+    AudioClip[] quips = new AudioClip[] { quip01, quip02, quip03, quip04 };
+    int randomIndex = UnityEngine.Random.Range(0, quips.Length);
+    AudioManagerScript.Instance.PlaySound(quips[randomIndex]);
+}
+
 
     IEnumerator StopMelee()
     {
@@ -334,25 +380,38 @@ public class PlayerController : MonoBehaviour
     }
 
     // when player attacks enemy with melee
-    void OnTriggerEnter2D(Collider2D other)
+void OnTriggerEnter2D(Collider2D other)
+{
+    // Get enemy component that collided with player's melee collider
+    EnemySeeker enemy = other.GetComponent<EnemySeeker>();
+    BossController boss = other.GetComponent<BossController>();
+
+    // If enemy exists and left or right melee colliders are enabled
+    if ((enemy || boss) && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
     {
-        // get enemy component that collided with player's melee collider
-        EnemySeeker enemy = other.GetComponent<EnemySeeker>();
-
-        BossController boss = other.GetComponent<BossController>();
-
-        // if enemy exists and left or right melee colliders are enabled
-        if (enemy && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        if (enemy)
         {
             // Apply damage to the enemy
             enemy.enemyChangeHealth(-5);
         }
-        if (boss && (meleeLeftCollider.enabled || meleeRightCollider.enabled))
+        if (boss)
         {
             // Apply damage to the enemy
             boss.enemyChangeHealth(-5);
         }
+
+        // Play a random impact sound
+        PlayRandomImpactSound();
     }
+}
+
+private void PlayRandomImpactSound()
+{
+    AudioClip[] impacts = new AudioClip[] { impact01, impact02, impact03 };
+    int randomIndex = UnityEngine.Random.Range(0, impacts.Length);
+    AudioManagerScript.Instance.PlaySound(impacts[randomIndex]);
+}
+
 
     // player displays npc dialogue  
     void FindFriend(InputAction.CallbackContext context)
@@ -376,5 +435,7 @@ public class PlayerController : MonoBehaviour
     {
         audiosource.PlayOneShot(clip);
     }
+
+    
 }
 

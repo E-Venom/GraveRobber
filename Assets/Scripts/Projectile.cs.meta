@@ -3,7 +3,9 @@ guid: 00c34d9a70dff264aab5d9e6d74cfa2f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - shovelImpactClip: {fileID: 8300000, guid: ba64670a402a04f8987fb5984586ad35, type: 3}
+  - shovelThrowClip: {fileID: 8300000, guid: baaafc02045e640e8bd884347ec71aa0, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

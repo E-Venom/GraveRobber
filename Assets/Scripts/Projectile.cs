@@ -6,6 +6,11 @@ using UnityEngine.InputSystem;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D myRigidbody2D;
+    public AudioClip impact01;
+    public AudioClip impact02;
+    public AudioClip impact03;
+
+    public AudioClip shovelThrowClip;
 
     // Adjust this to match the maximum allowed distance from the game world's center
     public float boundaryLimit = 100.0f;
@@ -31,6 +36,7 @@ public class Projectile : MonoBehaviour
 
     public void Launch(Vector2 direction, float force)
     {
+        AudioManagerScript.Instance.PlaySound(shovelThrowClip);
         // Visual debug to show the force direction and magnitude
         Debug.DrawLine(transform.position, transform.position + new Vector3(direction.x, direction.y, 0) * 10, Color.red, 5f);
         Debug.Log($"Launching projectile with direction {direction} and force {force}.");
@@ -40,6 +46,7 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        
         Debug.Log($"Projectile OnCollisionEnter2D - Collided with: {other.gameObject.name}");
 
         BossController boss = other.collider.GetComponent<BossController>();
@@ -49,6 +56,8 @@ public class Projectile : MonoBehaviour
         if (enemy != null)
         {
             Debug.Log("Projectile Collision - Enemy hit.");
+            AudioClip selectedClip = GetRandomImpactSound();
+            AudioManagerScript.Instance.PlaySound(selectedClip);
             if (!enemy.isDead)
             {
                 enemy.enemyChangeHealth(-1);
@@ -65,6 +74,8 @@ public class Projectile : MonoBehaviour
         if (boss != null)
         {
             Debug.Log("Projectile Collision - Enemy hit.");
+            AudioClip selectedClip = GetRandomImpactSound();
+            AudioManagerScript.Instance.PlaySound(selectedClip);
             if (!boss.isDead)
             {
                 boss.enemyChangeHealth(-1);
@@ -80,5 +91,12 @@ public class Projectile : MonoBehaviour
         }
         // Destroy projectile after collision
         Destroy(gameObject);
+    }
+
+        private AudioClip GetRandomImpactSound()
+    {
+        AudioClip[] impacts = new AudioClip[] { impact01, impact02, impact03 };
+        int randomIndex = UnityEngine.Random.Range(0, impacts.Length);
+        return impacts[randomIndex];
     }
 }

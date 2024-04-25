@@ -272,6 +272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCollider: {fileID: 5337066334930745839}
+  sound1: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+  sound2: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
   player: {fileID: 0}
   moveSpeed: 0.25
   enemyHealth: 2
