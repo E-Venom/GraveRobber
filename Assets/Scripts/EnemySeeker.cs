@@ -7,6 +7,12 @@ public class EnemySeeker : MonoBehaviour
     // used when enemy attacks player
     public Collider2D attackCollider;
 
+    public AudioClip sound1;
+    public AudioClip sound2;
+    private AudioSource audioSource;
+    private float soundTimer = 10.0f;  // Timer to track when to potentially play sound
+
+
     // get's players position
     public Transform player;
 
@@ -37,38 +43,50 @@ public class EnemySeeker : MonoBehaviour
     // used for fading enemy sprite when enemy dies
     private SpriteRenderer spriteRenderer;
 
-    void Start()
-    {
-        // start attack collider in enemy animations as disabled
-        if (attackCollider != null)
-            attackCollider.enabled = false;  
+void Start()
+{
+    audioSource = GetComponent<AudioSource>();
+    if (audioSource == null) { audioSource = gameObject.AddComponent<AudioSource>(); }
 
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); 
-        if (player == null)
-        {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-        }
-        animator.SetBool("isRising", true);
+    if (attackCollider != null)
+        attackCollider.enabled = false;
+
+    animator = GetComponent<Animator>();
+    spriteRenderer = GetComponent<SpriteRenderer>();
+    if (player == null)
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+    animator.SetBool("isRising", true);
+}
+
+
+void Update()
+{
+    if (player == null || isDead || !isMovingAllowed) return;
+
+    if (Vector2.Distance(transform.position, player.position) > attackRange)
+    {
+        MoveTowardsPlayer();
+    }
+    else
+    {
+        CheckForAttack();
     }
 
-    void Update()
+    // Sound effect logic
+    soundTimer -= Time.deltaTime;
+    if (soundTimer <= 0)
     {
-        // if player doesn't exist or enemy is dead, or moving isn't allowed return and 
-        // go no further
-        if (player == null || isDead || !isMovingAllowed) return;
-
-        // if enemy is to far from player to attack execute function to move towards player
-        // if enemy is close enough for attack execute function to attack player
-        if (Vector2.Distance(transform.position, player.position) > attackRange)
+        if (Random.Range(1, 5) == 1) // 1 in 4 chance to play a sound
         {
-            MoveTowardsPlayer();
+            AudioClip clipToPlay = (Random.Range(0, 2) == 0) ? sound1 : sound2;
+            audioSource.PlayOneShot(clipToPlay);
         }
-        else
-        {
-            CheckForAttack();
-        }
+        soundTimer = 20.0f; // Reset the timer
     }
+}
+
 
     // Moves enemy towards players position execute proper enemy animations for moving
     void MoveTowardsPlayer()

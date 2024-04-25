@@ -12,13 +12,15 @@ public class PlayerController : MonoBehaviour
     public AudioClip impact01;
     public AudioClip impact02;
     public AudioClip impact03;
-
+    public AudioClip damageTaken;
     public AudioClip dig01;
     public AudioClip dig02;
     public AudioClip quip01;
     public AudioClip quip02;
     public AudioClip quip03;
     public AudioClip quip04;
+
+    public AudioClip deathClip;
 
     private bool lastPlayedDig01 = true; // Flag to track the last played sound
 
@@ -180,6 +182,7 @@ public class PlayerController : MonoBehaviour
     {
         if (amount < 0)
         {
+        AudioManagerScript.Instance.PlaySound(damageTaken);
             if (isInvincible)
             {
                 return;
@@ -199,6 +202,7 @@ public class PlayerController : MonoBehaviour
         // (player dies when currentHealth = 0)
         if(currentHealth <= 0)
         {
+            AudioManagerScript.Instance.PlaySound(deathClip);
             // kill player
             Die();
         }
@@ -235,6 +239,8 @@ public class PlayerController : MonoBehaviour
     // plays death animation, stops player from moving and removes player's colliders
     public void Die()
     {
+        GameObject gameOverScreen = GameObject.Find("Panel"); // Assuming your panel is named "Panel"
+        gameOverScreen.SetActive(true);
         isDead = true;
         animator.SetTrigger("Die");
 

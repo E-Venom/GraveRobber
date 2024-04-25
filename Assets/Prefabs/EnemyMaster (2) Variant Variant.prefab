@@ -88,6 +88,22 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6126912019442359086, guid: 44f42606e606605488c6f6471f0a8f86, type: 3}
+      propertyPath: sound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+    - target: {fileID: 6126912019442359086, guid: 44f42606e606605488c6f6471f0a8f86, type: 3}
+      propertyPath: sound2
+      value: 
+      objectReference: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
+    - target: {fileID: 8018007353792511489, guid: 44f42606e606605488c6f6471f0a8f86, type: 3}
+      propertyPath: sound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+    - target: {fileID: 8018007353792511489, guid: 44f42606e606605488c6f6471f0a8f86, type: 3}
+      propertyPath: sound2
+      value: 
+      objectReference: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
     - target: {fileID: 8379742689927237178, guid: 44f42606e606605488c6f6471f0a8f86, type: 3}
       propertyPath: m_Name
       value: EnemyMaster (2) Variant Variant
@@ -118,6 +134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCollider: {fileID: 6588723847650109736}
+  sound1: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+  sound2: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
   player: {fileID: 0}
   moveSpeed: 0.25
   enemyHealth: 2

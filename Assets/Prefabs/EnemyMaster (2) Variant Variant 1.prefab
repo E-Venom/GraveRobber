@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_SpriteHash
       value: 216196990
       objectReference: {fileID: 0}
+    - target: {fileID: 2713328167122623918, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
+      propertyPath: sound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 55f5baf880d5c40a191d5af43d2cce9e, type: 3}
+    - target: {fileID: 2713328167122623918, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
+      propertyPath: sound2
+      value: 
+      objectReference: {fileID: 8300000, guid: 378949e0899ae485bb0c43da3fee60b7, type: 3}
     - target: {fileID: 3707997814702859358, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_Size.x
       value: 2.110527
@@ -34,11 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707997814702859358, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.6261444
+      value: 1.1157367
       objectReference: {fileID: 0}
     - target: {fileID: 3707997814702859358, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.0625
+      value: 1.8653846
       objectReference: {fileID: 0}
     - target: {fileID: 6588723847650109736, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_Size.x
@@ -58,11 +66,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6588723847650109736, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.6261444
+      value: 1.1157367
       objectReference: {fileID: 0}
     - target: {fileID: 6588723847650109736, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.0625
+      value: 1.8653846
       objectReference: {fileID: 0}
     - target: {fileID: 6828340027284744205, guid: 82ef7dcd4b2ce844497d80cb0c4fd3ab, type: 3}
       propertyPath: m_SpriteLibraryAsset
