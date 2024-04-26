@@ -51,8 +51,16 @@ public class GraveController : MonoBehaviour
                 // create treasure chest collectible if currentDigs == digsRequired on grave
                 if (currentDigs >= digsRequired)
                 {
-                    Instantiate(treasureChest, transform.position, Quaternion.identity);
+                    GameObject spawnedChest = Instantiate(treasureChest, transform.position, Quaternion.identity);
 
+                    if (bossGrave)
+                    {
+                        TreasureChest chestComponent = spawnedChest.GetComponent<TreasureChest>();
+                        if (chestComponent != null)
+                        {
+                            chestComponent.isBossChest = true;
+                        }
+                    }
                     // update grave bool hasSpawnedChest to true so no more chests can be spawned
                     // at this grave
                     hasSpawnedChest = true;
