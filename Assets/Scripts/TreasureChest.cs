@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class TreasureChest : MonoBehaviour
 {
+    // used to check if treasure chest is a boss chest, default = false
+    public bool isBossChest = false; 
+
     // force to launch treasure chest with 
     public float launchForce = 300f;
 

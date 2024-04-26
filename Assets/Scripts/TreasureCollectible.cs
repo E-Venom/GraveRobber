@@ -1,34 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TreasureCollectible : MonoBehaviour
 {
-    // make selection of this audio clip in the inspector window
     public AudioClip collectedClip;
 
-    // Built in Unity function that is called on in the first frame when the physics system detects a
-    // GameObject with a Rigidbody component hitting the GameObject collider that is a trigger. 
-    // in other words it "triggers" when other (player) "enters" the health collectible collision box
     void OnTriggerEnter2D(Collider2D other)
     {
-        // get player component
         PlayerController controller = other.GetComponent<PlayerController>();
-
-        // get treasure chest component to check chestCollectTimer
         TreasureChest treasureChest = GetComponent<TreasureChest>();
 
-        if (controller != null && treasureChest.chestCollectTimer <= 0)
+        if (controller != null)
         {
-            // call function in PlayerController to update gold collected and UI
-            controller.ChangeTreasure(1);
-            
-            // play sound effect
-            controller.PlaySound(collectedClip);
+            // boss chest logic
+            if (treasureChest.isBossChest)
+            {
+                // Disable all colliders on the boss chest
+                foreach (Collider2D collider in GetComponents<Collider2D > ())
+                {
+                    collider.enabled = false;
+                }
+                // Make the chest invisible
+                SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+                if (spriteRenderer != null)
+                {
+                    spriteRenderer.enabled = false;
+                }
 
-            // destroy treasure chest
-            Destroy(gameObject);
+                // play boss chest sound
+                controller.PlaySound(collectedClip);
 
+                // Start the coroutine to wait before loading the scene
+                StartCoroutine(WaitAndLoadScene("Level2"));
+            }
+            // regular chest logic
+            else if (treasureChest.chestCollectTimer <= 0)
+            {
+                // Regular chest collection logic
+                controller.ChangeTreasure(1);
+                controller.PlaySound(collectedClip);
+                Destroy(gameObject);
+            }
         }
+    }
+
+    // waits 2 seconds before loading Scene 2
+    IEnumerator WaitAndLoadScene(string sceneName)
+    {
+        yield return new WaitForSeconds(2); // Wait for two seconds
+        SceneManager.LoadScene(sceneName); // Load the next level
     }
 }
