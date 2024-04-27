@@ -5982,6 +5982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &59494166
@@ -9851,6 +9852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &186500831
@@ -13069,6 +13071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 5426645573401615646, guid: 5eb081dbf38c1e143b579ba3f6026ca9, type: 3}
   digCooldown: 0.5
 --- !u!1001 &290041607
@@ -16836,6 +16839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &473838290
@@ -21196,6 +21200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &640965441
@@ -26379,6 +26384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &865565680
@@ -26787,6 +26793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &910397229
@@ -28414,6 +28421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &972249344
@@ -31496,6 +31504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1113800781
@@ -34352,6 +34361,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: dig01
+      value: 
+      objectReference: {fileID: 8300000, guid: c00bd5c42784f46ddaeec7e47d1e0394, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: dig02
+      value: 
+      objectReference: {fileID: 8300000, guid: c16c5dd4a7c63483f882c760c1c8f549, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip01
+      value: 
+      objectReference: {fileID: 8300000, guid: 23a01fe4d3d6244718f0f62a0e237e91, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip02
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c89c922ce945498296015313652a9a9, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip03
+      value: 
+      objectReference: {fileID: 8300000, guid: 457961f5ae18d44b5a451216057af1d4, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: quip04
+      value: 
+      objectReference: {fileID: 8300000, guid: 23a01fe4d3d6244718f0f62a0e237e91, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact01
+      value: 
+      objectReference: {fileID: 8300000, guid: 6255af2dc91c64cbe9e4ec356e861c1f, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact02
+      value: 
+      objectReference: {fileID: 8300000, guid: 583ed090364114d4ebc232ec5e26d8f6, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: impact03
+      value: 
+      objectReference: {fileID: 8300000, guid: fd33acc1d11ac40818a40c2ec1ec9aaa, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e2eccef3692004b4493d85fcc794af36, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: damageTaken
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b415589006d748039dd09b6d16484de, type: 3}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: digAction.m_Name
       value: Dig
@@ -44392,6 +44445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1678265362
@@ -44594,6 +44648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1687735629
@@ -45933,6 +45988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1756679034
@@ -47076,6 +47132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1790880202
@@ -50332,6 +50389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &1918155266
@@ -52979,6 +53037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &2009187207
@@ -54405,6 +54464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad3ab3ab96eb9e428957e43f7251153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossGrave: 0
   treasureChest: {fileID: 2725244968142757829, guid: 7c7d252974a21e94bb78ac2cf94d5483, type: 3}
   digCooldown: 0.5
 --- !u!1001 &2078600292
