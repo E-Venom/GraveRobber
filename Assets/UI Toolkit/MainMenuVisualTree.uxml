@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=45b5c7e2c69254cb991a0766d39a1870&amp;type=3#MainMenuStyle" />
-    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/background.jpg?fileID=21300000&amp;guid=b3566fa7255bc4408aa313e9966d4c7a&amp;type=3#background&apos;);">
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/backgroundgreg%201.png?fileID=2800000&amp;guid=6e4c95a56e923dd44acaa168824df676&amp;type=3#backgroundgreg 1&apos;);">
         <ui:Label tabindex="-1" text="Greg the Graverobber" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="color: rgb(255, 255, 255);">
             <ui:Label tabindex="-1" text="Greg the Graverobber" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="color: rgb(69, 140, 82); align-self: center;" />
         </ui:Label>
