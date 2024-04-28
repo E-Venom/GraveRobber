@@ -242,8 +242,8 @@ public class PlayerController : MonoBehaviour
     // plays death animation, stops player from moving and removes player's colliders
     public void Die()
     {
-        GameObject gameOverScreen = GameObject.Find("Panel"); // Assuming your panel is named "Panel"
-        gameOverScreen.SetActive(true);
+        //GameObject gameOverScreen = GameObject.Find("Panel"); // Assuming your panel is named "Panel"
+        //gameOverScreen.SetActive(true);
         isDead = true;
         animator.SetTrigger("Die");
 
