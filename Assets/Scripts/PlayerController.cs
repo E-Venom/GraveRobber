@@ -244,6 +244,7 @@ public class PlayerController : MonoBehaviour
     // plays death animation, stops player from moving and removes player's colliders
 public void Die()
 {
+    // Check if the Game Over screen is assigned and then activate it
     if (gameOverScreen != null)
     {
         gameOverScreen.SetActive(true);
@@ -253,12 +254,19 @@ public void Die()
         UnityEngine.Debug.LogError("Game Over Screen not assigned.");
     }
 
-    // Other death handling code...
+    // Set player state to dead
     isDead = true;
+
+    // Trigger the death animation
     animator.SetTrigger("Die");
+
+    // Stop all player movement
     rigidbody2d.velocity = Vector2.zero;
+
+    // Disable player's collider
     GetComponent<Collider2D>().enabled = false;
 }
+
 
 
 
