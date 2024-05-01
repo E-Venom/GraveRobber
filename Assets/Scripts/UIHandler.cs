@@ -6,13 +6,13 @@ using UnityEngine.UIElements;
 
 public class UIHandler : MonoBehaviour
 {   
-    // used for NPC dialogue
+    // used for reading signs
     public float displayTime = 4.0f;
 
-    // NPC Visual dialogue box
+    // sign Visual dialogue box
     private VisualElement m_NonPlayerDialogue;
 
-    // timer used for NPC dialogue display
+    // timer used for sign message display
     private float m_TimerDisplay;
     public static UIHandler instance { get; private set; }
 
