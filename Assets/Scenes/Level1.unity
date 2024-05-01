@@ -2905,7 +2905,7 @@ GameObject:
   - component: {fileID: 180005894}
   - component: {fileID: 180005893}
   - component: {fileID: 180005892}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: RetryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3793,7 +3793,7 @@ GameObject:
   - component: {fileID: 228077667}
   - component: {fileID: 228077666}
   - component: {fileID: 228077665}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10966,6 +10966,10 @@ PrefabInstance:
       propertyPath: footstepClip
       value: 
       objectReference: {fileID: 8300000, guid: 1afcb1544235b44c1bb72e7a70276aff, type: 3}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1493324666}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: meleeLeftCollider
       value: 
@@ -72261,7 +72265,7 @@ GameObject:
   - component: {fileID: 825994342}
   - component: {fileID: 825994344}
   - component: {fileID: 825994343}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75435,7 +75439,7 @@ GameObject:
   - component: {fileID: 975796381}
   - component: {fileID: 975796380}
   - component: {fileID: 975796379}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MainMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83140,7 +83144,7 @@ GameObject:
   - component: {fileID: 1440599277}
   - component: {fileID: 1440599279}
   - component: {fileID: 1440599278}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84038,7 +84042,7 @@ GameObject:
   - component: {fileID: 1493324670}
   - component: {fileID: 1493324669}
   - component: {fileID: 1493324668}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84062,10 +84066,10 @@ RectTransform:
   - {fileID: 1440599277}
   m_Father: {fileID: 228077668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493324668
 MonoBehaviour:
@@ -87944,7 +87948,7 @@ GameObject:
   - component: {fileID: 1707529643}
   - component: {fileID: 1707529645}
   - component: {fileID: 1707529644}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
