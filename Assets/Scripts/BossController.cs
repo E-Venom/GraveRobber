@@ -30,7 +30,7 @@ public class BossController : MonoBehaviour
     public float moveSpeed = 0.25f;
 
     // boss enemy health
-    public int enemyHealth = 5;
+    public int enemyHealth = 20;
 
     // range from player to have boss enemy start their melee attack
     public float meleeAttackRange = 4f;

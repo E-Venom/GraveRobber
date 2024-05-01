@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public GameObject gameOverScreen;
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
     public AudioClip impact01;
@@ -240,50 +242,60 @@ public class PlayerController : MonoBehaviour
     }
 
     // plays death animation, stops player from moving and removes player's colliders
-    public void Die()
+public void Die()
+{
+    // Check if the Game Over screen is assigned and then activate it
+    if (gameOverScreen != null)
     {
-        //GameObject gameOverScreen = GameObject.Find("Panel"); // Assuming your panel is named "Panel"
-        //gameOverScreen.SetActive(true);
-        isDead = true;
-        animator.SetTrigger("Die");
-
-        // stop any current movement
-        rigidbody2d.velocity = Vector2.zero;
-
-        // disable player's collider
-        GetComponent<Collider2D>().enabled = false;                                                 
+        gameOverScreen.SetActive(true);
     }
+    else
+    {
+        UnityEngine.Debug.LogError("Game Over Screen not assigned.");
+    }
+
+    // Set player state to dead
+    isDead = true;
+
+    // Trigger the death animation
+    animator.SetTrigger("Die");
+
+    // Stop all player movement
+    rigidbody2d.velocity = Vector2.zero;
+
+    // Disable player's collider
+    GetComponent<Collider2D>().enabled = false;
+}
+
+
+
+
 
     // Launches shovel projectile in direction of player's movement
-    void Launch(InputAction.CallbackContext context)
-    {
-        if (shootCooldownTimer <= 0)
-        {
-            // Instantiate the projectile at a position slightly above the player
-            Vector2 spawnOffset = Vector2.up * 0.25f;
-            GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + spawnOffset, Quaternion.identity);
+void Launch(InputAction.CallbackContext context)
+{
+    // Check if the player is dead or if the shoot cooldown is active; if so, return without action.
+    if (isDead || shootCooldownTimer > 0) return;
 
-            // Calculate rotation based on the move direction
-            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+    // Instantiate the projectile at a position slightly above the player
+    Vector2 spawnOffset = Vector2.up * 0.25f;
+    GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + spawnOffset, Quaternion.identity);
 
-            // Since the sprite faces left by default and right is considered 0 degrees,
-            // we need to adjust the angle by adding 180 degrees to flip it horizontally.
-            Quaternion rotation = Quaternion.Euler(0, 0, angle + 180);
+    // Calculate rotation based on the move direction
+    float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+    Quaternion rotation = Quaternion.Euler(0, 0, angle + 180);
 
-            // Set projectile rotation
-            projectileObject.transform.rotation = rotation;
+    // Set projectile rotation and launch it
+    projectileObject.transform.rotation = rotation;
+    Projectile projectile = projectileObject.GetComponent<Projectile>();
+    projectile.Launch(moveDirection, 300);
 
-            // Launch the projectile
-            Projectile projectile = projectileObject.GetComponent<Projectile>();
-            projectile.Launch(moveDirection, 300);
-            animator.SetTrigger("Launch");
+    // Trigger the launch animation
+    animator.SetTrigger("Launch");
 
-            // reset shootCooldownTimer
-            shootCooldownTimer = 1.0f; 
-        }
-        else
-            return;
-    }
+    // Reset the shoot cooldown timer
+    shootCooldownTimer = 1.0f; 
+}
 
     // when enemy attacks player, enemy collider is activated in an animations event
     // the collider causes a collision with player's collider, on collision
@@ -335,33 +347,39 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDigging", false);
     }
 
-public void Melee(InputAction.CallbackContext context)
+void Melee(InputAction.CallbackContext context)
 {
-    if (context.performed)  // Check to ensure this only triggers once per input
+    // Check if the player is dead or if the input was not performed; if so, return without action.
+    if (isDead || !context.performed) return;
+
+    // Flag that the player is in melee mode
+    isMelee = true;
+
+    // Set animator bool to trigger melee animations
+    animator.SetBool("IsMelee", true);
+
+    // Get the current value of the "Look X" parameter from the animator
+    float lookX = animator.GetFloat("Look X");
+
+    // Enable the appropriate melee collider based on the player's facing direction
+    if (lookX < -0.1f)
     {
-        isMelee = true;
-        animator.SetBool("IsMelee", true);
-
-        // Get the current value of the "Look X" parameter from the animator
-        float lookX = animator.GetFloat("Look X");
-
-        if (lookX < -0.1f)
-        {
-            // If looking left, enable the left attack collider and disable the right one
-            meleeLeftCollider.enabled = true;
-            meleeRightCollider.enabled = false;
-        }
-        else if (lookX > 0.1f)
-        {
-            // If looking right, enable the right attack collider and disable the left one
-            meleeRightCollider.enabled = true;
-            meleeLeftCollider.enabled = false;
-        }
-
-        PlayRandomQuip();
-        StartCoroutine(StopMelee());
+        meleeLeftCollider.enabled = true;
+        meleeRightCollider.enabled = false;
     }
+    else if (lookX > 0.1f)
+    {
+        meleeRightCollider.enabled = true;
+        meleeLeftCollider.enabled = false;
+    }
+
+    // Play a random vocal quip associated with melee actions
+    PlayRandomQuip();
+
+    // Start coroutine to stop melee mode after a short delay
+    StartCoroutine(StopMelee());
 }
+
 
 private void PlayRandomQuip()
 {
