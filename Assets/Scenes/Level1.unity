@@ -10967,6 +10967,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 1afcb1544235b44c1bb72e7a70276aff, type: 3}
     - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1493324666}
+    - target: {fileID: 7986267896365611029, guid: e5ee972b972fd884ba812584debbcd27, type: 3}
       propertyPath: meleeLeftCollider
       value: 
       objectReference: {fileID: 1012316154}
