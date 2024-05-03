@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public GameObject gameOverScreen;
+    public GameObject youWonScreen;
     // AudioSource component used to PlayOneShot all the one-time in-game sounds
     AudioSource audiosource;
     public AudioClip impact01;
@@ -133,6 +134,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+
         // deduct the time since last frame from the cooldown timer
         if (shootCooldownTimer > 0)
         {
@@ -468,6 +470,17 @@ private void PlayRandomImpactSound()
     {
         // boss dying triggers this
         bossIsDead = true;
+        if(bossIsDead && finalChestCollected && SceneManager.GetActiveScene().name == "Level2")
+        if (youWonScreen != null)
+        {
+        youWonScreen.SetActive(true);
+        gameOverScreen = null;
+
+    }
+    else
+    {
+        UnityEngine.Debug.LogError("youWonScreen not assigned.");
+    }
     }
 
     // plays sounds one time
